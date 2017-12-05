@@ -1,0 +1,80 @@
+[16:13:54] A New Dut Test Start--------------------
+[16:13:54] ***********************  SN=INGBT4310009 ************************
+[16:13:54] ***********************  SN=INGBT4310009 ************************
+[16:14:32] AttSlot is2state ISON
+[16:14:33] E3631 Switch isON
+[16:14:40] TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 46.1632154
+[16:14:40] TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0
+[16:14:41] TimeSpan:FlowControl  Driver  Initialize Run Time 0.297198
+[16:15:02] TimeSpan:环境准备前的For 循环Run Time 5.4145993
+[16:15:04] AttSlot is2:Channel1Wavelength is1310nm
+[16:15:04] AttSlot is2offset is0
+[16:15:04] AttSlot is2ATT VALUE IS15.63
+[16:15:04] AttSlot is2ATT VALUE IS15.63
+[16:15:04] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[16:15:05] AttSlot is2ATT VALUE IS4.63
+[16:15:05] AttSlot is2ATT VALUE IS4.63
+[16:15:05] AttSlot is2:Channel1Wavelength is1310nm
+[16:15:05] AttSlot is2offset is0
+[16:15:06] AttSlot is2ATT VALUE IS15.88
+[16:15:06] AttSlot is2ATT VALUE IS15.88
+[16:15:06] ATT CurrentChannel is2ATT Wavelength isATT offset is5.88
+[16:15:07] AttSlot is2ATT VALUE IS4.88
+[16:15:07] AttSlot is2ATT VALUE IS4.88
+[16:15:07] AttSlot is2:Channel1Wavelength is1310nm
+[16:15:07] AttSlot is2offset is0
+[16:15:08] AttSlot is2ATT VALUE IS16.14
+[16:15:08] AttSlot is2ATT VALUE IS16.14
+[16:15:08] ATT CurrentChannel is3ATT Wavelength isATT offset is6.14
+[16:15:09] AttSlot is2ATT VALUE IS5.14
+[16:15:09] AttSlot is2ATT VALUE IS5.14
+[16:15:09] AttSlot is2:Channel1Wavelength is1310nm
+[16:15:09] AttSlot is2offset is0
+[16:15:10] AttSlot is2ATT VALUE IS16.00
+[16:15:10] AttSlot is2ATT VALUE IS16.00
+[16:15:10] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[16:15:11] AttSlot is2ATT VALUE IS5.00
+[16:15:11] AttSlot is2ATT VALUE IS5.00
+[16:15:11] AttSlot is2:Channel1Wavelength is1310nm
+[16:15:11] AttSlot is2offset is0
+[16:15:12] AttSlot is2ATT VALUE IS16.00
+[16:15:12] AttSlot is2ATT VALUE IS16.00
+[16:15:12] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[16:15:13] AttSlot is2ATT VALUE IS5.00
+[16:15:13] AttSlot is2ATT VALUE IS5.00
+[16:15:13] AttSlot is2:Channel1Wavelength is1310nm
+[16:15:13] AttSlot is2offset is0
+[16:15:14] AttSlot is2ATT VALUE IS15.63
+[16:15:14] AttSlot is2ATT VALUE IS15.63
+[16:15:14] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[16:15:14] OpticalSwitch change channel to1
+[16:15:14] LastTemp=-1000LastVoltage=-3.3
+[16:15:14] CurrentTemp=25CurrentVoltage=3.3
+[16:15:14] 准备调试电压....
+[16:15:15] E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[16:15:15] E3631 Switch isOFF
+[16:15:15] E3631 Switch isON
+[16:15:18] TimeSpan:环境准备到TestModel循环Run Time 16.3580135
+[16:15:18] Temp=25**VCC=3.3**Channel=1
+[16:15:18] TestIBiasDmiTestModelID=35884
+[16:15:18] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 0.2041353
+[16:15:19] Temp=25**VCC=3.3**Channel=1**TestIBiasDmi
+InputLog--------------------
+
+[16:15:19] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.3139383
+[16:15:19] Open apc
+[16:15:19] Open apcTrue
+[16:15:21] Step3...ReadDmiBias
+[16:15:21] ibiasDmi=38.484
+[16:15:21] IBIASDMI(MA) : 38.484
+[16:15:21] OutPrameter is Null
+[16:15:21] OutputLog----------------------------------
+IBIASDMI(MA)=38.484
+
+[16:15:22] Temp=25**VCC=3.3**Channel=1**TestIBiasDmiTesting End.....
+[16:15:22] TimeSpan:TestIBiasDmi RunTime Run Time 2.921121
+[16:15:22] TimeSpan:存档Coef+EEPROM Run Time 0.0223639
+[16:15:22] E3631 Switch isOFF
+[16:15:22] Test End------------------------
+[16:15:22] TimeSpan:测试收尾 Run Time 0.7632119
+[16:15:22] This Dut Test END-------------------------------------------------------------------------

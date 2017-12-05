@@ -1,0 +1,14 @@
+[10:29:14] $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[10:29:14] chK_Fw Funtion=Unchecked
+[10:29:14] chk_AbNormal_Lab Funtion=Unchecked
+[10:29:14] chK_Aotu_Evb_Voltage Funtion=Unchecked
+[10:29:14] E3631 Switch isON
+[10:29:17] ErrorCode=_Funtion_Fatal_0x05002Reason=CDR_EnableFail
+[10:29:17] ErrorCode=_Funtion_Fatal_0x05002Reason=CDR_EnableFail
+[10:29:20] This Dut Test END -----------------------------------------------------------------------------------
+[10:29:20]     
+[10:29:20]     
+[10:29:20]     
+[10:29:20]     
+[10:29:20]     
+[10:29:20] 测试前的准备出错

@@ -1,0 +1,684 @@
+[16:48:02] Begin to test...
+[16:48:02] Power on all equipments.
+[16:48:04] Attennuator slot is 2 state is ON
+[16:48:05] Enable full function for module.
+[16:48:06] Try to get test condition from server.
+[16:48:06] Begin to config environment.
+[16:48:06] Temp = 25 VCC = 3.300 Channel = 1
+[16:48:06] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:06] attennuator slot is 2 offset is 0
+[16:48:06] Attennuator slot is 2 attennuator value is 14.46
+[16:48:06] Attennuator slot is 2 attennuator value is 14.46
+[16:48:06] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:48:07] Attennuator slot is 2 attennuator value is 3.46
+[16:48:07] Attennuator slot is 2 attennuator value is 3.46
+[16:48:07] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:07] attennuator slot is 2 offset is 0
+[16:48:08] Attennuator slot is 2 attennuator value is 14.26
+[16:48:08] Attennuator slot is 2 attennuator value is 14.26
+[16:48:08] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:48:09] Attennuator slot is 2 attennuator value is 3.26
+[16:48:09] Attennuator slot is 2 attennuator value is 3.26
+[16:48:09] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:09] attennuator slot is 2 offset is 0
+[16:48:10] Attennuator slot is 2 attennuator value is 14.91
+[16:48:10] Attennuator slot is 2 attennuator value is 14.91
+[16:48:10] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:48:11] Attennuator slot is 2 attennuator value is 3.91
+[16:48:11] Attennuator slot is 2 attennuator value is 3.91
+[16:48:11] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:11] attennuator slot is 2 offset is 0
+[16:48:12] Attennuator slot is 2 attennuator value is 15.09
+[16:48:12] Attennuator slot is 2 attennuator value is 15.09
+[16:48:12] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:48:13] Attennuator slot is 2 attennuator value is 4.09
+[16:48:13] Attennuator slot is 2 attennuator value is 4.09
+[16:48:13] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:13] attennuator slot is 2 offset is 0
+[16:48:14] Attennuator slot is 2 attennuator value is 14.46
+[16:48:14] Attennuator slot is 2 attennuator value is 14.46
+[16:48:14] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:48:15] Attennuator slot is 2 attennuator value is 3.46
+[16:48:15] Attennuator slot is 2 attennuator value is 3.46
+[16:48:15] set rx overload
+[16:48:15] Optical switch change channel to 1
+[16:48:15] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:16] attennuator slot is 2 offset is 0
+[16:48:16] Attennuator slot is 2 attennuator value is 14.46
+[16:48:16] Attennuator slot is 2 attennuator value is 14.46
+[16:48:16] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:48:17] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:48:17] Try to get test model list under this condition.
+[16:48:20] Try to get test parameter for TestIBiasDmi.
+[16:48:20] RxPowerArrlist(DBM) -15,-10,-5
+[16:48:20] Test TestIcc...
+[16:48:20] Test TestIBiasDmi...
+[16:48:20] Start to do DMI_VCC test
+[16:48:20] Test TestRxPowerDmi...
+[16:48:20] Try to get current of powersupply
+[16:48:20] Start to do IBiasDMI test for channel 1
+[16:48:20] Try to get woltage of powersupply
+[16:48:20] Start to do RxPowerDmi test for channel 1
+[16:48:20] Close apc for module.
+[16:48:20] Try to readDmiBias of DUT
+[16:48:20] Read IBiasDMI is 42.074
+[16:48:20] End DMI_IBias test for channel 1
+
+[16:48:21] Attennuator slot is 2 attennuator value is 19.46
+[16:48:25] Attennuator slot is 2 attennuator value is 19.46
+[16:48:25] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -21.9382 rxPowerErrArray[0]: 6.938
+[16:48:26] Attennuator slot is 2 attennuator value is 14.46
+[16:48:26] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -17.9317 rxPowerErrArray[1]: 7.932
+[16:48:28] Attennuator slot is 2 attennuator value is 9.46
+[16:48:28] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -13.2331 rxPowerErrArray[2]: 8.233
+[16:48:28] ErrMaxPoint = -5  MaxErr = 8.233
+[16:48:28] Attennuator slot is 2 state is OFF
+[16:48:30] Get ICC is 906.194
+[16:48:30] End DMI_ICC test
+
+[16:48:31] RxNopticalPoint=-40
+[16:48:31] Attennuator slot is 2 state is ON
+[16:48:32] End RxPowerDmi test for channel 1
+
+[16:48:40] Get VCC is 3.579
+[16:48:40] Try to read DmiVcc of DUT
+[16:48:40] Calculate delta of VCC is 0.071
+[16:48:40] End DMI_VCC test
+
+[16:48:40] Begin to config environment.
+[16:48:40] Temp = 25 VCC = 3.300 Channel = 2
+[16:48:40] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:41] attennuator slot is 2 offset is 0
+[16:48:41] Attennuator slot is 2 attennuator value is 14.46
+[16:48:41] Attennuator slot is 2 attennuator value is 14.46
+[16:48:41] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:48:42] Attennuator slot is 2 attennuator value is 3.46
+[16:48:42] Attennuator slot is 2 attennuator value is 3.46
+[16:48:42] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:42] attennuator slot is 2 offset is 0
+[16:48:43] Attennuator slot is 2 attennuator value is 14.26
+[16:48:43] Attennuator slot is 2 attennuator value is 14.26
+[16:48:43] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:48:44] Attennuator slot is 2 attennuator value is 3.26
+[16:48:44] Attennuator slot is 2 attennuator value is 3.26
+[16:48:44] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:44] attennuator slot is 2 offset is 0
+[16:48:45] Attennuator slot is 2 attennuator value is 14.91
+[16:48:45] Attennuator slot is 2 attennuator value is 14.91
+[16:48:45] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:48:46] Attennuator slot is 2 attennuator value is 3.91
+[16:48:46] Attennuator slot is 2 attennuator value is 3.91
+[16:48:46] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:46] attennuator slot is 2 offset is 0
+[16:48:47] Attennuator slot is 2 attennuator value is 15.09
+[16:48:47] Attennuator slot is 2 attennuator value is 15.09
+[16:48:47] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:48:48] Attennuator slot is 2 attennuator value is 4.09
+[16:48:48] Attennuator slot is 2 attennuator value is 4.09
+[16:48:48] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:48] attennuator slot is 2 offset is 0
+[16:48:49] Attennuator slot is 2 attennuator value is 14.26
+[16:48:49] Attennuator slot is 2 attennuator value is 14.26
+[16:48:49] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:48:50] Attennuator slot is 2 attennuator value is 3.26
+[16:48:50] Attennuator slot is 2 attennuator value is 3.26
+[16:48:50] set rx overload
+[16:48:50] Optical switch change channel to 2
+[16:48:50] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:48:50] attennuator slot is 2 offset is 0
+[16:48:51] Attennuator slot is 2 attennuator value is 14.26
+[16:48:51] Attennuator slot is 2 attennuator value is 14.26
+[16:48:51] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:48:51] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:48:51] Try to get test model list under this condition.
+[16:48:55] Try to get test parameter for TestIBiasDmi.
+[16:48:55] Try to get test parameter for TestVccDmi.
+[16:48:55] Try to get test parameter for TestIcc.
+[16:48:55] RxPowerArrlist(DBM) -15,-10,-5
+[16:48:55] Test TestIBiasDmi...
+[16:48:55] Test TestVccDmi...
+[16:48:55] Test TestIcc...
+[16:48:55] Test TestRxPowerDmi...
+[16:48:55] Start to do IBiasDMI test for channel 2
+[16:48:55] Start to do DMI_VCC test
+[16:48:55] Start to do DMI_ICC test
+[16:48:55] Start to do RxPowerDmi test for channel 2
+[16:48:55] Close apc for module.
+[16:48:55] Try to get woltage of powersupply
+[16:48:55] Try to get current of powersupply
+[16:48:55] Try to readDmiBias of DUT
+[16:48:55] Read IBiasDMI is 41.966
+[16:48:55] End DMI_IBias test for channel 2
+
+[16:48:56] Attennuator slot is 2 attennuator value is 19.26
+[16:49:00] Attennuator slot is 2 attennuator value is 19.26
+[16:49:00] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -20.8092 rxPowerErrArray[0]: 5.809
+[16:49:01] Attennuator slot is 2 attennuator value is 14.26
+[16:49:01] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -16.1083 rxPowerErrArray[1]: 6.108
+[16:49:03] Attennuator slot is 2 attennuator value is 9.26
+[16:49:03] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -11.1407 rxPowerErrArray[2]: 6.141
+[16:49:03] ErrMaxPoint = -5  MaxErr = 6.141
+[16:49:03] Attennuator slot is 2 state is OFF
+[16:49:05] Get VCC is 3.579
+[16:49:05] Try to read DmiVcc of DUT
+[16:49:05] Calculate delta of VCC is 0.093
+[16:49:05] End DMI_VCC test
+
+[16:49:06] RxNopticalPoint=-40
+[16:49:06] Attennuator slot is 2 state is ON
+[16:49:07] End RxPowerDmi test for channel 2
+
+[16:49:15] Get ICC is 827.777
+[16:49:15] End DMI_ICC test
+
+[16:49:15] Begin to config environment.
+[16:49:15] Temp = 25 VCC = 3.300 Channel = 3
+[16:49:15] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:15] attennuator slot is 2 offset is 0
+[16:49:16] Attennuator slot is 2 attennuator value is 14.46
+[16:49:16] Attennuator slot is 2 attennuator value is 14.46
+[16:49:16] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:49:16] Attennuator slot is 2 attennuator value is 3.46
+[16:49:17] Attennuator slot is 2 attennuator value is 3.46
+[16:49:17] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:17] attennuator slot is 2 offset is 0
+[16:49:18] Attennuator slot is 2 attennuator value is 14.26
+[16:49:18] Attennuator slot is 2 attennuator value is 14.26
+[16:49:18] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:49:19] Attennuator slot is 2 attennuator value is 3.26
+[16:49:19] Attennuator slot is 2 attennuator value is 3.26
+[16:49:19] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:19] attennuator slot is 2 offset is 0
+[16:49:20] Attennuator slot is 2 attennuator value is 14.91
+[16:49:20] Attennuator slot is 2 attennuator value is 14.91
+[16:49:20] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:49:21] Attennuator slot is 2 attennuator value is 3.91
+[16:49:21] Attennuator slot is 2 attennuator value is 3.91
+[16:49:21] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:21] attennuator slot is 2 offset is 0
+[16:49:22] Attennuator slot is 2 attennuator value is 15.09
+[16:49:22] Attennuator slot is 2 attennuator value is 15.09
+[16:49:22] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:49:23] Attennuator slot is 2 attennuator value is 4.09
+[16:49:23] Attennuator slot is 2 attennuator value is 4.09
+[16:49:23] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:23] attennuator slot is 2 offset is 0
+[16:49:24] Attennuator slot is 2 attennuator value is 14.91
+[16:49:24] Attennuator slot is 2 attennuator value is 14.91
+[16:49:24] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:49:25] Attennuator slot is 2 attennuator value is 3.91
+[16:49:25] Attennuator slot is 2 attennuator value is 3.91
+[16:49:25] set rx overload
+[16:49:25] Optical switch change channel to 3
+[16:49:25] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:25] attennuator slot is 2 offset is 0
+[16:49:26] Attennuator slot is 2 attennuator value is 14.91
+[16:49:26] Attennuator slot is 2 attennuator value is 14.91
+[16:49:26] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:49:26] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:49:26] Try to get test model list under this condition.
+[16:49:29] Try to get test parameter for TestIcc.
+[16:49:29] Try to get test parameter for TestRxPowerDmi.
+[16:49:30] Test TestIBiasDmi...
+[16:49:30] Start to do DMI_VCC test
+[16:49:30] Test TestIcc...
+[16:49:30] RxPowerArrlist(DBM) -15,-10,-5
+[16:49:30] Start to do IBiasDMI test for channel 3
+[16:49:30] Try to get woltage of powersupply
+[16:49:30] Start to do DMI_ICC test
+[16:49:30] Test TestRxPowerDmi...
+[16:49:30] Close apc for module.
+[16:49:30] Try to get current of powersupply
+[16:49:30] Start to do RxPowerDmi test for channel 3
+[16:49:30] Try to readDmiBias of DUT
+[16:49:30] Read IBiasDMI is 42.406
+[16:49:30] End DMI_IBias test for channel 3
+
+[16:49:31] Attennuator slot is 2 attennuator value is 19.91
+[16:49:35] Attennuator slot is 2 attennuator value is 19.91
+[16:49:35] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -20.1773 rxPowerErrArray[0]: 5.177
+[16:49:36] Attennuator slot is 2 attennuator value is 14.91
+[16:49:36] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -15.6543 rxPowerErrArray[1]: 5.654
+[16:49:37] Attennuator slot is 2 attennuator value is 9.91
+[16:49:37] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -10.752 rxPowerErrArray[2]: 5.752
+[16:49:38] ErrMaxPoint = -5  MaxErr = 5.752
+[16:49:38] Attennuator slot is 2 state is OFF
+[16:49:40] Get VCC is 3.579
+[16:49:40] Try to read DmiVcc of DUT
+[16:49:40] Calculate delta of VCC is 0.091
+[16:49:40] End DMI_VCC test
+
+[16:49:41] RxNopticalPoint=-40
+[16:49:41] Attennuator slot is 2 state is ON
+[16:49:42] End RxPowerDmi test for channel 3
+
+[16:49:50] Get ICC is 828.569
+[16:49:50] End DMI_ICC test
+
+[16:49:50] Begin to config environment.
+[16:49:50] Temp = 25 VCC = 3.300 Channel = 4
+[16:49:50] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:50] attennuator slot is 2 offset is 0
+[16:49:51] Attennuator slot is 2 attennuator value is 14.46
+[16:49:51] Attennuator slot is 2 attennuator value is 14.46
+[16:49:51] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:49:51] Attennuator slot is 2 attennuator value is 3.46
+[16:49:51] Attennuator slot is 2 attennuator value is 3.46
+[16:49:51] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:51] attennuator slot is 2 offset is 0
+[16:49:52] Attennuator slot is 2 attennuator value is 14.26
+[16:49:52] Attennuator slot is 2 attennuator value is 14.26
+[16:49:52] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:49:53] Attennuator slot is 2 attennuator value is 3.26
+[16:49:53] Attennuator slot is 2 attennuator value is 3.26
+[16:49:53] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:54] attennuator slot is 2 offset is 0
+[16:49:54] Attennuator slot is 2 attennuator value is 14.91
+[16:49:55] Attennuator slot is 2 attennuator value is 14.91
+[16:49:55] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:49:55] Attennuator slot is 2 attennuator value is 3.91
+[16:49:56] Attennuator slot is 2 attennuator value is 3.91
+[16:49:56] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:56] attennuator slot is 2 offset is 0
+[16:49:57] Attennuator slot is 2 attennuator value is 15.09
+[16:49:57] Attennuator slot is 2 attennuator value is 15.09
+[16:49:57] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:49:58] Attennuator slot is 2 attennuator value is 4.09
+[16:49:58] Attennuator slot is 2 attennuator value is 4.09
+[16:49:58] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:49:58] attennuator slot is 2 offset is 0
+[16:49:59] Attennuator slot is 2 attennuator value is 15.09
+[16:49:59] Attennuator slot is 2 attennuator value is 15.09
+[16:49:59] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:50:00] Attennuator slot is 2 attennuator value is 4.09
+[16:50:00] Attennuator slot is 2 attennuator value is 4.09
+[16:50:00] set rx overload
+[16:50:00] Optical switch change channel to 4
+[16:50:00] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:50:00] attennuator slot is 2 offset is 0
+[16:50:01] Attennuator slot is 2 attennuator value is 15.09
+[16:50:01] Attennuator slot is 2 attennuator value is 15.09
+[16:50:01] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:50:01] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:50:01] Try to get test model list under this condition.
+[16:50:05] Try to get test parameter for TestVccDmi.
+[16:50:05] Try to get test parameter for TestIcc.
+[16:50:05] Test TestIBiasDmi...
+[16:50:05] RxPowerArrlist(DBM) -15,-10,-5
+[16:50:05] Test TestVccDmi...
+[16:50:05] Test TestIcc...
+[16:50:05] Start to do IBiasDMI test for channel 4
+[16:50:05] Test TestRxPowerDmi...
+[16:50:05] Start to do DMI_VCC test
+[16:50:05] Start to do DMI_ICC test
+[16:50:05] Close apc for module.
+[16:50:05] Start to do RxPowerDmi test for channel 4
+[16:50:05] Try to get woltage of powersupply
+[16:50:05] Try to get current of powersupply
+[16:50:05] Try to readDmiBias of DUT
+[16:50:05] Read IBiasDMI is 42.606
+[16:50:05] End DMI_IBias test for channel 4
+
+[16:50:06] Attennuator slot is 2 attennuator value is 20.09
+[16:50:10] Attennuator slot is 2 attennuator value is 20.09
+[16:50:10] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -22.4413 rxPowerErrArray[0]: 7.441
+[16:50:11] Attennuator slot is 2 attennuator value is 15.09
+[16:50:11] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -18.6012 rxPowerErrArray[1]: 8.601
+[16:50:13] Attennuator slot is 2 attennuator value is 10.09
+[16:50:13] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -13.8405 rxPowerErrArray[2]: 8.841
+[16:50:13] ErrMaxPoint = -5  MaxErr = 8.841
+[16:50:13] Attennuator slot is 2 state is OFF
+[16:50:15] Get VCC is 3.579
+[16:50:15] Try to read DmiVcc of DUT
+[16:50:15] Calculate delta of VCC is 0.093
+[16:50:15] End DMI_VCC test
+
+[16:50:16] RxNopticalPoint=-40
+[16:50:16] Attennuator slot is 2 state is ON
+[16:50:17] End RxPowerDmi test for channel 4
+
+[16:50:25] Get ICC is 828.929
+[16:50:25] End DMI_ICC test
+
+[16:50:25] Begin to config environment.
+[16:50:25] Temp = 25 VCC = 3.300 Channel = 1
+[16:50:25] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:50:25] attennuator slot is 2 offset is 0
+[16:50:26] Attennuator slot is 2 attennuator value is 14.46
+[16:50:26] Attennuator slot is 2 attennuator value is 14.46
+[16:50:26] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:50:27] Attennuator slot is 2 attennuator value is 3.46
+[16:50:27] Attennuator slot is 2 attennuator value is 3.46
+[16:50:27] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:50:27] attennuator slot is 2 offset is 0
+[16:50:28] Attennuator slot is 2 attennuator value is 14.26
+[16:50:28] Attennuator slot is 2 attennuator value is 14.26
+[16:50:28] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:50:29] Attennuator slot is 2 attennuator value is 3.26
+[16:50:29] Attennuator slot is 2 attennuator value is 3.26
+[16:50:29] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:50:29] attennuator slot is 2 offset is 0
+[16:50:30] Attennuator slot is 2 attennuator value is 14.91
+[16:50:30] Attennuator slot is 2 attennuator value is 14.91
+[16:50:30] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:50:31] Attennuator slot is 2 attennuator value is 3.91
+[16:50:31] Attennuator slot is 2 attennuator value is 3.91
+[16:50:31] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:50:31] attennuator slot is 2 offset is 0
+[16:50:32] Attennuator slot is 2 attennuator value is 15.09
+[16:50:32] Attennuator slot is 2 attennuator value is 15.09
+[16:50:32] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:50:33] Attennuator slot is 2 attennuator value is 4.09
+[16:50:33] Attennuator slot is 2 attennuator value is 4.09
+[16:50:33] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:50:33] attennuator slot is 2 offset is 0
+[16:50:34] Attennuator slot is 2 attennuator value is 14.46
+[16:50:34] Attennuator slot is 2 attennuator value is 14.46
+[16:50:34] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:50:35] Attennuator slot is 2 attennuator value is 3.46
+[16:50:35] Attennuator slot is 2 attennuator value is 3.46
+[16:50:35] set rx overload
+[16:50:35] Optical switch change channel to 1
+[16:50:35] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:50:35] attennuator slot is 2 offset is 0
+[16:50:36] Attennuator slot is 2 attennuator value is 14.46
+[16:50:36] Attennuator slot is 2 attennuator value is 14.46
+[16:50:36] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:50:37] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:50:37] Try to get test model list under this condition.
+[16:50:40] Try to get test parameter for TestVccDmi.
+[16:50:40] Try to get test parameter for TestRxPowerDmi.
+[16:50:40] Test TestIcc...
+[16:50:40] Start to do IBiasDMI test for channel 1
+[16:50:40] Test TestVccDmi...
+[16:50:40] RxPowerArrlist(DBM) -15,-10,-5
+[16:50:40] Start to do DMI_ICC test
+[16:50:40] Close apc for module.
+[16:50:40] Start to do DMI_VCC test
+[16:50:40] Test TestRxPowerDmi...
+[16:50:40] Try to get current of powersupply
+[16:50:40] Try to get woltage of powersupply
+[16:50:40] Start to do RxPowerDmi test for channel 1
+[16:50:40] Try to readDmiBias of DUT
+[16:50:40] Read IBiasDMI is 42.614
+[16:50:40] End DMI_IBias test for channel 1
+
+[16:50:41] Attennuator slot is 2 attennuator value is 19.46
+[16:50:45] Attennuator slot is 2 attennuator value is 19.46
+[16:50:45] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -21.9382 rxPowerErrArray[0]: 6.938
+[16:50:46] Attennuator slot is 2 attennuator value is 14.46
+[16:50:47] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -17.7989 rxPowerErrArray[1]: 7.799
+[16:50:48] Attennuator slot is 2 attennuator value is 9.46
+[16:50:48] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -13.2331 rxPowerErrArray[2]: 8.233
+[16:50:48] ErrMaxPoint = -5  MaxErr = 8.233
+[16:50:48] Attennuator slot is 2 state is OFF
+[16:50:50] Get ICC is 907.178
+[16:50:50] End DMI_ICC test
+
+[16:50:51] RxNopticalPoint=-40
+[16:50:51] Attennuator slot is 2 state is ON
+[16:50:52] End RxPowerDmi test for channel 1
+
+[16:51:00] Get VCC is 3.579
+[16:51:00] Try to read DmiVcc of DUT
+[16:51:01] Calculate delta of VCC is 0.069
+[16:51:01] End DMI_VCC test
+
+[16:51:01] Begin to config environment.
+[16:51:01] Temp = 25 VCC = 3.300 Channel = 2
+[16:51:01] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:01] attennuator slot is 2 offset is 0
+[16:51:01] Attennuator slot is 2 attennuator value is 14.46
+[16:51:01] Attennuator slot is 2 attennuator value is 14.46
+[16:51:01] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:51:02] Attennuator slot is 2 attennuator value is 3.46
+[16:51:02] Attennuator slot is 2 attennuator value is 3.46
+[16:51:02] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:02] attennuator slot is 2 offset is 0
+[16:51:03] Attennuator slot is 2 attennuator value is 14.26
+[16:51:03] Attennuator slot is 2 attennuator value is 14.26
+[16:51:03] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:51:04] Attennuator slot is 2 attennuator value is 3.26
+[16:51:04] Attennuator slot is 2 attennuator value is 3.26
+[16:51:04] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:04] attennuator slot is 2 offset is 0
+[16:51:05] Attennuator slot is 2 attennuator value is 14.91
+[16:51:05] Attennuator slot is 2 attennuator value is 14.91
+[16:51:05] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:51:06] Attennuator slot is 2 attennuator value is 3.91
+[16:51:06] Attennuator slot is 2 attennuator value is 3.91
+[16:51:06] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:06] attennuator slot is 2 offset is 0
+[16:51:07] Attennuator slot is 2 attennuator value is 15.09
+[16:51:07] Attennuator slot is 2 attennuator value is 15.09
+[16:51:07] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:51:08] Attennuator slot is 2 attennuator value is 4.09
+[16:51:08] Attennuator slot is 2 attennuator value is 4.09
+[16:51:08] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:08] attennuator slot is 2 offset is 0
+[16:51:09] Attennuator slot is 2 attennuator value is 14.26
+[16:51:09] Attennuator slot is 2 attennuator value is 14.26
+[16:51:10] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:51:10] Attennuator slot is 2 attennuator value is 3.26
+[16:51:10] Attennuator slot is 2 attennuator value is 3.26
+[16:51:10] set rx overload
+[16:51:11] Optical switch change channel to 2
+[16:51:11] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:11] attennuator slot is 2 offset is 0
+[16:51:11] Attennuator slot is 2 attennuator value is 14.26
+[16:51:12] Attennuator slot is 2 attennuator value is 14.26
+[16:51:12] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:51:12] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:51:12] Try to get test model list under this condition.
+[16:51:15] Try to get test parameter for TestIBiasDmi.
+[16:51:15] Try to get test parameter for TestVccDmi.
+[16:51:15] Try to get test parameter for TestIcc.
+[16:51:15] RxPowerArrlist(DBM) -15,-10,-5
+[16:51:15] Test TestIBiasDmi...
+[16:51:15] Test TestVccDmi...
+[16:51:15] Test TestIcc...
+[16:51:15] Test TestRxPowerDmi...
+[16:51:15] Start to do IBiasDMI test for channel 2
+[16:51:15] Start to do DMI_VCC test
+[16:51:15] Start to do DMI_ICC test
+[16:51:15] Start to do RxPowerDmi test for channel 2
+[16:51:15] Close apc for module.
+[16:51:15] Try to get woltage of powersupply
+[16:51:15] Try to get current of powersupply
+[16:51:16] Try to readDmiBias of DUT
+[16:51:16] Read IBiasDMI is 42.816
+[16:51:16] End DMI_IBias test for channel 2
+
+[16:51:17] Attennuator slot is 2 attennuator value is 19.26
+[16:51:20] Attennuator slot is 2 attennuator value is 19.26
+[16:51:20] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -20.8092 rxPowerErrArray[0]: 5.809
+[16:51:22] Attennuator slot is 2 attennuator value is 14.26
+[16:51:22] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -16.1083 rxPowerErrArray[1]: 6.108
+[16:51:23] Attennuator slot is 2 attennuator value is 9.26
+[16:51:23] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -11.1748 rxPowerErrArray[2]: 6.175
+[16:51:23] ErrMaxPoint = -5  MaxErr = 6.175
+[16:51:23] Attennuator slot is 2 state is OFF
+[16:51:26] Get VCC is 3.579
+[16:51:26] Try to read DmiVcc of DUT
+[16:51:26] Calculate delta of VCC is 0.090
+[16:51:26] End DMI_VCC test
+
+[16:51:26] RxNopticalPoint=-40
+[16:51:27] Attennuator slot is 2 state is ON
+[16:51:28] End RxPowerDmi test for channel 2
+
+[16:51:36] Get ICC is 830.450
+[16:51:36] End DMI_ICC test
+
+[16:51:36] Begin to config environment.
+[16:51:36] Temp = 25 VCC = 3.300 Channel = 3
+[16:51:36] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:36] attennuator slot is 2 offset is 0
+[16:51:36] Attennuator slot is 2 attennuator value is 14.46
+[16:51:37] Attennuator slot is 2 attennuator value is 14.46
+[16:51:37] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:51:37] Attennuator slot is 2 attennuator value is 3.46
+[16:51:37] Attennuator slot is 2 attennuator value is 3.46
+[16:51:37] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:37] attennuator slot is 2 offset is 0
+[16:51:38] Attennuator slot is 2 attennuator value is 14.26
+[16:51:38] Attennuator slot is 2 attennuator value is 14.26
+[16:51:39] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:51:39] Attennuator slot is 2 attennuator value is 3.26
+[16:51:39] Attennuator slot is 2 attennuator value is 3.26
+[16:51:40] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:40] attennuator slot is 2 offset is 0
+[16:51:41] Attennuator slot is 2 attennuator value is 14.91
+[16:51:41] Attennuator slot is 2 attennuator value is 14.91
+[16:51:41] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:51:41] Attennuator slot is 2 attennuator value is 3.91
+[16:51:42] Attennuator slot is 2 attennuator value is 3.91
+[16:51:42] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:42] attennuator slot is 2 offset is 0
+[16:51:43] Attennuator slot is 2 attennuator value is 15.09
+[16:51:43] Attennuator slot is 2 attennuator value is 15.09
+[16:51:43] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:51:44] Attennuator slot is 2 attennuator value is 4.09
+[16:51:44] Attennuator slot is 2 attennuator value is 4.09
+[16:51:44] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:44] attennuator slot is 2 offset is 0
+[16:51:45] Attennuator slot is 2 attennuator value is 14.91
+[16:51:45] Attennuator slot is 2 attennuator value is 14.91
+[16:51:45] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:51:46] Attennuator slot is 2 attennuator value is 3.91
+[16:51:46] Attennuator slot is 2 attennuator value is 3.91
+[16:51:46] set rx overload
+[16:51:46] Optical switch change channel to 3
+[16:51:46] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:51:46] attennuator slot is 2 offset is 0
+[16:51:47] Attennuator slot is 2 attennuator value is 14.91
+[16:51:47] Attennuator slot is 2 attennuator value is 14.91
+[16:51:47] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:51:47] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:51:47] Try to get test model list under this condition.
+[16:51:51] Try to get test parameter for TestVccDmi.
+[16:51:51] Try to get test parameter for TestRxPowerDmi.
+[16:51:51] Test TestIBiasDmi...
+[16:51:51] Test TestIcc...
+[16:51:51] Test TestVccDmi...
+[16:51:51] RxPowerArrlist(DBM) -15,-10,-5
+[16:51:51] Start to do IBiasDMI test for channel 3
+[16:51:51] Start to do DMI_ICC test
+[16:51:51] Start to do DMI_VCC test
+[16:51:51] Test TestRxPowerDmi...
+[16:51:51] Close apc for module.
+[16:51:51] Try to get current of powersupply
+[16:51:51] Try to get woltage of powersupply
+[16:51:51] Start to do RxPowerDmi test for channel 3
+[16:51:51] Try to readDmiBias of DUT
+[16:51:51] Read IBiasDMI is 43.256
+[16:51:51] End DMI_IBias test for channel 3
+
+[16:51:52] Attennuator slot is 2 attennuator value is 19.91
+[16:51:56] Attennuator slot is 2 attennuator value is 19.91
+[16:51:56] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -20.1773 rxPowerErrArray[0]: 5.177
+[16:51:57] Attennuator slot is 2 attennuator value is 14.91
+[16:51:58] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -15.5596 rxPowerErrArray[1]: 5.560
+[16:51:59] Attennuator slot is 2 attennuator value is 9.91
+[16:51:59] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -10.6905 rxPowerErrArray[2]: 5.691
+[16:51:59] ErrMaxPoint = -5  MaxErr = 5.691
+[16:51:59] Attennuator slot is 2 state is OFF
+[16:52:01] Get ICC is 910.415
+[16:52:01] End DMI_ICC test
+
+[16:52:02] RxNopticalPoint=-40
+[16:52:02] Attennuator slot is 2 state is ON
+[16:52:03] End RxPowerDmi test for channel 3
+
+[16:52:11] Get VCC is 3.579
+[16:52:11] Try to read DmiVcc of DUT
+[16:52:11] Calculate delta of VCC is 0.067
+[16:52:11] End DMI_VCC test
+
+[16:52:11] Begin to config environment.
+[16:52:12] Temp = 25 VCC = 3.300 Channel = 4
+[16:52:12] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:52:12] attennuator slot is 2 offset is 0
+[16:52:12] Attennuator slot is 2 attennuator value is 14.46
+[16:52:12] Attennuator slot is 2 attennuator value is 14.46
+[16:52:12] The current channel of attennuator is 1 Wavelength is 1310 Offset is 4.46
+[16:52:13] Attennuator slot is 2 attennuator value is 3.46
+[16:52:13] Attennuator slot is 2 attennuator value is 3.46
+[16:52:13] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:52:13] attennuator slot is 2 offset is 0
+[16:52:14] Attennuator slot is 2 attennuator value is 14.26
+[16:52:14] Attennuator slot is 2 attennuator value is 14.26
+[16:52:14] The current channel of attennuator is 2 Wavelength is 1310 Offset is 4.26
+[16:52:15] Attennuator slot is 2 attennuator value is 3.26
+[16:52:15] Attennuator slot is 2 attennuator value is 3.26
+[16:52:15] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:52:15] attennuator slot is 2 offset is 0
+[16:52:16] Attennuator slot is 2 attennuator value is 14.91
+[16:52:16] Attennuator slot is 2 attennuator value is 14.91
+[16:52:16] The current channel of attennuator is 3 Wavelength is 1310 Offset is 4.91
+[16:52:17] Attennuator slot is 2 attennuator value is 3.91
+[16:52:17] Attennuator slot is 2 attennuator value is 3.91
+[16:52:17] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:52:17] attennuator slot is 2 offset is 0
+[16:52:18] Attennuator slot is 2 attennuator value is 15.09
+[16:52:18] Attennuator slot is 2 attennuator value is 15.09
+[16:52:19] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:52:19] Attennuator slot is 2 attennuator value is 4.09
+[16:52:19] Attennuator slot is 2 attennuator value is 4.09
+[16:52:20] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:52:20] attennuator slot is 2 offset is 0
+[16:52:21] Attennuator slot is 2 attennuator value is 15.09
+[16:52:21] Attennuator slot is 2 attennuator value is 15.09
+[16:52:21] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:52:22] Attennuator slot is 2 attennuator value is 4.09
+[16:52:22] Attennuator slot is 2 attennuator value is 4.09
+[16:52:22] set rx overload
+[16:52:22] Optical switch change channel to 4
+[16:52:22] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:52:22] attennuator slot is 2 offset is 0
+[16:52:23] Attennuator slot is 2 attennuator value is 15.09
+[16:52:23] Attennuator slot is 2 attennuator value is 15.09
+[16:52:23] The current channel of attennuator is 4 Wavelength is 1310 Offset is 5.09
+[16:52:23] E3631 channel is APPL P6V voltage is 3.580 current is 1.5
+[16:52:23] Try to get test model list under this condition.
+[16:52:26] Try to get test parameter for TestIBiasDmi.
+[16:52:26] Try to get test parameter for TestVccDmi.
+[16:52:26] Try to get test parameter for TestIcc.
+[16:52:26] Try to get test parameter for TestRxPowerDmi.
+[16:52:27] Test TestIBiasDmi...
+[16:52:27] Test TestVccDmi...
+[16:52:27] Test TestIcc...
+[16:52:27] RxPowerArrlist(DBM) -15,-10,-5
+[16:52:27] Start to do IBiasDMI test for channel 4
+[16:52:27] Start to do DMI_VCC test
+[16:52:27] Start to do DMI_ICC test
+[16:52:27] Test TestRxPowerDmi...
+[16:52:27] Close apc for module.
+[16:52:27] Try to get woltage of powersupply
+[16:52:27] Try to get current of powersupply
+[16:52:27] Start to do RxPowerDmi test for channel 4
+[16:52:27] Try to readDmiBias of DUT
+[16:52:27] Read IBiasDMI is 43.186
+[16:52:27] End DMI_IBias test for channel 4
+
+[16:52:28] Attennuator slot is 2 attennuator value is 20.09
+[16:52:32] Attennuator slot is 2 attennuator value is 20.09
+[16:52:32] rxInputPower[0]: -15 rxPowerDmiArray[0.000]: -21.9382 rxPowerErrArray[0]: 6.938
+[16:52:33] Attennuator slot is 2 attennuator value is 15.09
+[16:52:34] rxInputPower[1]: -10 rxPowerDmiArray[1.000]: -18.6012 rxPowerErrArray[1]: 8.601
+[16:52:35] Attennuator slot is 2 attennuator value is 10.09
+[16:52:35] rxInputPower[2]: -5 rxPowerDmiArray[2.000]: -13.8405 rxPowerErrArray[2]: 8.841
+[16:52:35] ErrMaxPoint = -5  MaxErr = 8.841
+[16:52:35] Attennuator slot is 2 state is OFF
+[16:52:37] Get VCC is 3.579
+[16:52:37] Try to read DmiVcc of DUT
+[16:52:37] Calculate delta of VCC is 0.089
+[16:52:37] End DMI_VCC test
+
+[16:52:38] RxNopticalPoint=-40
+[16:52:38] Attennuator slot is 2 state is ON
+[16:52:39] End RxPowerDmi test for channel 4
+
+[16:52:47] Get ICC is 831.802
+[16:52:47] End DMI_ICC test
+

@@ -1,0 +1,49 @@
+E:\WORK\正在进行中的项目\ATS Project\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.dll
+E:\WORK\正在进行中的项目\ATS Project\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.pdb
+E:\WORK\正在进行中的项目\ATS Project\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Ivi.Visa.Interop.dll
+E:\WORK\正在进行中的项目\ATS Project\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Interop.BASICFORMATTEDIOLib.dll
+E:\WORK\正在进行中的项目\ATS Project\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+E:\WORK\正在进行中的项目\ATS Project\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.dll
+E:\WORK\正在进行中的项目\ATS Project\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.pdb
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.dll
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.pdb
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Ivi.Visa.Interop.dll
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.dll
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.pdb
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\Bert\ATS_Framework\obj\Debug\Interop.BASICFORMATTEDIOLib.dll
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\Bert\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\Bert\ATS_Framework\bin\Debug\Framework.dll
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\Bert\ATS_Framework\bin\Debug\Framework.pdb
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\Bert\ATS_Framework\bin\Debug\Ivi.Visa.Interop.dll
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\Bert\ATS_Framework\obj\Debug\Framework.dll
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\Bert\ATS_Framework\obj\Debug\Framework.pdb
+E:\ATS\ATS Code\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Interop.BASICFORMATTEDIOLib.dll
+E:\ATS\ats\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.dll
+E:\ATS\ats\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.pdb
+E:\ATS\ats\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Ivi.Visa.Interop.dll
+E:\ATS\ats\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Interop.BASICFORMATTEDIOLib.dll
+E:\ATS\ats\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+E:\ATS\ats\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.dll
+E:\ATS\ats\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.pdb
+E:\ATS\ATS\ATS(Win)\trunk\ATS\ATS_Framework\bin\Debug\Framework.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATS\ATS_Framework\bin\Debug\Framework.pdb
+E:\ATS\ATS\ATS(Win)\trunk\ATS\ATS_Framework\bin\Debug\Ivi.Visa.Interop.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATS\ATS_Framework\obj\Debug\Interop.BASICFORMATTEDIOLib.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATS\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+E:\ATS\ATS\ATS(Win)\trunk\ATS\ATS_Framework\obj\Debug\Framework.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATS\ATS_Framework\obj\Debug\Framework.pdb
+C:\Users\leo.chen\Desktop\CodeDebug\ATS\ATS_Framework\obj\Debug\Interop.BASICFORMATTEDIOLib.dll
+C:\Users\leo.chen\Desktop\CodeDebug\ATS\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+C:\Users\leo.chen\Desktop\CodeDebug\ATS\ATS_Framework\obj\Debug\Framework.dll
+C:\Users\leo.chen\Desktop\CodeDebug\ATS\ATS_Framework\obj\Debug\Framework.pdb
+C:\Users\leo.chen\Desktop\CodeDebug\ATS\ATS_Framework\bin\Debug\Framework.dll
+C:\Users\leo.chen\Desktop\CodeDebug\ATS\ATS_Framework\bin\Debug\Framework.pdb
+C:\Users\leo.chen\Desktop\CodeDebug\ATS\ATS_Framework\bin\Debug\Ivi.Visa.Interop.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATSDebug\ATS\ATS_Framework\bin\Debug\Framework.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATSDebug\ATS\ATS_Framework\bin\Debug\Framework.pdb
+E:\ATS\ATS\ATS(Win)\trunk\ATSDebug\ATS\ATS_Framework\bin\Debug\Ivi.Visa.Interop.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATSDebug\ATS\ATS_Framework\obj\Debug\Interop.BASICFORMATTEDIOLib.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATSDebug\ATS\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+E:\ATS\ATS\ATS(Win)\trunk\ATSDebug\ATS\ATS_Framework\obj\Debug\Framework.dll
+E:\ATS\ATS\ATS(Win)\trunk\ATSDebug\ATS\ATS_Framework\obj\Debug\Framework.pdb

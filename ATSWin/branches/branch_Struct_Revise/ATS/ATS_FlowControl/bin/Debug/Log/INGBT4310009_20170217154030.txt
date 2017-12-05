@@ -1,0 +1,518 @@
+[15:40:30] A New Dut Test Start--------------------
+[15:40:30] ***********************  SN=INGBT4310009 ************************
+[15:40:30] ***********************  SN=INGBT4310009 ************************
+[15:40:30] AttSlot is2state ISON
+[15:40:31] E3631 Switch isON
+[15:40:33] TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 3.5405141
+[15:40:34] TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.0500281
+[15:40:34] TimeSpan:FlowControl  Driver  Initialize Run Time 0.7865951
+[15:40:35] TimeSpan:环境准备前的For 循环Run Time 0.2940101
+[15:40:48] AttSlot is2:Channel1Wavelength is1310nm
+[15:40:48] AttSlot is2offset is0
+[15:40:48] AttSlot is2ATT VALUE IS15.63
+[15:40:48] AttSlot is2ATT VALUE IS15.63
+[15:40:48] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[15:40:49] AttSlot is2ATT VALUE IS4.63
+[15:40:49] AttSlot is2ATT VALUE IS4.63
+[15:40:49] AttSlot is2:Channel1Wavelength is1310nm
+[15:40:49] AttSlot is2offset is0
+[15:40:50] AttSlot is2ATT VALUE IS15.88
+[15:40:51] AttSlot is2ATT VALUE IS15.88
+[15:40:51] ATT CurrentChannel is2ATT Wavelength isATT offset is5.88
+[15:40:51] AttSlot is2ATT VALUE IS4.88
+[15:40:51] AttSlot is2ATT VALUE IS4.88
+[15:40:51] AttSlot is2:Channel1Wavelength is1310nm
+[15:40:51] AttSlot is2offset is0
+[15:40:52] AttSlot is2ATT VALUE IS16.14
+[15:40:53] AttSlot is2ATT VALUE IS16.14
+[15:40:53] ATT CurrentChannel is3ATT Wavelength isATT offset is6.14
+[15:40:53] AttSlot is2ATT VALUE IS5.14
+[15:40:53] AttSlot is2ATT VALUE IS5.14
+[15:40:53] AttSlot is2:Channel1Wavelength is1310nm
+[15:40:53] AttSlot is2offset is0
+[15:40:54] AttSlot is2ATT VALUE IS16.00
+[15:40:55] AttSlot is2ATT VALUE IS16.00
+[15:40:55] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:40:55] AttSlot is2ATT VALUE IS5.00
+[15:40:55] AttSlot is2ATT VALUE IS5.00
+[15:40:55] AttSlot is2:Channel1Wavelength is1310nm
+[15:40:55] AttSlot is2offset is0
+[15:40:56] AttSlot is2ATT VALUE IS16.00
+[15:40:57] AttSlot is2ATT VALUE IS16.00
+[15:40:57] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:40:57] AttSlot is2ATT VALUE IS5.00
+[15:40:57] AttSlot is2ATT VALUE IS5.00
+[15:40:57] AttSlot is2:Channel1Wavelength is1310nm
+[15:40:57] AttSlot is2offset is0
+[15:40:58] AttSlot is2ATT VALUE IS15.63
+[15:40:58] AttSlot is2ATT VALUE IS15.63
+[15:40:58] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[15:40:59] OpticalSwitch change channel to1
+[15:40:59] LastTemp=-1000LastVoltage=-3.3
+[15:40:59] CurrentTemp=25CurrentVoltage=3.3
+[15:40:59] 准备调试电压....
+[15:40:59] E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[15:40:59] TimeSpan:环境准备到TestModel循环Run Time 24.8030122
+[15:40:59] E3631 Switch isOFF
+[15:41:00] E3631 Switch isON
+[15:41:03] Temp=25**VCC=3.3**Channel=1
+[15:41:03] Temp=25**VCC=3.3**Channel=1
+[15:41:03] TestIBiasDmiTestModelID=35884
+[15:41:03] TestVccDmiTestModelID=35888
+[15:41:03] Temp=25**VCC=3.3**Channel=1
+[15:41:03] TestIccTestModelID=35889
+[15:41:03] Temp=25**VCC=3.3**Channel=1
+[15:41:03] TestRxPowerDmiTestModelID=35886
+[15:41:03] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 3.4226445
+[15:41:03] TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.0996887
+[15:41:03] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.0914864
+[15:41:03] Temp=25**VCC=3.3**Channel=1**TestIBiasDmi
+InputLog--------------------
+
+[15:41:03] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0541361
+[15:41:03] Open apc
+[15:41:03] TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.0441782
+[15:41:03] Open apcTrue
+[15:41:03] Temp=25**VCC=3.3**Channel=1**TestIBiasDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestVccDmi
+InputLog--------------------
+
+[15:41:03] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0702334
+[15:41:03] Step3...Start ReadDmiVcc
+[15:41:03] DmiVcc:3.4588
+[15:41:03] vccDmiErr:0.1588
+[15:41:03] DMIVCC(V) : 3.4588
+[15:41:03] DMIVCCERR(V) : 0.1588
+[15:41:03] Temp=25**VCC=3.3**Channel=1**TestIBiasDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestVccDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestIcc
+InputLog--------------------
+
+[15:41:03] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.1117451
+[15:41:03] Step3..Read ICC
+[15:41:03] Temp=25**VCC=3.3**Channel=1**TestIBiasDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestVccDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestIcc
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[15:41:03] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0521522
+[15:41:03] Step1...Check InputParameters
+[15:41:03] OK!
+[15:41:03] Step3...Start Test RxDmi
+[15:41:04] Temp=25**VCC=3.3**Channel=1**TestVccDmiTesting End.....
+[15:41:04] TimeSpan:TestVccDmi RunTime Run Time 0.2270722
+[15:41:05] AttSlot is2ATT VALUE IS20.63
+[15:41:05] Step3...ReadDmiBias
+[15:41:05] ibiasDmi=41.224
+[15:41:05] IBIASDMI(MA) : 41.224
+[15:41:06] Temp=25**VCC=3.3**Channel=1**TestIBiasDmiTesting End.....
+[15:41:06] TimeSpan:TestIBiasDmi RunTime Run Time 1.9268159
+[15:41:08] AttSlot is2ATT VALUE IS20.63
+[15:41:08] testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-40tempRxPowerErrArray[0]25
+[15:41:10] AttSlot is2ATT VALUE IS15.63
+[15:41:10] testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-40tempRxPowerErrArray[1]30
+[15:41:11] AttSlot is2ATT VALUE IS10.63
+[15:41:11] testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-40tempRxPowerErrArray[2]35
+[15:41:11] ErrMaxPoint=-5  MaxErr35
+[15:41:11] AttSlot is2state ISOFF
+[15:41:13] ICC=812.4239
+[15:41:13] ICC(MA) : 812.4239
+[15:41:14] Temp=25**VCC=3.3**Channel=1**TestIccTesting End.....
+[15:41:14] TimeSpan:TestIcc RunTime Run Time 8.2193412
+[15:41:14] AttSlot is2state ISON
+[15:41:15] DMIRXPWRMAXERRPOINT(DBM) : -5
+[15:41:15] DMIRXPWRERR(DBM) : 35
+[15:41:15] DMIRXNOPTICAL(DBM) : -40
+[15:41:15] Temp=25**VCC=3.3**Channel=1**TestRxPowerDmiTesting End.....
+[15:41:15] TimeSpan:TestRxPowerDmi RunTime Run Time 1.5404513
+[15:41:16] TimeSpan:环境准备前的For 循环Run Time 0.221624
+[15:41:16] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:16] AttSlot is2offset is0
+[15:41:16] AttSlot is2ATT VALUE IS15.63
+[15:41:16] AttSlot is2ATT VALUE IS15.63
+[15:41:16] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[15:41:17] AttSlot is2ATT VALUE IS4.63
+[15:41:17] AttSlot is2ATT VALUE IS4.63
+[15:41:17] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:17] AttSlot is2offset is0
+[15:41:18] AttSlot is2ATT VALUE IS15.88
+[15:41:18] AttSlot is2ATT VALUE IS15.88
+[15:41:18] ATT CurrentChannel is2ATT Wavelength isATT offset is5.88
+[15:41:19] AttSlot is2ATT VALUE IS4.88
+[15:41:19] AttSlot is2ATT VALUE IS4.88
+[15:41:19] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:19] AttSlot is2offset is0
+[15:41:20] AttSlot is2ATT VALUE IS16.14
+[15:41:20] AttSlot is2ATT VALUE IS16.14
+[15:41:20] ATT CurrentChannel is3ATT Wavelength isATT offset is6.14
+[15:41:21] AttSlot is2ATT VALUE IS5.14
+[15:41:21] AttSlot is2ATT VALUE IS5.14
+[15:41:21] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:21] AttSlot is2offset is0
+[15:41:22] AttSlot is2ATT VALUE IS16.00
+[15:41:22] AttSlot is2ATT VALUE IS16.00
+[15:41:22] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:41:23] AttSlot is2ATT VALUE IS5.00
+[15:41:23] AttSlot is2ATT VALUE IS5.00
+[15:41:23] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:23] AttSlot is2offset is0
+[15:41:24] AttSlot is2ATT VALUE IS16.00
+[15:41:24] AttSlot is2ATT VALUE IS16.00
+[15:41:24] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:41:25] AttSlot is2ATT VALUE IS5.00
+[15:41:25] AttSlot is2ATT VALUE IS5.00
+[15:41:25] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:25] AttSlot is2offset is0
+[15:41:26] AttSlot is2ATT VALUE IS15.88
+[15:41:26] AttSlot is2ATT VALUE IS15.88
+[15:41:26] ATT CurrentChannel is2ATT Wavelength isATT offset is5.88
+[15:41:26] OpticalSwitch change channel to2
+[15:41:26] LastTemp=-1000LastVoltage=3.3
+[15:41:26] CurrentTemp=25CurrentVoltage=3.3
+[15:41:26] 准备调试电压....
+[15:41:26] E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[15:41:27] TimeSpan:环境准备到TestModel循环Run Time 11.6424673
+[15:41:27] E3631 Switch isOFF
+[15:41:28] E3631 Switch isON
+[15:41:30] Temp=25**VCC=3.3**Channel=2
+[15:41:30] Temp=25**VCC=3.3**Channel=2
+[15:41:30] TestIBiasDmiTestModelID=35884
+[15:41:30] TestVccDmiTestModelID=35888
+[15:41:30] TestRxPowerDmiTestModelID=35886
+[15:41:30] TestIccTestModelID=35889
+[15:41:31] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 3.3711081
+[15:41:31] TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.0997003
+[15:41:31] TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.099138
+[15:41:31] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.0985405
+[15:41:31] Temp=25**VCC=3.3**Channel=2**TestIBiasDmi
+InputLog--------------------
+
+[15:41:31] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.22442
+[15:41:31] Open apc
+[15:41:31] Temp=25**VCC=3.3**Channel=2**TestIBiasDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=2**TestVccDmi
+InputLog--------------------
+
+[15:41:31] Open apcTrue
+[15:41:31] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.1145877
+[15:41:31] Step3...Start ReadDmiVcc
+[15:41:31] DmiVcc:3.4588
+[15:41:31] vccDmiErr:0.1588
+[15:41:31] DMIVCC(V) : 3.4588
+[15:41:31] DMIVCCERR(V) : 0.1588
+[15:41:31] Temp=25**VCC=3.3**Channel=2**TestIBiasDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=2**TestVccDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=2**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[15:41:31] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.1118653
+[15:41:31] Temp=25**VCC=3.3**Channel=2**TestIBiasDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=2**TestVccDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=2**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+Temp=25**VCC=3.3**Channel=2**TestIcc
+InputLog--------------------
+
+[15:41:31] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0030021
+[15:41:31] Step3..Read ICC
+[15:41:31] OK!
+[15:41:31] Step3...Start Test RxDmi
+[15:41:32] Temp=25**VCC=3.3**Channel=2**TestVccDmiTesting End.....
+[15:41:32] TimeSpan:TestVccDmi RunTime Run Time 0.107221
+[15:41:33] AttSlot is2ATT VALUE IS20.88
+[15:41:33] Step3...ReadDmiBias
+[15:41:33] ibiasDmi=41.426
+[15:41:33] IBIASDMI(MA) : 41.426
+[15:41:34] Temp=25**VCC=3.3**Channel=2**TestIBiasDmiTesting End.....
+[15:41:34] TimeSpan:TestIBiasDmi RunTime Run Time 2.0624547
+[15:41:36] AttSlot is2ATT VALUE IS20.88
+[15:41:36] testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-40tempRxPowerErrArray[0]25
+[15:41:38] AttSlot is2ATT VALUE IS15.88
+[15:41:38] testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-40tempRxPowerErrArray[1]30
+[15:41:39] AttSlot is2ATT VALUE IS10.88
+[15:41:39] testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-40tempRxPowerErrArray[2]35
+[15:41:39] ErrMaxPoint=-5  MaxErr35
+[15:41:39] AttSlot is2state ISOFF
+[15:41:42] ICC=813.0506
+[15:41:42] ICC(MA) : 813.0506
+[15:41:42] AttSlot is2state ISON
+[15:41:42] Temp=25**VCC=3.3**Channel=2**TestIccTesting End.....
+[15:41:42] TimeSpan:TestIcc RunTime Run Time 8.5657088
+[15:41:43] DMIRXPWRMAXERRPOINT(DBM) : -5
+[15:41:43] DMIRXPWRERR(DBM) : 35
+[15:41:43] DMIRXNOPTICAL(DBM) : -40
+[15:41:43] Temp=25**VCC=3.3**Channel=2**TestRxPowerDmiTesting End.....
+[15:41:43] TimeSpan:TestRxPowerDmi RunTime Run Time 1.2108304
+[15:41:44] TimeSpan:环境准备前的For 循环Run Time 0.2521776
+[15:41:44] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:44] AttSlot is2offset is0
+[15:41:44] AttSlot is2ATT VALUE IS15.63
+[15:41:44] AttSlot is2ATT VALUE IS15.63
+[15:41:44] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[15:41:45] AttSlot is2ATT VALUE IS4.63
+[15:41:45] AttSlot is2ATT VALUE IS4.63
+[15:41:45] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:45] AttSlot is2offset is0
+[15:41:46] AttSlot is2ATT VALUE IS15.88
+[15:41:46] AttSlot is2ATT VALUE IS15.88
+[15:41:46] ATT CurrentChannel is2ATT Wavelength isATT offset is5.88
+[15:41:47] AttSlot is2ATT VALUE IS4.88
+[15:41:47] AttSlot is2ATT VALUE IS4.88
+[15:41:47] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:47] AttSlot is2offset is0
+[15:41:48] AttSlot is2ATT VALUE IS16.14
+[15:41:48] AttSlot is2ATT VALUE IS16.14
+[15:41:48] ATT CurrentChannel is3ATT Wavelength isATT offset is6.14
+[15:41:49] AttSlot is2ATT VALUE IS5.14
+[15:41:49] AttSlot is2ATT VALUE IS5.14
+[15:41:49] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:49] AttSlot is2offset is0
+[15:41:50] AttSlot is2ATT VALUE IS16.00
+[15:41:50] AttSlot is2ATT VALUE IS16.00
+[15:41:50] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:41:51] AttSlot is2ATT VALUE IS5.00
+[15:41:51] AttSlot is2ATT VALUE IS5.00
+[15:41:51] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:51] AttSlot is2offset is0
+[15:41:52] AttSlot is2ATT VALUE IS16.00
+[15:41:52] AttSlot is2ATT VALUE IS16.00
+[15:41:52] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:41:53] AttSlot is2ATT VALUE IS5.00
+[15:41:53] AttSlot is2ATT VALUE IS5.00
+[15:41:53] AttSlot is2:Channel1Wavelength is1310nm
+[15:41:53] AttSlot is2offset is0
+[15:41:54] AttSlot is2ATT VALUE IS16.14
+[15:41:54] AttSlot is2ATT VALUE IS16.14
+[15:41:54] ATT CurrentChannel is3ATT Wavelength isATT offset is6.14
+[15:41:54] OpticalSwitch change channel to3
+[15:41:54] LastTemp=-1000LastVoltage=3.3
+[15:41:54] CurrentTemp=25CurrentVoltage=3.3
+[15:41:54] 准备调试电压....
+[15:41:54] E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[15:41:55] TimeSpan:环境准备到TestModel循环Run Time 11.1017595
+[15:41:55] E3631 Switch isOFF
+[15:41:55] E3631 Switch isON
+[15:41:58] Temp=25**VCC=3.3**Channel=3
+[15:41:58] TestVccDmiTestModelID=35888
+[15:41:58] TestRxPowerDmiTestModelID=35886
+[15:41:58] TestIBiasDmiTestModelID=35884
+[15:41:58] TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 3.4194358
+[15:41:58] TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.0996905
+[15:41:58] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 0.0995241
+[15:41:58] Temp=25**VCC=3.3**Channel=3**TestVccDmi
+InputLog--------------------
+
+[15:41:58] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0342391
+[15:41:58] Step3...Start ReadDmiVcc
+[15:41:58] DmiVcc:3.4588
+[15:41:58] vccDmiErr:0.1588
+[15:41:58] DMIVCC(V) : 3.4588
+[15:41:58] DMIVCCERR(V) : 0.1588
+[15:41:58] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.0632784
+[15:41:58] Temp=25**VCC=3.3**Channel=3**TestVccDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=3**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[15:41:58] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0140095
+[15:41:58] Step1...Check InputParameters
+[15:41:58] OK!
+[15:41:58] Step3...Start Test RxDmi
+[15:41:59] Temp=25**VCC=3.3**Channel=3**TestVccDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=3**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+Temp=25**VCC=3.3**Channel=3**TestIBiasDmi
+InputLog--------------------
+
+[15:41:59] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0975723
+[15:41:59] Open apc
+[15:41:59] Temp=25**VCC=3.3**Channel=3**TestVccDmiTesting End.....
+[15:41:59] TimeSpan:TestVccDmi RunTime Run Time 0.1078342
+[15:41:59] Open apcTrue
+[15:41:59] Temp=25**VCC=3.3**Channel=3**TestVccDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=3**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+Temp=25**VCC=3.3**Channel=3**TestIBiasDmi
+InputLog--------------------
+Current TestModel:True
+Temp=25**VCC=3.3**Channel=3**TestIcc
+InputLog--------------------
+
+[15:41:59] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0020009
+[15:41:59] Step3..Read ICC
+[15:42:00] AttSlot is2ATT VALUE IS21.14
+[15:42:01] Step3...ReadDmiBias
+[15:42:01] ibiasDmi=41.826
+[15:42:01] IBIASDMI(MA) : 41.826
+[15:42:01] Temp=25**VCC=3.3**Channel=3**TestIBiasDmiTesting End.....
+[15:42:01] TimeSpan:TestIBiasDmi RunTime Run Time 2.3097597
+[15:42:03] AttSlot is2ATT VALUE IS21.14
+[15:42:03] testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-40tempRxPowerErrArray[0]25
+[15:42:05] AttSlot is2ATT VALUE IS16.14
+[15:42:05] testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-40tempRxPowerErrArray[1]30
+[15:42:06] AttSlot is2ATT VALUE IS11.14
+[15:42:06] testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-40tempRxPowerErrArray[2]35
+[15:42:06] ErrMaxPoint=-5  MaxErr35
+[15:42:06] AttSlot is2state ISOFF
+[15:42:09] ICC=813.123
+[15:42:09] ICC(MA) : 813.123
+[15:42:09] AttSlot is2state ISON
+[15:42:09] Temp=25**VCC=3.3**Channel=3**TestIccTesting End.....
+[15:42:09] TimeSpan:TestIcc RunTime Run Time 8.0860881
+[15:42:10] DMIRXPWRMAXERRPOINT(DBM) : -5
+[15:42:10] DMIRXPWRERR(DBM) : 35
+[15:42:10] DMIRXNOPTICAL(DBM) : -40
+[15:42:11] Temp=25**VCC=3.3**Channel=3**TestRxPowerDmiTesting End.....
+[15:42:11] TimeSpan:TestRxPowerDmi RunTime Run Time 1.7414948
+[15:42:11] TimeSpan:环境准备前的For 循环Run Time 0.2420136
+[15:42:11] AttSlot is2:Channel1Wavelength is1310nm
+[15:42:11] AttSlot is2offset is0
+[15:42:12] AttSlot is2ATT VALUE IS15.63
+[15:42:12] AttSlot is2ATT VALUE IS15.63
+[15:42:12] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[15:42:12] AttSlot is2ATT VALUE IS4.63
+[15:42:12] AttSlot is2ATT VALUE IS4.63
+[15:42:12] AttSlot is2:Channel1Wavelength is1310nm
+[15:42:12] AttSlot is2offset is0
+[15:42:13] AttSlot is2ATT VALUE IS15.88
+[15:42:13] AttSlot is2ATT VALUE IS15.88
+[15:42:13] ATT CurrentChannel is2ATT Wavelength isATT offset is5.88
+[15:42:14] AttSlot is2ATT VALUE IS4.88
+[15:42:14] AttSlot is2ATT VALUE IS4.88
+[15:42:14] AttSlot is2:Channel1Wavelength is1310nm
+[15:42:14] AttSlot is2offset is0
+[15:42:15] AttSlot is2ATT VALUE IS16.14
+[15:42:15] AttSlot is2ATT VALUE IS16.14
+[15:42:15] ATT CurrentChannel is3ATT Wavelength isATT offset is6.14
+[15:42:16] AttSlot is2ATT VALUE IS5.14
+[15:42:16] AttSlot is2ATT VALUE IS5.14
+[15:42:16] AttSlot is2:Channel1Wavelength is1310nm
+[15:42:16] AttSlot is2offset is0
+[15:42:17] AttSlot is2ATT VALUE IS16.00
+[15:42:17] AttSlot is2ATT VALUE IS16.00
+[15:42:17] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:42:18] AttSlot is2ATT VALUE IS5.00
+[15:42:18] AttSlot is2ATT VALUE IS5.00
+[15:42:18] AttSlot is2:Channel1Wavelength is1310nm
+[15:42:18] AttSlot is2offset is0
+[15:42:19] AttSlot is2ATT VALUE IS16.00
+[15:42:19] AttSlot is2ATT VALUE IS16.00
+[15:42:19] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:42:20] AttSlot is2ATT VALUE IS5.00
+[15:42:20] AttSlot is2ATT VALUE IS5.00
+[15:42:20] AttSlot is2:Channel1Wavelength is1310nm
+[15:42:20] AttSlot is2offset is0
+[15:42:21] AttSlot is2ATT VALUE IS16.00
+[15:42:21] AttSlot is2ATT VALUE IS16.00
+[15:42:21] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[15:42:21] OpticalSwitch change channel to4
+[15:42:21] LastTemp=-1000LastVoltage=3.3
+[15:42:21] CurrentTemp=25CurrentVoltage=3.3
+[15:42:21] 准备调试电压....
+[15:42:22] E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[15:42:22] TimeSpan:环境准备到TestModel循环Run Time 11.1143401
+[15:42:22] E3631 Switch isOFF
+[15:42:23] E3631 Switch isON
+[15:42:25] Temp=25**VCC=3.3**Channel=4
+[15:42:25] TestVccDmiTestModelID=35888
+[15:42:25] TestRxPowerDmiTestModelID=35886
+[15:42:25] TestIBiasDmiTestModelID=35884
+[15:42:25] TestIccTestModelID=35889
+[15:42:26] TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 3.3625782
+[15:42:26] TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.0998393
+[15:42:26] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 0.0999893
+[15:42:26] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.0905566
+[15:42:26] Temp=25**VCC=3.3**Channel=4**TestVccDmi
+InputLog--------------------
+
+[15:42:26] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0362255
+[15:42:26] Step3...Start ReadDmiVcc
+[15:42:26] DmiVcc:3.4588
+[15:42:26] vccDmiErr:0.1588
+[15:42:26] DMIVCC(V) : 3.4588
+[15:42:26] DMIVCCERR(V) : 0.1588
+[15:42:26] Temp=25**VCC=3.3**Channel=4**TestVccDmi
+InputLog--------------------
+Current TestModel:True
+Temp=25**VCC=3.3**Channel=4**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[15:42:26] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.6085224
+[15:42:26] Step1...Check InputParameters
+[15:42:26] OK!
+[15:42:26] Step3...Start Test RxDmi
+[15:42:27] Temp=25**VCC=3.3**Channel=4**TestVccDmi
+InputLog--------------------
+Current TestModel:True
+Temp=25**VCC=3.3**Channel=4**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+Temp=25**VCC=3.3**Channel=4**TestIBiasDmi
+InputLog--------------------
+
+[15:42:27] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0170176
+[15:42:27] Open apc
+[15:42:27] Temp=25**VCC=3.3**Channel=4**TestVccDmiTesting End.....
+[15:42:27] TimeSpan:TestVccDmi RunTime Run Time 0.091929
+[15:42:27] Temp=25**VCC=3.3**Channel=4**TestVccDmi
+InputLog--------------------
+Current TestModel:True
+Temp=25**VCC=3.3**Channel=4**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+Temp=25**VCC=3.3**Channel=4**TestIBiasDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=4**TestIcc
+InputLog--------------------
+
+[15:42:27] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.008033
+[15:42:27] Step3..Read ICC
+[15:42:27] Open apcTrue
+[15:42:28] AttSlot is2ATT VALUE IS21.00
+[15:42:29] Step3...ReadDmiBias
+[15:42:29] ibiasDmi=41.756
+[15:42:29] IBIASDMI(MA) : 41.756
+[15:42:29] Temp=25**VCC=3.3**Channel=4**TestIBiasDmiTesting End.....
+[15:42:29] TimeSpan:TestIBiasDmi RunTime Run Time 2.2901267
+[15:42:31] AttSlot is2ATT VALUE IS21.00
+[15:42:31] testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-40tempRxPowerErrArray[0]25
+[15:42:33] AttSlot is2ATT VALUE IS16.00
+[15:42:33] testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-40tempRxPowerErrArray[1]30
+[15:42:34] AttSlot is2ATT VALUE IS11.00
+[15:42:34] testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-40tempRxPowerErrArray[2]35
+[15:42:34] ErrMaxPoint=-5  MaxErr35
+[15:42:34] AttSlot is2state ISOFF
+[15:42:37] ICC=814.5473
+[15:42:37] ICC(MA) : 814.5473
+[15:42:37] AttSlot is2state ISON
+[15:42:37] Temp=25**VCC=3.3**Channel=4**TestIccTesting End.....
+[15:42:37] TimeSpan:TestIcc RunTime Run Time 8.4318776
+[15:42:38] DMIRXPWRMAXERRPOINT(DBM) : -5
+[15:42:38] DMIRXPWRERR(DBM) : 35
+[15:42:38] DMIRXNOPTICAL(DBM) : -40
+[15:42:39] Temp=25**VCC=3.3**Channel=4**TestRxPowerDmiTesting End.....
+[15:42:39] TimeSpan:TestRxPowerDmi RunTime Run Time 1.2272874
+[15:42:39] Test End------------------------
+[15:42:39] TimeSpan:测试收尾 Run Time 0.0020019
+[15:42:39] This Dut Test END-------------------------------------------------------------------------

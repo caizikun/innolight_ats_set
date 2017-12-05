@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="a_MasterPage.master.cs" Inherits="A_MasterPage" %>
+
+<%@ Register src="Frame/AccountInfo.ascx" tagname="AccountInfo" tagprefix="uc1" %>
+
+<%@ Register src="Frame/OptionButtons.ascx" tagname="OptionButtons" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/App_Themes/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-1.11.2.js") %>"></script> 
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-1.11.2.min.js") %>"></script>
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-ui.js") %>"></script>
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/RefreshTime.js") %>"></script>
+    <script type="text/javascript" language="JavaScript"> 
+//        javascript: window.history.forward(1);
+   </script> 
+    <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body  onload="startTime()">
+ <form id="Form1" defaultbutton="" runat="server">
+ <div   id="primary"class="show">
+    <div id="div_head" class="div_head">
+        <div id="Logo">          
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.png" Width="100px" />
+        </div>        
+        <div id="ModulesNameList">
+            <asp:PlaceHolder ID="phlList" runat="server"></asp:PlaceHolder>
+            <asp:ContentPlaceHolder ID="ModulesNameListContent" runat="server">
+             </asp:ContentPlaceHolder>
+        </div>
+        
+        <div id="Navi">
+        <asp:ContentPlaceHolder ID="NaviContent" runat="server">
+         </asp:ContentPlaceHolder>
+         </div>        
+         
+    </div>
+    <div >
+        <div id="UserInfor">
+        <uc1:AccountInfo ID="UserAccountInfo" runat="server" />
+        <asp:ContentPlaceHolder ID="UserInforContent" runat="server">
+            
+         </asp:ContentPlaceHolder>
+        </div>        
+        <div id="Main">
+         <asp:ContentPlaceHolder  ID="MainContent" runat="server">
+         </asp:ContentPlaceHolder>
+        </div>
+        <div id="Options">
+        <asp:ContentPlaceHolder ID="OptionContent" runat="server">
+         </asp:ContentPlaceHolder>    
+    </div>
+    </div>
+    <div id="Root">      
+        <table border="0" cellspacing="0" cellpadding="0" width="100%" 
+            style="height: 22px">
+    	<tr>
+    		<td id="RootContent" >
+                 UpdataTime  2015-12-4 16:30
+            </td>
+    	</tr>
+    </table>
+ </div>
+    </div>
+    </form>
+</body>
+</html>

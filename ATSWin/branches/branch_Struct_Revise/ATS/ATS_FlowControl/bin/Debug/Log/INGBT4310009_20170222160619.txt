@@ -1,0 +1,12 @@
+[16:06:19] A New Dut Test Start--------------------
+[16:06:19] ***********************  SN=INGBT4310009 ************************
+[16:06:19] ***********************  SN=INGBT4310009 ************************
+[16:06:20] AttSlot is2state ISON
+[16:06:21] E3631 Switch isON
+[16:06:23] TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 3.3792573
+[16:06:23] TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.002978
+[16:06:23] TimeSpan:FlowControl  Driver  Initialize Run Time 0.711714
+[16:06:23] TimeSpan:存档Coef+EEPROM Run Time 0
+[16:06:23] Test End------------------------
+[16:06:23] TimeSpan:测试收尾 Run Time 0.0090112
+[16:06:23] This Dut Test END-------------------------------------------------------------------------

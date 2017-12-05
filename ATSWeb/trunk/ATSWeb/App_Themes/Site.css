@@ -1,0 +1,601 @@
+﻿html{ 
+overflow:hidden; 
+} 
+
+body
+{
+    width:100%;
+    height: 100%;
+    margin:0px; 
+    padding:0;
+}
+.show 
+{ 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+} 
+#Form1
+{   
+    width:100%;
+    margin:0px,auto;   
+}
+/*页眉*/
+.div_head  
+{
+   width: 100%;
+   height: 90px;
+   background :url('../Images/head.png'); background-repeat:repeat-x;
+} 
+/*用户登录信息*/
+#UserInfor
+{   
+     position :absolute ;  
+     top :60px;
+     right :5px;
+     width :250px; 
+}
+/*页脚*/
+#Root
+{ 
+     width:100%; 
+     height:25px; 
+     background:#69BBC7; 
+     text-align:center;
+     color:Black;     
+     font-family:Arial;
+     font-size :10pt;
+}
+#Middle
+{   
+    width:100%;
+    height: auto;
+    background:#ffffff;
+}
+/*功能板块链接区*/
+#ModulesNameList
+{
+     position :absolute ;  
+     top :90px;
+     float:left;
+     width:290px; 
+     height: auto; 
+     background:#DDEDFA;
+     overflow: scroll;
+     /*overflow-x:hidden;*/
+}
+#Middle_Middle
+{   
+    position :absolute ;
+    left :188px;
+    width:0px;
+    height: auto;   
+    background:#ffffff;
+}
+#Middle_Right
+{   
+    height: auto;
+    background:#69BBC7;
+}
+
+/*页面导航*/
+.Navi
+{
+    height:30px; 
+    background:url('../Images/Navi.png'); background-repeat:repeat-x;
+}
+.NaviList
+{
+    height: 30px;
+    line-height: 31px;
+    margin-left: 10px;
+    font-family: "Times New Roman Negreta" , "Times New Roman";
+    font-size: 16px;
+    font-style: italic;
+}
+.wait
+{
+    height:20px; 
+    background:url('../Images/wait.gif'); background-repeat:repeat-x;
+}
+
+ .btExit
+{
+   background:url('../Images/exit.png');
+   border:none; 
+   cursor:pointer;
+ }
+/*操作控件区*/
+.Options
+{
+    height:30px; 
+    background:url('../Images/Navi.png'); background-repeat:repeat-x;
+}
+
+.btAdd
+{
+   background:url('../Images/add.png');
+   border:none; 
+   cursor:pointer;
+ }
+ .btDelete
+{
+   background:url('../Images/delete.png');
+   border:none; 
+   cursor:pointer;
+ }
+ .btCopy
+{
+   background:url('../Images/copy.png');
+   border:none; 
+   cursor:pointer;
+ }
+ .btEdit
+{
+   background:url('../Images/edit.png');
+   border:none; 
+   cursor:pointer;
+ }
+ .btSave
+{
+   background:url('../Images/save.png');
+   border:none; 
+   cursor:pointer;
+ }
+ .btCancel
+{
+   background:url('../Images/cancel.png');
+   border:none; 
+   cursor:pointer;
+ } 
+  .btOrder
+{
+   background:url('../Images/order.png');
+   background-repeat:no-repeat; 
+   border:none; 
+   cursor:pointer;
+ }
+  .btSelectAll
+{
+   background:url('../Images/SelectAll.png');
+   border:none; 
+   cursor:pointer;
+ }
+   .btDeSelectAll
+{
+   background:url('../Images/DeSelectAll.png');
+   border:none; 
+   cursor:pointer;
+ }
+   .btOrderUp
+{
+   background:url('../Images/orderUp.png');
+   background-repeat:no-repeat;
+   border:none; 
+   cursor:pointer;
+ }
+   .btOrderDown
+{
+   background:url('../Images/orderDown.png');
+   background-repeat:no-repeat;
+   border:none; 
+   cursor:pointer;
+ }
+ .btQuery
+{
+   background:url('../Images/Query.png');
+   border:none; 
+   cursor:pointer;
+ }
+  .btExport
+{
+   background:url('../Images/Export.png');
+   border:none; 
+   cursor:pointer;
+ }
+  .btStatistics
+ {
+   background:url('../Images/Statistics.png');
+   border:none; 
+   cursor:pointer;
+ }
+ .btDebugDB
+{
+   background:url('../Images/LoginDB.png');
+   background-repeat:no-repeat;
+   background-position: left center ;
+   margin-left:20px;  
+   border:none; 
+   cursor:pointer;
+ }
+  .btSyncDB
+{
+   background:url('../Images/SyncDB.png');
+   background-repeat:no-repeat;
+   background-position:left center ;
+   margin-left:20px;  
+   border:none; 
+   cursor:pointer;
+ }
+/*主显示区*/
+.Main
+{
+    overflow: scroll;
+    /*overflow-x:hidden;*/
+    height:auto; 
+    background:#ffffff;
+}
+.MainReport
+{
+    overflow: scroll; 
+    height:auto; 
+    background:#ffffff;
+}
+.context
+{
+    position :absolute;  
+    top :90px;
+    left:290px;
+    height: auto;
+    width:auto; 
+    background: #ffffff;
+    overflow:hidden; 
+}
+
+/*鼠标位于链接时颜色*/     
+#div_head a:hover
+{
+    color:red;
+}  
+
+/*button部分*/     
+.OptionLog
+{
+    position :absolute ;
+    top :36px;
+    left :5px;
+}  
+
+.OptionLabel
+{
+    position :absolute ;
+    top :39px;
+    left :50px;
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-size: 16px;
+    font-weight: 800;
+}  
+
+.OptionButton
+{  
+     position :absolute ;
+     top :34px;
+     right :5px;
+} 
+
+/*功能列表*/  
+.blockTitle
+{
+    margin:10px 5px 2px 5px;
+    text-align :center;    
+    float:left;
+    padding: 10px 2px 2px 2px;
+}
+
+.showTableData
+{
+    position:relative;
+    margin:10px 10px 10px 20px ;
+}
+/*菜单列表*/
+.MenuBt
+{
+    background-image:url('../Images/Menu.png'); 
+    height:28px; 
+    width:178px; 
+    border:none;
+}
+/*--------------------------Login -------------------------*/
+#body_login
+{ 
+ background-color:#EEEEEE;    
+}
+
+#LoginBackground
+{
+    background-image: url('../Images/bg3(1190).png'); background-repeat: no-repeat;
+     position: absolute;
+     width:1190px;
+     height:560px; 
+     left:50%; 
+     top:50%; 
+     margin-left:-595px; 
+     margin-top:-280px;
+}
+
+#login
+{       
+     width:600px;
+     height:384px; 
+     position: absolute;
+     left:50%; 
+     margin-left:-300px; 
+     margin-top:15%;
+}
+#top_left{width:325px; 
+height:89px; float:left;
+}
+#top_left img {margin-left:0px;
+    width: 323px;
+}
+#top_center{width:248px; height:89px; background:url(../Images/login_05.gif); float:left;}
+
+#center_left{width:325px; 
+height:190px; background:url(../Images/login_09.gif); float:left;
+}
+#center_middle{width:249px; 
+height:190px; float:left; background:url(../Images/login_13.gif) repeat-y;
+}
+#center_right{width:36px; height:190px; float:right; background:url(../Images/login_11.gif);}
+
+#down_left{width:572px; 
+height:89px; float:left; margin-top:15px;
+}
+#down_center{width:183px; 
+height:89px; background:url(../Images/login_16.gif); float:left;
+}
+#inf{width:572px; 
+height:38px; background:url(../Images/login_18.gif) no-repeat;
+    margin-right: 0px;
+}
+.inf_text{display:block; width:100px; height:20px; font-size:16px; font-weight:bolder; color:#fff; margin-left:17px; margin-top:12px; float:left;}
+.copyright{display:block; float:left; margin-left:17px; margin-top:15px;}
+
+#user{ margin-left:40px; margin-top:45px; height:25px;
+    width: 205px;
+}
+#password{margin-left:40px; margin-top:25px; height:25px;}
+#txtUserName{border:solid 1px #aca7a7; font-size:11pt;
+} 
+#txtPwd{border:solid 1px #aca7a7; font-size:11pt;
+}
+#btnLogin{margin-left:88px; margin-top:10px;margin-right:28px; text-align:center;
+}
+#btn a{display:block; line-height:25px; background: url(../Images/bt_bg.gif); border: solid 1px #b6b6b6; width:65px; float:left; margin-left:15px; text-decoration:none; color:#000;}
+
+/*--------------------------Login -------------------------*/
+.tdCenter
+{
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-size: 16px;
+    text-align:center;
+    vertical-align:middle;
+    border:solid #CCCCCC 1px;
+    height:29px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;
+}
+.tdLeft
+{   
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-size: 16px;
+    padding-left:5px;
+    vertical-align:middle;
+    border:solid #CCCCCC 1px;
+    height:29px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;
+}
+.tdCenter1
+{
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-size: 16px;
+    text-align:center;
+    vertical-align:middle;
+    border:solid #CCCCCC 1px;
+    word-break:break-word;
+}
+.tdLeft1
+{   
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-size: 16px;
+    padding-left:5px;
+    vertical-align:middle;
+    border:solid #CCCCCC 1px;
+    word-break:break-word;
+}
+.tdLeft2  /* padding-left*/ 
+{   
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-size: 16px;
+    padding-left:1px;
+    vertical-align:middle;
+    border:solid #CCCCCC 1px;
+    height:29px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;
+}
+.UPDown
+{
+    vertical-align:middle;
+    border-bottom : solid #CCCCCC 1px;         
+}
+/*gridview*/
+.Grid
+{
+    border-collapse: collapse;
+    border: solid 1px #93c2f1;  
+}
+
+.GridAction
+{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+.Grid td
+{
+    border-collapse: collapse;
+    border: solid 1px #93c2f1;
+    
+}
+.Grid th
+{
+    border-collapse: collapse;
+    border: solid 1px #93c2f1;
+    
+    background-color: #0099CC;
+}
+#tdVCenter
+{ 
+  display: table-cell;
+  height:50px; 
+  vertical-align: middle;
+  clear:both;  
+  text-align:left;
+  
+}
+
+
+.hideText{  
+    width:136px;  
+    overflow:hidden;  
+    white-space:nowrap;  
+   text-overflow:ellipsis;  
+   -o-text-overflow:ellipsis;  
+   -icab-text-overflow: ellipsis;  
+   -khtml-text-overflow: ellipsis;  
+   -moz-text-overflow: ellipsis;  
+   -webkit-text-overflow: ellipsis;  
+}  
+.NaviLeftMargin
+{
+    margin-left:10px;
+    height:30px; 
+}
+.tHStyleLeft
+{   
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-weight: 700;
+    font-size: 15px;
+    text-align:left;
+    color:White; 
+    vertical-align:middle;
+    border:solid #CCCCCC 1px;
+    background-image:url('../Images/TableHeader.png');
+    background-repeat:repeat-x;
+    height:29px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;
+}
+
+.tHStyleCenter
+{ 
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-weight: 700;
+    font-size: 15px;
+    text-align:center;
+    color:White; 
+    vertical-align:middle;
+    border:solid #CCCCCC 1px;
+    background-image:url('../Images/TableHeader.png');
+    background-repeat:repeat-x;
+    height:29px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;   
+}
+
+.tHStyleCenter1
+{ 
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-weight: 700;
+    font-size: 15px;
+    text-align:center;
+    color:White; 
+    vertical-align:middle;
+    border:solid #93C2F1 1px;
+    background-color:#0099CC; 
+    height:29px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;   
+}
+
+.tHStyleCenterBottom
+{ 
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-weight: 700;
+    font-size: 15px;
+    text-align:center;
+    color:White; 
+    vertical-align:bottom;
+    border:solid #CCCCCC 1px;
+    background-image:url('../Images/TableHeader.png');
+    background-repeat:repeat-x;
+    height:29px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;   
+}
+
+.tdStyleBorderBK
+{
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-weight: 700;
+    font-size: 15px;
+    padding-left:5px;
+    color:White; 
+    vertical-align:middle;
+    background-image:url('../Images/TableHeader.png');
+    background-repeat:repeat-x;
+    height:27px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;    
+    border:solid #CCCCCC 1px;     
+}
+
+.tdStyleBorderBK1
+{
+    font-family: "Times New Roman Negreta", "Times New Roman";
+    font-weight: 700;
+    font-size: 15px;
+    padding-left:5px;
+    color:White; 
+    vertical-align:middle;
+    background-image:url('../Images/TableHeader1.png');
+    background-repeat:repeat-x;
+    height:52px;         
+    overflow:hidden;
+    white-space :nowrap ;
+    text-overflow:ellipsis;    
+    border:solid #CCCCCC 1px;     
+}
+
+.tdStyleBorder
+{   
+    border:solid #000 1px;    
+}
+
+.hide
+{
+            display:none;   
+      
+ }
+ .hideUserName
+ {  
+    overflow:hidden;  
+    white-space:nowrap;  
+    text-overflow:ellipsis;  
+   -o-text-overflow:ellipsis;  
+   -icab-text-overflow: ellipsis;  
+   -khtml-text-overflow: ellipsis;  
+   -moz-text-overflow: ellipsis;  
+   -webkit-text-overflow: ellipsis;  
+   
+} 

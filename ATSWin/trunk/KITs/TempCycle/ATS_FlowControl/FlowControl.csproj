@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D7B19FC6-461E-4349-B2D7-680839FC742D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ATS</RootNamespace>
+    <AssemblyName>TempCycle</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ooopic_1464944471.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bert25G_V2_NoPolarity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bert25G_V2_NoPolarity.dll</HintPath>
+    </Reference>
+    <Reference Include="IrisSkin4, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=127be25a6db25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IrisSkin4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\CommonLibrary\DataBaseAccess\DataIO.cs">
+      <SubType>Code</SubType>
+      <Link>Data Processing\DataIO.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CommonLibrary\Algorithm\Algorithm.cs">
+      <SubType>Code</SubType>
+      <Link>Algorithm\Algorithm.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CommonLibrary\Log\LogManager.cs">
+      <SubType>Code</SubType>
+      <Link>Log\LogManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CommonLibrary\CommonStruct\CommonStruct.cs">
+      <SubType>Code</SubType>
+      <Link>CommonLibrary\CommonStruct.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CommonLibrary\ErrorMessage\ErrorMessage.cs">
+      <SubType>Code</SubType>
+      <Link>CommonLibrary\ErrorMessage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CommonLibrary\EQTestModeManager\EQManage.cs">
+      <SubType>Code</SubType>
+      <Link>CommonLibrary\EQManage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\CommonLibrary\XML\XmlIo.cs">
+      <SubType>Code</SubType>
+      <Link>XmlIo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\DUT.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\DUT.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\EEPROM.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\EEPROM.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\EquipmentBase.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\EquipmentBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\Ioport.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\Ioport.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\PPG.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\PPG.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\ErrorDetector.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\ErrorDetector.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\Powersupply.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\Powersupply.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Framework\Equipment\Thermocontroller.cs">
+      <SubType>Code</SubType>
+      <Link>Equipment\Thermocontroller.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\E3631.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\E3631.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\MP1800.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\MP1800.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\Inno25GBert_V2.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\Inno25GBert_V2.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\N4960.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\N4960.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\TPO4300.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\TPO4300.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\QSFP28DUT.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\QSFP28DUT.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\SFP28DUT.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\SFP28DUT.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\ATS\ATS_Driver\CFP4DUT.cs">
+      <SubType>Code</SubType>
+      <Link>Driver\CFP4DUT.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data Processing\CommonMethod.cs" />
+    <Compile Include="Data Processing\ConfigInfXml.cs" />
+    <Compile Include="Data Processing\JudgeSpec.cs" />
+    <Compile Include="Data Processing\LocalDatabase.cs" />
+    <Compile Include="Data Processing\OperateTxT.cs" />
+    <Compile Include="Data Processing\SqlDatabse.cs" />
+    <Compile Include="Driver\EquipmentManage.cs" />
+    <Compile Include="FlowControl\EquipmentArray.cs" />
+    <Compile Include="GUI\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlowControl\FlowControll.cs" />
+    <Compile Include="Data Processing\LogQueue.cs" />
+    <Compile Include="GUI\ReslutShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ReslutShow.designer.cs">
+      <DependentUpon>ReslutShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TempCycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TempCycle.Designer.cs">
+      <DependentUpon>TempCycle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlgorithmModel-Charlie\AlgorithmModel.cs" />
+    <Compile Include="AlgorithmModel-Charlie\APPmodel.cs" />
+    <Compile Include="AlgorithmModel-Charlie\RxAlgorithmModel.cs" />
+    <Compile Include="AlgorithmModel-Charlie\TxAlgorithmModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ReslutShow.resx">
+      <DependentUpon>ReslutShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TempCycle.resx">
+      <DependentUpon>TempCycle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\ng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\保存.ico" />
+    <None Include="bin\Debug\添加.ico" />
+    <Content Include="Harry_Potter_Icons_002.ico" />
+    <Content Include="ooopic_1464944471.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="BASICFORMATTEDIOLib">
+      <Guid>{709F7EC2-AB81-11D4-98E6-00108301CB39}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VisaComLib">
+      <Guid>{DB8CBF00-D6D3-11D4-AA51-00A024EE30BD}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

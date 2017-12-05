@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="a_MasterPage.master.cs" Inherits="A_MasterPage" %>
+
+<%@ Register src="Frame/AccountInfo.ascx" tagname="AccountInfo" tagprefix="uc1" %>
+
+<%@ Register src="Frame/OptionButtons.ascx" tagname="OptionButtons" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/App_Themes/Site.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-1.11.2.min.js") %>"></script>
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/jquery-ui.js") %>"></script>
+    <script type="text/javascript" src="<%=ResolveUrl("~/Scripts/RefreshTime.js") %>"></script>
+    
+    <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body  onload="startTime()">
+ <form id="Form1" defaultbutton="" runat="server">
+ <div   id="primary"class="show">
+    <div id="div_head" class="div_head">
+        <div>          
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.png" />
+        </div>               
+        <div id="UserInfor">
+           <uc1:AccountInfo ID="UserAccountInfo" runat="server" /> 
+             <asp:ContentPlaceHolder ID="UserInforContent" runat="server">           
+             </asp:ContentPlaceHolder>          
+        </div>               
+    </div>
+<div id="Middle">
+  <div id="ModulesNameList">
+    <div style="position:relative"> 
+        <asp:ImageButton ID="Menu1" runat="server" ImageUrl="~/Images/Menu.png" 
+            onclick="Menu1_Click" />
+        <asp:Label ID="LbMenu1" runat="server" Text="Production" ForeColor="white"  style=" position:absolute; left:10px;top:5px; 
+            font-size: 18px; font-weight: 700;" ></asp:Label>
+        <asp:Image ID="ImMenu1Unfold" runat="server" ImageUrl="~/Images/unfold.png"  style=" position:absolute;left:158px; top:5px; display:block;"/>
+        <asp:Image ID="ImMenu1Fold" runat="server" ImageUrl="~/Images/fold.png"  style=" position:absolute;left:158px; top:5px; display:none;"/>
+       <asp:TreeView ID="TreeViewMenu1" runat="server" style="display:block;" 
+            ShowLines="True" ExpandDepth="0" SkipLinkText="">
+       </asp:TreeView>
+    </div>
+      
+    <div style="position:relative">
+        <asp:ImageButton ID="Menu2" runat="server" ImageUrl="~/Images/Menu.png" 
+            onclick="Menu2_Click" />
+        <asp:Label ID="LbMenu2" runat="server" Text="TestData" ForeColor="white"  style=" position:absolute; left:10px;top:5px; 
+            font-size: 18px; font-weight: 700;" ></asp:Label>
+        <asp:Image ID="ImMenu2Unfold" runat="server" ImageUrl="~/Images/unfold.png"  style=" position:absolute;left:158px; top:6px; display:none;"/>
+        <asp:Image ID="IImMenu2Fold" runat="server" ImageUrl="~/Images/fold.png"  style=" position:absolute;left:158px; top:6px; display:block;"/>
+       <asp:TreeView ID="TreeViewMenu2" runat="server" style=" display:none;" 
+            ShowLines="True"  ExpandDepth="0" SkipLinkText="">
+       </asp:TreeView>
+    </div>
+   
+    <div style="position:relative">
+        <asp:ImageButton ID="Menu3" runat="server" ImageUrl="~/Images/Menu.png" 
+            onclick="Menu3_Click" />
+        <asp:Label ID="LbMenu3" runat="server" Text="Maintain" ForeColor="white"  style=" position:absolute; left:10px;top:5px; 
+            font-size: 18px; font-weight: 700;" ></asp:Label>
+        <asp:Image ID="ImMenu3Unfold" runat="server" ImageUrl="~/Images/unfold.png"  style=" position:absolute;left:158px; top:6px; display:none;"/>
+        <asp:Image ID="IImMenu3Fold" runat="server" ImageUrl="~/Images/fold.png"  style=" position:absolute;left:158px; top:6px; display:block;"/>
+        <asp:TreeView ID="TreeViewMenu3" runat="server" style=" display:none; " 
+            ShowLines="True"  ExpandDepth="0" SkipLinkText="">
+       </asp:TreeView>
+    </div>
+       
+    <div style="position:relative">
+        <asp:ImageButton ID="Menu4" runat="server" ImageUrl="~/Images/Menu.png" 
+            onclick="Menu4_Click" />
+        <asp:Label ID="LbMenu4" runat="server" Text="Management" ForeColor="white"  style=" position:absolute; left:10px;top:5px; 
+            font-size: 18px; font-weight: 700;" ></asp:Label>
+        <asp:Image ID="ImMenu4Unfold" runat="server" ImageUrl="~/Images/unfold.png"  style=" position:absolute;left:158px; top:6px; display:none;"/>
+        <asp:Image ID="IImMenu4Fold" runat="server" ImageUrl="~/Images/fold.png"  style=" position:absolute;left:158px; top:6px; display:block;"/>
+        <asp:TreeView ID="TreeViewMenu4" runat="server" style=" display:none; " 
+            ShowLines="True" ExpandDepth="0" SkipLinkText="">
+       </asp:TreeView>
+    </div>
+            <asp:PlaceHolder ID="phlList" runat="server"></asp:PlaceHolder>
+            <asp:ContentPlaceHolder ID="ModulesNameListContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>    
+        <div id="Middle_Middle">
+            <%--<asp:Image ID="Image2" runat="server" ImageUrl="~/Images/middle.png"/>--%>
+        </div>
+        <div id="Middle_Right"> 
+        <iframe src="http://localhost:9654/ATSWeb160115/WebFiles/Production_ATS/ProductionPNList.aspx?uId=1" id="context" name="context"  style="width:100%; height:400px;" frameborder="no"  runat="server"></iframe>
+             <div id="Navi">
+              <asp:ContentPlaceHolder ID="NaviContent" runat="server">
+              </asp:ContentPlaceHolder>
+             </div>   
+            <div id="Options">
+            <asp:ContentPlaceHolder ID="OptionContent" runat="server">
+             </asp:ContentPlaceHolder>    
+            </div>
+            <div id="Main">
+             <asp:ContentPlaceHolder  ID="MainContent" runat="server">
+             </asp:ContentPlaceHolder>
+            </div>      
+        </div>
+    </div>
+    <div id="Root">      
+        <asp:Label ID="LabelRoot" runat="server" Text=""  style=" line-height :25px;"> 
+         Copyright &copy; ATS信息管理系统 &nbsp;&lt;UpdataTime  2015-12-4 16:30&gt;</asp:Label>  
+    </div>
+         
+
+     <script type="text/javascript" language="JavaScript">
+            var winWidth = 1164;
+            var winHeight = 558;
+            var winHeightMain = 498;
+            function findDimensions() { //函数：获取尺寸
+                //通过深入Document内部对body进行检测，获取窗口大小
+                if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
+                    winHeight = document.documentElement.clientHeight - 115;
+                    winHeightMain = document.documentElement.clientHeight - 175;
+                    winWidth = document.documentElement.clientWidth - 185;
+                }
+                //设置div的具体宽度=窗口的宽度的%
+                if (document.getElementById("Middle")) {
+                    document.getElementById("Middle").style.height = winHeight + "px";
+                }
+                if (document.getElementById("ModulesNameList")) {
+                    document.getElementById("ModulesNameList").style.height = winHeight + "px";
+                }
+                if (document.getElementById("Main")) {
+                    document.getElementById("Main").style.height = winHeightMain + "px";
+//                    document.getElementById("Main").style.width = winWidth + "px";
+                }
+                if (document.getElementById("Navi")) {
+//                    document.getElementById("Navi").style.width = winWidth + "px";
+                }
+                if (document.getElementById("Options")) {
+//                    document.getElementById("Options").style.width = winWidth + "px";
+                }
+                if (document.getElementById("Middle_Middle")) {
+                    document.getElementById("Middle_Middle").style.height = winHeight + "px";
+                }
+            }
+            findDimensions();
+            window.onresize = findDimensions;
+
+   </script> 
+
+ </div>
+    </form>
+</body>
+</html>

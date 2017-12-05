@@ -1,0 +1,8 @@
+[15:06:57] $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[15:06:57] chK_Fw Funtion=Unchecked
+[15:06:57] chk_AbNormal_Lab Funtion=Unchecked
+[15:06:57] chK_Aotu_Evb_Voltage Funtion=Unchecked
+[15:06:57] E3631 Switch isON
+[15:07:00] TimeSpan:Prepare Time for Test -JudgeSerialNO Run Time 3.2513203
+[15:07:01] TimeSpan:Prepare Time for Test -JudegEvb Run Time 0.5096571
+[15:07:01] TimeSpan:Prepare Time for Test -JudgeFwVer Run Time 0.1036453

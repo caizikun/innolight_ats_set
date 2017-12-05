@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TopoRunRecordTable SN="INGBT4310009" StartTime="2017/2/22 16:37:54" EndTime="2017/2/22 16:40:38" FWRev="8D0A" IP="192.168.45.1" LightSource="AP(dbm)=0.04,0.4,2.1,0.03;ER=7.6,7.6,8.0,7.5" Remark="正常" PID="1050">
+  <TopologRecord Temp="25" Voltage="3.3" Channel="1" CtrlType="2" StartTime="2017/2/22 16:37:58" EndTime="2017/2/22 16:38:39" Result="1">
+    <ModelName ModelName="TestIBiasDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="IBIASDMI(MA)" ItemValue="33.154" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestVccDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIVCC(V)" ItemValue="3.4188" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIVCCERR(V)" ItemValue="0.1188" SpecMax="0.165" SpecMin="-0.165" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestIcc">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="ICC(MA)" ItemValue="853.1166" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestRxPowerDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIRXPWRMAXERRPOINT(DBM)" ItemValue="-5" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXPWRERR(DBM)" ItemValue="3.1192" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXNOPTICAL(DBM)" ItemValue="-40" SpecMax="-39" SpecMin="-41" />
+      </TopoTestData>
+    </ModelName>
+  </TopologRecord>
+  <TopologRecord Temp="25" Voltage="3.3" Channel="2" CtrlType="2" StartTime="2017/2/22 16:38:39" EndTime="2017/2/22 16:39:18" Result="1">
+    <ModelName ModelName="TestIBiasDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="IBIASDMI(MA)" ItemValue="34.164" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestVccDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIVCC(V)" ItemValue="3.4165" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIVCCERR(V)" ItemValue="0.1165" SpecMax="0.165" SpecMin="-0.165" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestIcc">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="ICC(MA)" ItemValue="858.8181" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestRxPowerDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIRXPWRMAXERRPOINT(DBM)" ItemValue="-5" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXPWRERR(DBM)" ItemValue="2.0246" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXNOPTICAL(DBM)" ItemValue="-40" SpecMax="-39" SpecMin="-41" />
+      </TopoTestData>
+    </ModelName>
+  </TopologRecord>
+  <TopologRecord Temp="25" Voltage="3.3" Channel="3" CtrlType="2" StartTime="2017/2/22 16:39:18" EndTime="2017/2/22 16:39:57" Result="1">
+    <ModelName ModelName="TestIBiasDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="IBIASDMI(MA)" ItemValue="35.336" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestVccDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIVCC(V)" ItemValue="3.4154" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIVCCERR(V)" ItemValue="0.1154" SpecMax="0.165" SpecMin="-0.165" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestIcc">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="ICC(MA)" ItemValue="866.0728" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestRxPowerDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIRXPWRMAXERRPOINT(DBM)" ItemValue="-5" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXPWRERR(DBM)" ItemValue="3.0052" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXNOPTICAL(DBM)" ItemValue="-40" SpecMax="-39" SpecMin="-41" />
+      </TopoTestData>
+    </ModelName>
+  </TopologRecord>
+  <TopologRecord Temp="25" Voltage="3.3" Channel="4" CtrlType="2" StartTime="2017/2/22 16:39:57" EndTime="2017/2/22 16:40:36" Result="1">
+    <ModelName ModelName="TestIBiasDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="IBIASDMI(MA)" ItemValue="35.766" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestVccDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIVCC(V)" ItemValue="3.4154" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIVCCERR(V)" ItemValue="0.1154" SpecMax="0.165" SpecMin="-0.165" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestIcc">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="ICC(MA)" ItemValue="870.2183" SpecMax="32768" SpecMin="-32767" />
+      </TopoTestData>
+    </ModelName>
+    <ModelName ModelName="TestRxPowerDmi">
+      <TopoTestData>
+        <TopoTestData Result="1" ItemName="DMIRXPWRMAXERRPOINT(DBM)" ItemValue="-5" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXPWRERR(DBM)" ItemValue="3.4406" SpecMax="32768" SpecMin="-32767" />
+        <TopoTestData Result="1" ItemName="DMIRXNOPTICAL(DBM)" ItemValue="-40" SpecMax="-39" SpecMin="-41" />
+      </TopoTestData>
+    </ModelName>
+  </TopologRecord>
+</TopoRunRecordTable>

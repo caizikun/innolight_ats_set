@@ -1,0 +1,275 @@
+﻿body
+{
+    width:1366px;
+    margin:0px; 
+    padding:0;
+}
+.show 
+{ 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+} 
+#Form1
+{   
+    width:100%;
+    margin:0px,auto;    
+}
+/*inno logo 链接*/
+#Logo
+{
+     float:left;
+     width:100px;
+}
+/*功能板块链接区*/
+#ModulesNameList
+{
+     float:right;
+     width:90%; 
+     height:50px; 
+}
+/*页面导航*/
+#Navi
+{
+    float:left;
+    width:100%;
+    height:50px; 
+}
+/*用户登录信息*/
+#UserInfor
+{
+    float:left; 
+    width:10%; 
+    height:300px; 
+    background:skyblue;
+    
+}
+/*主显示区*/
+#Main
+{
+     overflow: scroll;
+     float:right;
+     width:90%;
+     height:600px; 
+     background:#ffffff;
+}
+/*操作控件区*/
+#Options
+{
+     float:left;
+      width:10%; 
+      height:300px; 
+      background:deepskyblue;
+}
+/*页脚*/
+#Root
+{ 
+     width:100%; 
+     height:25px; 
+     background:lightblue; 
+     clear:both;
+     text-align:center;
+     color:Blue;
+     border:1px solid gray; 
+     margin:2px 0px 2px 0px; 
+     padding:2px; 
+}
+/*页眉*/
+.div_head  
+{
+  
+   vertical-align:middle;
+    text-align:left;  
+    background:lightblue; 
+    z-index:3;   
+    height:100px;   
+} 
+/*鼠标位于链接时颜色*/     
+#div_head a:hover
+{
+    color:red;
+}  
+/*功能列表*/  
+.blockTitle
+{
+    margin:10px 5px 2px 5px;
+    text-align :center;    
+    float:left;
+    padding: 10px 2px 2px 2px;
+}
+
+.showTableData
+{
+    position:relative;
+    margin:10px 10px 10px 20px ;
+}
+/*--------------------------Login -------------------------*/
+#body_login
+{background-image: url('../Images/bg3(1190).png'); background-repeat: no-repeat; 
+ background-position: center center;margin:0 atuto; padding:auto;}
+
+#login
+{   
+    width:600px; 
+    height:384px; 
+    margin-top:12%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding:auto;    
+}
+#top_left{width:325px; 
+height:89px; float:left;
+}
+#top_left img {margin-left:0px;
+    width: 323px;
+}
+#top_center{width:248px; height:89px; background:url(../Images/login_05.gif); float:left;}
+
+#center_left{width:325px; 
+height:190px; background:url(../Images/login_09.gif); float:left;
+}
+#center_middle{width:249px; 
+height:190px; float:left; background:url(../Images/login_13.gif) repeat-y;
+}
+#center_right{width:36px; height:190px; float:right; background:url(../Images/login_11.gif);}
+
+#down_left{width:572px; 
+height:89px; float:left; margin-top:15px;
+}
+#down_center{width:183px; 
+height:89px; background:url(../Images/login_16.gif); float:left;
+}
+#inf{width:572px; 
+height:38px; background:url(../Images/login_18.gif) no-repeat;
+    margin-right: 0px;
+}
+.inf_text{display:block; width:100px; height:20px; font-size:16px; font-weight:bolder; color:#fff; margin-left:17px; margin-top:12px; float:left;}
+.copyright{display:block; float:left; margin-left:17px; margin-top:15px;}
+
+#user{ margin-left:40px; margin-top:45px; height:25px;
+    width: 205px;
+}
+#password{margin-left:40px; margin-top:25px; height:25px;}
+#txtUserName{border:solid 1px #aca7a7; font-size:11pt;
+} 
+#txtPwd{border:solid 1px #aca7a7; font-size:11pt;
+}
+#btnLogin{margin-left:88px; margin-top:10px;margin-right:28px; text-align:center;
+}
+#btn a{display:block; line-height:25px; background: url(../Images/bt_bg.gif); border: solid 1px #b6b6b6; width:65px; float:left; margin-left:15px; text-decoration:none; color:#000;}
+
+/*--------------------------Login -------------------------*/
+.tdCenter
+{
+    text-align:center;
+    vertical-align:middle;
+}
+.tdLeft
+{
+    text-align:left;
+    vertical-align:middle;
+}
+/*gridview*/
+.Grid
+{
+    border-collapse: collapse;
+    border: solid 1px #93c2f1;
+    
+}
+
+.GridAction
+{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+.Grid td
+{
+    border-collapse: collapse;
+    border: solid 1px #93c2f1;
+    
+}
+.Grid th
+{
+    border-collapse: collapse;
+    border: solid 1px #93c2f1;
+    
+    background-color: #0099CC;
+}
+#tdVCenter
+{ 
+  display: table-cell;
+  height:50px; 
+  vertical-align: middle;
+  clear:both;  
+  text-align:left;
+  
+}
+
+
+.hideText{  
+    width:136px;  
+    overflow:hidden;  
+    white-space:nowrap;  
+   text-overflow:ellipsis;  
+   -o-text-overflow:ellipsis;  
+   -icab-text-overflow: ellipsis;  
+   -khtml-text-overflow: ellipsis;  
+   -moz-text-overflow: ellipsis;  
+   -webkit-text-overflow: ellipsis;  
+}  
+.NaviLeftMargin
+{
+    margin-left:145px;
+}
+.tHStyleLeft
+{
+    text-align:left;
+    vertical-align:middle;
+    border:solid #000 1px;
+    background:#87CEFA; 
+    
+}
+
+.tHStyleCenter
+{
+    text-align:center;
+    vertical-align:middle;
+    border:solid #000 1px;
+    background:#87CEFA; 
+    
+}
+
+.tdStyleBorderBK
+{
+   
+   
+    background:#87CEFA; 
+    
+}
+.tdStyleBorder
+{
+   
+    border:solid #000 1px;
+    
+}
+
+.hide
+{
+            display:none;   
+      
+ }
+ .hideUserName
+ {  
+    width:50px;  
+    overflow:hidden;  
+    white-space:nowrap;  
+   text-overflow:ellipsis;  
+   -o-text-overflow:ellipsis;  
+   -icab-text-overflow: ellipsis;  
+   -khtml-text-overflow: ellipsis;  
+   -moz-text-overflow: ellipsis;  
+   -webkit-text-overflow: ellipsis;  
+}  

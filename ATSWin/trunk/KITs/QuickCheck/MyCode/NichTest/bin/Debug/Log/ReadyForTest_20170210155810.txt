@@ -1,0 +1,6 @@
+[15:58:10] Try to get chip control address from server.
+[15:58:10] Try to get chip default value from server.
+[15:58:10] Try to get EEPROM default value from server.
+[15:58:10] Try to get module map from server.
+[15:58:10] Enable full function of module.
+[15:58:13] Read module' serial number is INGBT4310009

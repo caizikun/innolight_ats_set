@@ -1,0 +1,257 @@
+[2016/12/22 15:09:56][Debug][FlowControll..ctor]:The EXE Start......
+[2016/12/22 15:10:12][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2016/12/22 15:10:14][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:10:14][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2016/12/22 15:10:14][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2016/12/22 15:10:14][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2016/12/22 15:10:15][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:10:16][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:10:16][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:10:16][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:10:16][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:10:17][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:10:17][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:10:17][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:10:17][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:10:18][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:10:19][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:10:19][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:10:19][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:10:20][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2016/12/22 15:10:21][Debug][FormATS.ConfigEquipment]:AQ2211ATTEN  ConfigOK
+[2016/12/22 15:10:21][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2016/12/22 15:10:21][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1
+[2016/12/22 15:10:21][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/12/22 15:10:23][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2016/12/22 15:10:24][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2016/12/22 15:10:24][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2016/12/22 15:10:24][Debug][FormATS.ConfigEquipment]:AQ2211OPTICALSWITCH  ConfigOK
+[2016/12/22 15:10:24][Fatal][AQ2211PowerMeter.Initialize]:there is no POWERMETERSLOT
+[2016/12/22 15:10:29][Debug][FormATS.ConfigEquipment]:AQ2211POWERMETER  Config Error
+[2016/12/22 15:13:28][Debug][FlowControll..ctor]:The EXE Start......
+[2016/12/22 15:13:35][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2016/12/22 15:13:36][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:13:36][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2016/12/22 15:13:36][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2016/12/22 15:13:36][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2016/12/22 15:13:37][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:13:38][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:13:38][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:13:38][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:13:38][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:13:39][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:13:39][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:13:39][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:13:39][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:13:40][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:13:41][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:13:41][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:13:41][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:13:42][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2016/12/22 15:13:43][Debug][FormATS.ConfigEquipment]:AQ2211ATTEN  ConfigOK
+[2016/12/22 15:13:43][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2016/12/22 15:13:43][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1
+[2016/12/22 15:13:43][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/12/22 15:13:45][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2016/12/22 15:13:46][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2016/12/22 15:13:46][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2016/12/22 15:13:46][Debug][FormATS.ConfigEquipment]:AQ2211OPTICALSWITCH  ConfigOK
+[2016/12/22 15:13:46][Infor][FLEX86100.SetMode]:Mode isEYE
+[2016/12/22 15:13:46][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is25780000000rapidEyeSwitch isON
+[2016/12/22 15:13:46][Infor][FLEX86100.TriggerSetup]:TRIGger SOURce is FRUN
+[2016/12/22 15:13:46][Infor][FLEX86100.PTBSetup]:PTB RMEThod ISFASTRFRequency IS6445000000STATe is on
+[2016/12/22 15:13:46][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is2
+[2016/12/22 15:13:46][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2016/12/22 15:13:46][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2016/12/22 15:13:46][Infor][FLEX86100.SetERCorrectFactor]:ACFactor STATe IS off
+[2016/12/22 15:13:46][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2016/12/22 15:13:46][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2016/12/22 15:13:46][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\PROGRAM FILES (X86)\KEYSIGHT\FLEXDCA\DEMO\MASKS\ETHERNET\025.78125_100GBASE_LR4_TX_OPTICAL_D31.MSKX
+[2016/12/22 15:13:46][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is25780000000rapidEyeSwitch isON
+[2016/12/22 15:13:49][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2016/12/22 15:13:49][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2016/12/22 15:13:49][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2016/12/22 15:13:49][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2016/12/22 15:13:49][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2016/12/22 15:13:49][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HRATioHRATio is 5.000000E-005
+[2016/12/22 15:13:49][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2016/12/22 15:13:49][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2016/12/22 15:13:49][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2016/12/22 15:13:54][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2016/12/22 15:13:54][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2016/12/22 15:13:55][Infor][MP1800PPG.ConfigureSlot]:MP1800ppg slot is1
+[2016/12/22 15:13:56][Infor][MP1800PPG.ConfigureClockSource]:MP1800ppg ClockSource isINTernal1
+[2016/12/22 15:14:30][Infor][MP1800PPG.ConfigureAuxOutputClkDiv]:AuxOutputClkDiv is4
+[2016/12/22 15:14:34][Infor][MP1800PPG.ConfigureDataRate]:MP1800ppg dataRate is25.78120
+[2016/12/22 15:14:34][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is1
+[2016/12/22 15:14:35][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:14:36][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:14:37][Infor][MP1800PPG.ConfigureDataSwitch]:DataSwitch isON
+[2016/12/22 15:14:38][Infor][MP1800PPG.ConfigureDataTracking]:DataTracking isON
+[2016/12/22 15:15:26][Infor][MP1800PPG.ConfigureDataLevelGuardAmpMax]:DataLevelGuardAmpMax is0.001
+[2016/12/22 15:15:53][Infor][MP1800PPG.ConfigureDataLevelGuardOffset]:DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[2016/12/22 15:15:54][Infor][MP1800PPG.ConfigureDataLevelGuardSwitch]:DataLevelGuardSwitch isON
+[2016/12/22 15:15:55][Infor][MP1800PPG.ConfigureDataAcModeSwitch]:DataAcModeSwitch isON
+[2016/12/22 15:15:56][Infor][MP1800PPG.ConfigureDataLevelMode]:DataLevelMode isVAR
+[2016/12/22 15:16:57][Infor][MP1800PPG.ConfigureDataAmplitude]:DataAmplitude is0
+[2016/12/22 15:16:57][Infor][MP1800PPG.ConfigureDataCrossPoint]:DataCrossPoint is50
+[2016/12/22 15:16:58][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is2
+[2016/12/22 15:16:59][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:17:00][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:17:01][Infor][MP1800PPG.ConfigureDataSwitch]:DataSwitch isON
+[2016/12/22 15:17:01][Infor][MP1800PPG.ConfigureDataTracking]:DataTracking isON
+[2016/12/22 15:17:03][Infor][MP1800PPG.ConfigureDataLevelGuardAmpMax]:DataLevelGuardAmpMax is0.001
+[2016/12/22 15:17:04][Infor][MP1800PPG.ConfigureDataLevelGuardOffset]:DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[2016/12/22 15:17:04][Infor][MP1800PPG.ConfigureDataLevelGuardSwitch]:DataLevelGuardSwitch isON
+[2016/12/22 15:17:05][Infor][MP1800PPG.ConfigureDataAcModeSwitch]:DataAcModeSwitch isON
+[2016/12/22 15:17:06][Infor][MP1800PPG.ConfigureDataLevelMode]:DataLevelMode isVAR
+[2016/12/22 15:17:07][Infor][MP1800PPG.ConfigureDataAmplitude]:DataAmplitude is0
+[2016/12/22 15:17:08][Infor][MP1800PPG.ConfigureDataCrossPoint]:DataCrossPoint is50
+[2016/12/22 15:17:08][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is3
+[2016/12/22 15:17:09][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:17:10][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:17:11][Infor][MP1800PPG.ConfigureDataSwitch]:DataSwitch isON
+[2016/12/22 15:17:11][Infor][MP1800PPG.ConfigureDataTracking]:DataTracking isON
+[2016/12/22 15:17:13][Infor][MP1800PPG.ConfigureDataLevelGuardAmpMax]:DataLevelGuardAmpMax is0.001
+[2016/12/22 15:17:14][Infor][MP1800PPG.ConfigureDataLevelGuardOffset]:DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[2016/12/22 15:17:15][Infor][MP1800PPG.ConfigureDataLevelGuardSwitch]:DataLevelGuardSwitch isON
+[2016/12/22 15:17:16][Infor][MP1800PPG.ConfigureDataAcModeSwitch]:DataAcModeSwitch isON
+[2016/12/22 15:17:16][Infor][MP1800PPG.ConfigureDataLevelMode]:DataLevelMode isVAR
+[2016/12/22 15:17:18][Infor][MP1800PPG.ConfigureDataAmplitude]:DataAmplitude is0
+[2016/12/22 15:17:18][Infor][MP1800PPG.ConfigureDataCrossPoint]:DataCrossPoint is50
+[2016/12/22 15:17:19][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is4
+[2016/12/22 15:17:19][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:17:21][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:23:48][Debug][FlowControll..ctor]:The EXE Start......
+[2016/12/22 15:23:54][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2016/12/22 15:23:55][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:23:55][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2016/12/22 15:23:55][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2016/12/22 15:23:55][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2016/12/22 15:23:56][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:23:57][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:23:57][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:23:57][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:23:57][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:23:58][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:23:58][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:23:58][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:23:58][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:23:59][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2016/12/22 15:24:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:24:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2016/12/22 15:24:00][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2016/12/22 15:24:01][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2016/12/22 15:24:02][Debug][FormATS.ConfigEquipment]:AQ2211ATTEN  ConfigOK
+[2016/12/22 15:24:02][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2016/12/22 15:24:02][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1
+[2016/12/22 15:24:02][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/12/22 15:24:04][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2016/12/22 15:24:05][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2016/12/22 15:24:05][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2016/12/22 15:24:05][Debug][FormATS.ConfigEquipment]:AQ2211OPTICALSWITCH  ConfigOK
+[2016/12/22 15:24:06][Infor][FLEX86100.SetMode]:Mode isEYE
+[2016/12/22 15:24:06][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is25780000000rapidEyeSwitch isON
+[2016/12/22 15:24:06][Infor][FLEX86100.TriggerSetup]:TRIGger SOURce is FRUN
+[2016/12/22 15:24:06][Infor][FLEX86100.PTBSetup]:PTB RMEThod ISFASTRFRequency IS6445000000STATe is on
+[2016/12/22 15:24:06][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is2
+[2016/12/22 15:24:06][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2016/12/22 15:24:06][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2016/12/22 15:24:06][Infor][FLEX86100.SetERCorrectFactor]:ACFactor STATe IS off
+[2016/12/22 15:24:06][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2016/12/22 15:24:06][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2016/12/22 15:24:06][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\PROGRAM FILES (X86)\KEYSIGHT\FLEXDCA\DEMO\MASKS\ETHERNET\025.78125_100GBASE_LR4_TX_OPTICAL_D31.MSKX
+[2016/12/22 15:24:06][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is25780000000rapidEyeSwitch isON
+[2016/12/22 15:24:08][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2016/12/22 15:24:08][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2016/12/22 15:24:08][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2016/12/22 15:24:08][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2016/12/22 15:24:08][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2016/12/22 15:24:08][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HRATioHRATio is 5.000000E-005
+[2016/12/22 15:24:08][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2016/12/22 15:24:08][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2016/12/22 15:24:08][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2016/12/22 15:24:14][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2016/12/22 15:24:14][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2016/12/22 15:24:15][Infor][MP1800PPG.ConfigureSlot]:MP1800ppg slot is1
+[2016/12/22 15:24:16][Infor][MP1800PPG.ConfigureClockSource]:MP1800ppg ClockSource isINTernal1
+[2016/12/22 15:24:17][Infor][MP1800PPG.ConfigureAuxOutputClkDiv]:AuxOutputClkDiv is4
+[2016/12/22 15:24:17][Infor][MP1800PPG.ConfigureDataRate]:MP1800ppg dataRate is25.78120
+[2016/12/22 15:24:18][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is1
+[2016/12/22 15:24:19][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:24:20][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:24:21][Infor][MP1800PPG.ConfigureDataSwitch]:DataSwitch isON
+[2016/12/22 15:24:21][Infor][MP1800PPG.ConfigureDataTracking]:DataTracking isON
+[2016/12/22 15:24:23][Infor][MP1800PPG.ConfigureDataLevelGuardAmpMax]:DataLevelGuardAmpMax is0.001
+[2016/12/22 15:24:24][Infor][MP1800PPG.ConfigureDataLevelGuardOffset]:DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[2016/12/22 15:24:25][Infor][MP1800PPG.ConfigureDataLevelGuardSwitch]:DataLevelGuardSwitch isON
+[2016/12/22 15:24:25][Infor][MP1800PPG.ConfigureDataAcModeSwitch]:DataAcModeSwitch isON
+[2016/12/22 15:24:26][Infor][MP1800PPG.ConfigureDataLevelMode]:DataLevelMode isVAR
+[2016/12/22 15:24:27][Infor][MP1800PPG.ConfigureDataAmplitude]:DataAmplitude is0
+[2016/12/22 15:24:28][Infor][MP1800PPG.ConfigureDataCrossPoint]:DataCrossPoint is50
+[2016/12/22 15:24:28][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is2
+[2016/12/22 15:24:29][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:24:30][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:24:31][Infor][MP1800PPG.ConfigureDataSwitch]:DataSwitch isON
+[2016/12/22 15:24:31][Infor][MP1800PPG.ConfigureDataTracking]:DataTracking isON
+[2016/12/22 15:24:33][Infor][MP1800PPG.ConfigureDataLevelGuardAmpMax]:DataLevelGuardAmpMax is0.001
+[2016/12/22 15:24:34][Infor][MP1800PPG.ConfigureDataLevelGuardOffset]:DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[2016/12/22 15:24:35][Infor][MP1800PPG.ConfigureDataLevelGuardSwitch]:DataLevelGuardSwitch isON
+[2016/12/22 15:24:36][Infor][MP1800PPG.ConfigureDataAcModeSwitch]:DataAcModeSwitch isON
+[2016/12/22 15:24:36][Infor][MP1800PPG.ConfigureDataLevelMode]:DataLevelMode isVAR
+[2016/12/22 15:24:38][Infor][MP1800PPG.ConfigureDataAmplitude]:DataAmplitude is0
+[2016/12/22 15:24:38][Infor][MP1800PPG.ConfigureDataCrossPoint]:DataCrossPoint is50
+[2016/12/22 15:24:39][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is3
+[2016/12/22 15:24:39][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:24:41][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:24:41][Infor][MP1800PPG.ConfigureDataSwitch]:DataSwitch isON
+[2016/12/22 15:24:42][Infor][MP1800PPG.ConfigureDataTracking]:DataTracking isON
+[2016/12/22 15:24:43][Infor][MP1800PPG.ConfigureDataLevelGuardAmpMax]:DataLevelGuardAmpMax is0.001
+[2016/12/22 15:24:45][Infor][MP1800PPG.ConfigureDataLevelGuardOffset]:DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[2016/12/22 15:24:45][Infor][MP1800PPG.ConfigureDataLevelGuardSwitch]:DataLevelGuardSwitch isON
+[2016/12/22 15:24:46][Infor][MP1800PPG.ConfigureDataAcModeSwitch]:DataAcModeSwitch isON
+[2016/12/22 15:24:47][Infor][MP1800PPG.ConfigureDataLevelMode]:DataLevelMode isVAR
+[2016/12/22 15:24:48][Infor][MP1800PPG.ConfigureDataAmplitude]:DataAmplitude is0
+[2016/12/22 15:24:49][Infor][MP1800PPG.ConfigureDataCrossPoint]:DataCrossPoint is50
+[2016/12/22 15:24:49][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is4
+[2016/12/22 15:24:50][Infor][MP1800PPG.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:24:51][Infor][MP1800PPG.ConfigurePrbsLength]:PrbsLength is31
+[2016/12/22 15:24:52][Infor][MP1800PPG.ConfigureDataSwitch]:DataSwitch isON
+[2016/12/22 15:24:52][Infor][MP1800PPG.ConfigureDataTracking]:DataTracking isON
+[2016/12/22 15:24:54][Infor][MP1800PPG.ConfigureDataLevelGuardAmpMax]:DataLevelGuardAmpMax is0.001
+[2016/12/22 15:24:55][Infor][MP1800PPG.ConfigureDataLevelGuardOffset]:DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[2016/12/22 15:24:56][Infor][MP1800PPG.ConfigureDataLevelGuardSwitch]:DataLevelGuardSwitch isON
+[2016/12/22 15:24:57][Infor][MP1800PPG.ConfigureDataAcModeSwitch]:DataAcModeSwitch isON
+[2016/12/22 15:24:57][Infor][MP1800PPG.ConfigureDataLevelMode]:DataLevelMode isVAR
+[2016/12/22 15:24:59][Infor][MP1800PPG.ConfigureDataAmplitude]:DataAmplitude is0
+[2016/12/22 15:24:59][Infor][MP1800PPG.ConfigureDataCrossPoint]:DataCrossPoint is50
+[2016/12/22 15:25:00][Infor][MP1800PPG.ConfigureChannel]:MP1800ppg channel is1
+[2016/12/22 15:25:00][Infor][MP1800PPG.ConfigureClockSwitch]:ClockSwitch isON
+[2016/12/22 15:25:00][Infor][MP1800PPG.ConfigureOutputSwitch]:OutputSwitch isON
+[2016/12/22 15:25:00][Debug][FormATS.ConfigEquipment]:MP1800PPG  ConfigOK
+[2016/12/22 15:25:01][Infor][MP1800ED.ConfigureSlot]:MP1800 ED slot is3
+[2016/12/22 15:25:01][Infor][MP1800ED.ConfigureChannel]:MP1800 ED channel is1
+[2016/12/22 15:25:02][Infor][MP1800ED.ConfigureDataInputInterface]:DataInputInterface isDIF100ohm
+[2016/12/22 15:25:03][Infor][MP1800ED.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:25:03][Infor][MP1800ED.ConfigurePrbsLength]:prbsLength is31
+[2016/12/22 15:25:04][Infor][MP1800ED.ConfigureErrorResultZoomSwitch]:ErrorResultZoomSwitch isON
+[2016/12/22 15:25:25][Error][IOPort.ReadString]:VI_ERROR_TMO: A timeout occurred
+[2016/12/22 15:25:32][Infor][MP1800ED.ConfigureChannel]:MP1800 ED channel is2
+[2016/12/22 15:25:33][Infor][MP1800ED.ConfigureDataInputInterface]:DataInputInterface isDIF100ohm
+[2016/12/22 15:25:33][Infor][MP1800ED.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:25:34][Infor][MP1800ED.ConfigurePrbsLength]:prbsLength is31
+[2016/12/22 15:25:35][Infor][MP1800ED.ConfigureErrorResultZoomSwitch]:ErrorResultZoomSwitch isON
+[2016/12/22 15:25:46][Error][IOPort.ReadString]:VI_ERROR_TMO: A timeout occurred
+[2016/12/22 15:25:46][Infor][MP1800ED.ConfigureChannel]:MP1800 ED channel is3
+[2016/12/22 15:25:47][Infor][MP1800ED.ConfigureDataInputInterface]:DataInputInterface isDIF100ohm
+[2016/12/22 15:25:48][Infor][MP1800ED.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:25:48][Infor][MP1800ED.ConfigurePrbsLength]:prbsLength is31
+[2016/12/22 15:25:49][Infor][MP1800ED.ConfigureErrorResultZoomSwitch]:ErrorResultZoomSwitch isON
+[2016/12/22 15:25:55][Error][IOPort.ReadString]:VI_ERROR_TMO: A timeout occurred
+[2016/12/22 15:25:55][Infor][MP1800ED.ConfigureChannel]:MP1800 ED channel is4
+[2016/12/22 15:25:56][Infor][MP1800ED.ConfigureDataInputInterface]:DataInputInterface isDIF100ohm
+[2016/12/22 15:25:56][Infor][MP1800ED.ConfigurePatternType]:PatternType isPRBS
+[2016/12/22 15:25:57][Infor][MP1800ED.ConfigurePrbsLength]:prbsLength is31
+[2016/12/22 15:25:58][Infor][MP1800ED.ConfigureErrorResultZoomSwitch]:ErrorResultZoomSwitch isON
+[2016/12/22 15:26:03][Error][IOPort.ReadString]:VI_ERROR_TMO: A timeout occurred
+[2016/12/22 15:26:09][Debug][FormATS.ConfigEquipment]:MP1800ED  ConfigOK

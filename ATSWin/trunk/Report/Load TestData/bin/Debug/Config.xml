@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Node Server="Server">
+    <ServerName>INPCSZ0518\ATS_HOME</ServerName>
+    <ATSDBName>ATSHOME</ATSDBName>
+    <EDVTDBName>EDVTHOME</EDVTDBName>
+    <ATSUser>03cc04e804d804f506b605e306a5</ATSUser>
+    <EDVTUser>040803f8050504e604f406b505e206a4</EDVTUser>
+    <ATSPWD>05ac06c806b802070620066a0669067702e302c402d202fe</ATSPWD>
+    <EDVTPWD>05e805d806e506c60206061f06690668067602e202c302d102fd</EDVTPWD>
+  </Node>
+</Config>

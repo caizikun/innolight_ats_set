@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AFDBF17-2954-412B-9BBD-36BF42848EC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework</RootNamespace>
+    <AssemblyName>Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\CommonLibrary\Algorithm\MatrixMath.cs">
+      <Link>MatrixMath.cs</Link>
+    </Compile>
+    <Compile Include="Equipment\Attennuator.cs" />
+    <Compile Include="Equipment\DUT.cs" />
+    <Compile Include="Equipment\EEPROM.cs" />
+    <Compile Include="Equipment\ElecSwitch.cs" />
+    <Compile Include="Equipment\EquipmentBase.cs" />
+    <Compile Include="Equipment\ErrorDetector.cs" />
+    <Compile Include="Equipment\IOPort.cs" />
+    <Compile Include="Equipment\OpticalSwitch.cs" />
+    <Compile Include="Equipment\PowerMeter.cs" />
+    <Compile Include="Equipment\Powersupply.cs" />
+    <Compile Include="Equipment\PPG.cs" />
+    <Compile Include="Equipment\Scope.cs" />
+    <Compile Include="Equipment\Thermocontroller.cs" />
+    <Compile Include="Equipment\Spectrograph.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestModel\AdjustEYECurveError.cs" />
+    <Compile Include="TestModel\AdjustTempDmiByDie.cs" />
+    <Compile Include="TestModel\SetBiasAdcOffset.cs" />
+    <Compile Include="TestModel\AdjustAPD.cs" />
+    <Compile Include="TestModel\AdjustEYE.cs" />
+    <Compile Include="TestModel\AdjustJitter.cs" />
+    <Compile Include="TestModel\AdjustLos.cs" />
+    <Compile Include="TestModel\AdjustLosMata37044.cs" />
+    <Compile Include="TestModel\AdjustMask.cs" />
+    <Compile Include="TestModel\AdjustTxADC.cs" />
+    <Compile Include="TestModel\AdjustTxPowerDmi.cs" />
+    <Compile Include="TestModel\AdjustWavelength.cs" />
+    <Compile Include="TestModel\AlarmWarning.cs" />
+    <Compile Include="TestModel\AdjustRxDmi.cs" />
+    <Compile Include="TestModel\AdjustTempDmi.cs" />
+    <Compile Include="TestModel\AdjustVccDmi.cs" />
+    <Compile Include="TestModel\AdjustEye-EML.cs" />
+    <Compile Include="TestModel\AdjustCrossing.cs" />
+    <Compile Include="TestModel\SetTxDmiAsSourceLight.cs" />
+    <Compile Include="TestModel\TestDP.cs" />
+    <Compile Include="TestModel\Spectrum.cs" />
+    <Compile Include="TestModel\TestBase.cs" />
+    <Compile Include="TestModel\TestBer.cs" />
+    <Compile Include="TestModel\TestIBiasDmi.cs" />
+    <Compile Include="TestModel\TestIcc.cs" />
+    <Compile Include="TestModel\TestiTec.cs" />
+    <Compile Include="TestModel\TestModeInputParametersStruct.cs" />
+    <Compile Include="TestModel\TestRxDmiPowErrorCurve.cs" />
+    <Compile Include="TestModel\TestRxEye.cs" />
+    <Compile Include="TestModel\TestRxEyeVcmiVec.cs" />
+    <Compile Include="TestModel\TestRXLosAD.cs" />
+    <Compile Include="TestModel\TestRxOverload.cs" />
+    <Compile Include="TestModel\TestRxPowerDmi.cs" />
+    <Compile Include="TestModel\TestRxResponsivity.cs" />
+    <Compile Include="TestModel\TestTempDmi.cs" />
+    <Compile Include="TestModel\TestTransfer.cs" />
+    <Compile Include="TestModel\TestTxEye.cs" />
+    <Compile Include="TestModel\TestTxEyeRinOMA.cs" />
+    <Compile Include="TestModel\TestTxPowerDmi.cs" />
+    <Compile Include="TestModel\TestTxReturnLostTolerance.cs" />
+    <Compile Include="TestModel\TestVccDmi.cs" />
+    <Compile Include="..\..\CommonLibrary\Algorithm\Algorithm.cs" />
+    <Compile Include="..\..\CommonLibrary\CommonStruct\CommonStruct.cs" />
+    <Compile Include="..\..\CommonLibrary\Log\LogManager.cs" />
+    <Compile Include="..\..\CommonLibrary\ErrorMessage\ErrorMessage.cs" />
+    <Compile Include="..\..\CommonLibrary\EQTestModeManager\TestModelManage.cs" />
+    <Compile Include="..\..\CommonLibrary\EQTestModeManager\EQManage.cs" />
+    <Compile Include="TestModel\TestWavelength.cs" />
+    <Compile Include="TestModel\TestTxEyeTDEC.cs" />
+    <Compile Include="TestModel\TestPolarity.cs" />
+    <Compile Include="TestModel\TestRxEyeVecEW.cs" />
+    <Compile Include="TestModel\TestTxDmiPowCurve.cs" />
+    <Compile Include="TestModel\TestBerIntensify.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VisaComLib">
+      <Guid>{DB8CBF00-D6D3-11D4-AA51-00A024EE30BD}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

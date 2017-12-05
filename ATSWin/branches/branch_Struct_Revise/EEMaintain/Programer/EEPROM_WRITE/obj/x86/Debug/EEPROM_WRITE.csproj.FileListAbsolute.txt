@@ -1,0 +1,5 @@
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\EEMaintain\Programer\EEPROM_WRITE\obj\x86\Debug\EEPROM_WRITE.csproj.ResolveComReference.cache
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\EEMaintain\Programer\EEPROM_WRITE\obj\x86\Debug\Authority.Login.resources
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\EEMaintain\Programer\EEPROM_WRITE\obj\x86\Debug\Maintain.MainForm.resources
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\EEMaintain\Programer\EEPROM_WRITE\obj\x86\Debug\Maintain.Properties.Resources.resources
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\EEMaintain\Programer\EEPROM_WRITE\obj\x86\Debug\EEPROM_WRITE.csproj.GenerateResource.Cache

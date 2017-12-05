@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TopoRunRecordTable SN="INHAG4390015" StartTime="2017/2/13 17:46:58" EndTime="2017/2/13 17:46:58" FWRev="8E13" IP="192.168.45.1" LightSource="AP(dbm)=0.04,0.4,2.1,0.03;ER=7.6,7.6,8.0,7.5" Remark="正常" PID="1063">
+  <TopologRecord Temp="25" Voltage="3.3" Channel="1" CtrlType="1" StartTime="2017/2/13 17:47:23">
+    <ModelName ModelName="AdjustAPD" />
+  </TopologRecord>
+</TopoRunRecordTable>

@@ -1,0 +1,198 @@
+16:32 2014/6/20
+1. 将生成空的Accdb功能集合到此程序
+12:48 2014/6/25
+ 1. 生成新的Accdb 可以导入Server已经存在的并指定的TestPlan资料
+16:55 2014/6/27
+1. 修改生成本机Accdb是对TopoLogRecord 进行单独处理[获取datatable的部分无法转换为Memo]
+2. 新增用户-角色-功能 管理界面...(修改方式待修改为 0x01...方式)
+17:30 2014/6/30
+1. 增加Type和PN信息维护的功能~[本地修改OK]
+17:35 2014/7/9
+1. 检查 Login开始
+try{}
+catch{}
+2. 生成改为2007的accdb
+3. 修正权限判定的部分
+4. 修正Equip的parameter的Type字段未启用部分
+10:37 2014/7/10
+1. 导出所有机种和指定机种的某些TestPlan功能OK
+2. 新增background 连接账号
+3. 新增部分datagridview的列头翻译为中文
+10:42 2014/07/14
+1. 验证存储过程的相关代码![位于 Login Form,但是未启用(为注释)]
+2. //140714_1 Access区分2007以上版本 和2003以下版本
+14:20 2014/07/18
+1. 修正GlobalModelParameter的 PID-->CurrModelID 
+2. 新增XML配置文件!
+14:57 2014/07/22
+1. 修改DATAIO的公共部分!
+2. 新增子类//完全的公共部分开始!++++++++++++++++++++++++++++++++++++++
+    public class ServerDatabaseIO:DataIO	//SQL子类 2个公共的方法!
+	{}
+    public class LocalDatabaseIO : DataIO //本地数据库子类 2个公共的方法!
+	{}
+15:29 2014/07/25
+添加服务器引用 DATAIO公共部分
+
+15:30 2014/09/11
+1. 修改Login Form的void getLoginStutes()   //140911_0 方法[获取当前指定database的用户数量]
+2. Login Form的新增数据源选择按钮,当点击后先获取XML配置文件,然后才能进行登入...
+3. BuildXml() 建立默认的XML时修改DBName子项资料;变更属性 :ATSDBName 和 EDVTHome
+4. MAINFORM中 refreshAllItem() //140911_2 修正删除后返回刷新报错的问题
+5. MAINFORM中 btnAppDelete_Click(object sender, EventArgs e) //140911_2 修复未显示刷新的问题!
+6. MAINFORM中 新增btnEquipDelete_Click(object sender, EventArgs e)
+7. SQLDataIO.cs中修正更新顺序问题:
+   if (dtDeleted11 != null) da11.Update(dtDeleted11);  //140911_2 调整顺序[删子后删主]
+   if (dtDeleted10 != null) da10.Update(dtDeleted10);  //140911_2 调整顺序[删子后删主]  
+17:27 2014/09/16
+1. 修正不能编辑ModelInfo资料的BUG  currPrmtrID = Convert.ToInt64( this.dgvPrmtr.CurrentRow.Cells["ID"].Value); //140916_0 修正不能编辑的BUG  
+2. 刷新时清除原有资料:
+	void refreshModelInfo(bool state ) 中 新增  clearCboItems();    //140916_1
+14:31 2014/09/17
+1.  //140917_0 新增误点新增时按删除按钮则取消新增状态!并直接返回 并将dgvEquipPrmtr.DataSource = null; //140917_0
+2.  //140917_0 修正显示问题()当误点新增时参数部分还有资料显示 ==[EquipmentForm],新增时参数界面将被锁定
+3.  修正部分BUG	//140917_1
+4.  根据不同的数据源,连接数据库的账号和密码不同! 各自的用户密码也是分开的!
+10:59 2014/09/18
+	1. 对XML文件新增用户和密码的加密和解密部分!若未发现XML文件,在默认建立新的文件(已经写入用户和密码)
+	
+        /// <summary>
+        /// 进行加密和解密操作!!!
+        /// </summary>
+        /// <param name="str">待加密或解密的字符串!</param>
+        /// <param name="decode">解密? true =解密|false=加密</param>
+        /// <param name="Codelength">1位密码的位元长度</param>
+        /// <returns>返回结果 string</returns>
+        protected  string SetPWDCode(string str, bool decode, int Codelength) 
+	2. 修改为相对路径:
+	<Compile Include="..\..\CommonLibrary\\XML\XmlIo.cs" />
+    	<Compile Include="..\..\CommonLibrary\DataBaseAccess\DataIO.cs" />
+2014/09/19
+1. 新增支持本地数据库功能,修正部分ID在新增资料的再次确认时表名错误问题!
+2. 将 FunctionInfo.form ,RoleInfo.Form,UserInfo.Form,UserRoleFunctionInfo.Form
+的DataIO mySqlIO; //140919修改到根据选择本地 or SQL 来实例化对象 = new SqlManager(Login.ServerName, Login.DBName, Login.DBUser, Login.DBPassword);   //140917_2    //140911_0
+17:18 2014/09/22
+1. 修正部分页面(TypeForm,MSAInfo,MCoefGroup)在编辑后保存时提示"已经存在资料"的问题! 增加判断是否是新增内容!
+2. 使用本地数据库时不将 用户,角色,权限 ,用户-角色-权限 菜单 隐藏
+3. chkSQLlib.Checked = true;   //140922_0 默认选择SQL 数据库,且为隐藏! 当按下 "?"键是可选本地数据库
+4. 删除原先获取数据的账户和密码 ,并在选择指定测试计划时将计数器暂停,新增部分时间触发置0
+5. 修正MSAInfo原先的部分地方输入资料为16进制,保存后为10进制的问题
+6. 因本地accdb获取SQL的部分需要解码,新增解码用户和密码!
+10:02 2014/09/23
+1. currMSAID = MainForm.getDTColumnInfo(MainForm.GlobalDS.Tables["GlobalMSA"], "ID", "ItemName='" + cboMSAName.Text+"'");  //140923_0 Line 231 TypeForm.cs
+2. 修正BUG:可以单独选择新增机种而不选择类别
+3. 修正BUG:删除机种类型界面还存在资料
+4. 修正BUG:初始化资料 需要新增大字节序 的信息 (显示)
+9:24 2014/10/09
+1. 注释掉与EEPROM相关的初始化资料维护代码.
+10:53 2014/10/16
+1. 修正当系列不存在PN时无法新增PN 的部分
+2. 因EEPROM初始化表结构更改...在执行导出数据时报错...进行修正
+else if (mydt.Columns[j].DataType.ToString().ToUpper().Contains("STRING"))
+{
+    //141010_0 防止长度超过255 统一改为Memo
+}
+
+14:56 2014/10/22
+新增存放修改记录到本机程序目录下:
+9:33 2014/10/29
+1. PN的子表信息部分对datagridview重新填充大小
+2. 修正MCoefsID 信息
+16:55 2014/10/30
+取消新增资料后关闭界面的删除资料步骤,改为将新增标识置为false<避免误删资料>
+16:51 2014/10/31
+1. 登入程序时不再检查登入用户数目:getLoginStutes()
+2. 增加提交数据失败的ErrorLog记录
+11:01 2014/11/04
+DefaultLowLimit -->SpecMin
+DefaultUpperLimit-->SpecMax
+11:05 2014/11/06
+1. 转换为英文界面
+2. 移除部分不用的功能
+3. 初始化资料表增加 维护'Endianness'
+
+14:47 2014/11/11
+1. MASDefine.cs 和 MCoefGroup.cs 移除资料变更为按 ID删除(选择dgv.Row[ID])
+16:02 2014/11/12
+1. 修改操作日志的部分存放于服务器 每个功能块一条记录!
+2. 增加部分cbo的下拉列表值
+8:54 2014/11/13
+1. 修正换行符号输入错误.
+14:24 2014/11/19
+1. 更新时增加判断是否有资料改变!
+2. 操作日志更新功能判定是否有修改,为空则不再生成记录!
+3. 将formload部分内容变更.
+15:25 2014/11/25
+1. 登入界面增加回车自动登入,增加判定密码错误次数!
+2. 增加判定文本长度...
+3. 变更部分ComboBox为单独下拉
+4. 增加TestModel的参数描述栏位
+10:22 2014/11/26
+1. 操作日志修正部分名称ItemName为实际的功能块名称
+
+15:14 2014/11/28
+1. 重新设计用户-角色-功能 操作界面
+13:22 2014/12/03
+1. 将Login界面变为统一公共部分[需要同步修改Config.XML资料],命名空间统一改为 :Maintain
+2. 调整部分变量的访问修饰符为 private
+12:28 2014/12/05
+新增跨数据源复制MSA+Parameters,MCoefGroup+Parameters,PN+ChipSet+ChipInit,Model+Parameters Equipment++Parameters的功能![数据源支持Accdb+SQLServer]
+15:38 2014/12/05
+1. 将用户-角色管理 合并到用户管理,角色-功能管理 合并到角色管理
+2. 移除原先的 "用户-角色-功能" 界面
+16:52 2014/12/08
+1. 对测试模型参数的部分小数位数改为显示4位 [科学计数法的跳过]
+2. 新增机种类型不再需要在主界面上输入TypeName
+15:41 2014/12/18
+升级版本号为1.0.2.0
+15:20 2015/01/15
+1. 验证权限部分修改...
+22:29 2015/01/16
+1. 修改引用: 新增引用 Microsoft.Office.Interop.Access;
+   撤销对ADOX的引用
+2. 在使用本地数据库时将默认先选则Accdb路径...
+3. SQLDataIO.cs [SqlManager,AccessManager]新增方法 public override string[] GetCurrTablesName(string Accesspath)
+16:24 2015/02/02
+1. 升级版本为1.0.2.2
+2. 对Config.XML的key资料进行处理,防止 为 null 的部分导致报错!
+16:18 2015/02/03
+1. ForATSDevug新表的结构资料修改: GlobalMSAEEPROMInitialize 改名为TopoMSAEEPROMSet
+2. SQLDataIO.cs防止空表时获取自增量ID报错问题!
+3. 显示PN的子表信息和MSA子表信息时增加排序.
+10:55 2015/02/09
+版本升级为 1.0.2.3
+1. 增加对部分datagridview进行默认排序的部分和键盘光标的事件响应!
+2. 清除显示参数的部分调整...
+3. 新增参数资料好保存焦点会落在dgv对应的新资料.
+17:09 2015/02/27
+1. 部分查询条件指定 ID= myLoginID ;存操作Log时 PID=myLoginID 
+2. 更新资料时UpdateTable方法增加判定当前dt是否有资料被修改!
+11:22 2015/03/05
+升级版本为:1.0.3.0
+1. 当鼠标移至某些控件上方时提示信息.
+17:20 2015/03/10
+升级版本为:1.0.3.1
+1. 支持重新命名当前项目资料,修改后及时刷新(改为以ID查找修改记录)且项目禁用,若需要再次修改,需要选择该项目才能启用.
+2. 跳至子页面时部分资料不需要再次选择,且页面 部分控件不再处于启用状态.
+3. 现在编辑资料时若已经存在相符条件的记录时也进行提示!
+4. 保存本地Log记录当前的程序数据源路径
+5. 代码重排对齐
+9:46 2015/04/14
+升级版本为:1.0.3.2
+1. MSA,PNTYPE,PN,MCoefGroup新增IgnoreFlag,无法被真正删除[但是若为当前的新增资料则可以删除]
+2. PN界面的"ItemName"改为"Description",长度限制改为200;
+3. 复制新的PN资料的时候对系数组别处理~[查询条件新增判定是否被忽略]
+
+16:37 2015/04/30
+升级版本为:1.0.3.3
+1. 依据新的数据库结构新增界面SpecInfo 和PNSpecParams;删除ModelInfo多余的字段资料
+2. 对部分验证数据进行修正~
+3. Main.cs新增获取Specs修改日志和进入SpecInfo 的功能块
+4. 数据库接口的UpdateDT方法更新
+15:00 2015/05/07
+1. 将FunctionTable同步结构于ATSWweb, 可以修改BlockLevel = 0 的部分信息!
+2. 修改操作日志的存储方式, 以适用于Web
+13:50 2015/05/08
+PN表增加Ibias/Imod的计算公式,同步界面显示~
+17:26 2015/05/22
+1. 修正在新增MCoefGroup时保存TypeID的问题

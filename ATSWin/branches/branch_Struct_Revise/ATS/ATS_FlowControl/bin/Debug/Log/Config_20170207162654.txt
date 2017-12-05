@@ -1,0 +1,141 @@
+[16:26:54] Config Equipment-------------------
+[16:26:56] MP1800ED  Configing.....
+[16:26:56] FLEX86100  Configing.....
+[16:26:56] AQ2211ATTEN  Configing.....
+[16:26:57] AQ2211OPTICALSWITCH  Configing.....
+[16:26:57] AttSlot is2:Channel1Wavelength is1310nm
+[16:26:57] Light Source Power Too Smal
+[16:26:58] MP1800 ED slot is3
+[16:26:58] TPO4300  Configing.....
+[16:26:58] Mode isEYE
+[16:26:58] AttSlot is2ATT VALUE IS0
+[16:26:59] MP1800 ED channel is1
+[16:26:59] AttSlot is2ATT VALUE IS0
+[16:27:00] AttSlot is2state ISON
+[16:27:00] DataInputInterface isDIF100ohm
+[16:27:01] AirFlowSet is16
+[16:27:02] PatternType isPRBS
+[16:27:02] AttSlot is2:Channel1Wavelength is1310nm
+[16:27:03] TempsUpperlimit is90
+[16:27:03] prbsLength is31
+[16:27:04] AttSlot is2ATT VALUE IS0.00
+[16:27:04] Tempslowerlimit is-20
+[16:27:04] AttSlot is2ATT VALUE IS0.00
+[16:27:04] ErrorResultZoomSwitch isON
+[16:27:05] FLEX86100 bitRate is25781250000rapidEyeSwitch isON
+[16:27:06] Sensor is1
+[16:27:06] AttSlot is2state ISON
+[16:27:06] MP1800 ED channel is2
+[16:27:07] TRIGger SOURce is FRUN
+[16:27:07] DataInputInterface isDIF100ohm
+[16:27:08] DUTControlModeOnOFF is1
+[16:27:08] TPO4300  ConfigOK
+[16:27:09] AttSlot is2:Channel1Wavelength is1310nm
+[16:27:09] PatternType isPRBS
+[16:27:10] AttSlot is2ATT VALUE IS0.00
+[16:27:10] prbsLength is31
+[16:27:10] AttSlot is2ATT VALUE IS0.00
+[16:27:11] PTB RMEThod ISFASTRFRequency IS6445000000STATe is on
+[16:27:11] ErrorResultZoomSwitch isON
+[16:27:11] AttSlot is2state ISON
+[16:27:12] Wavelength_index is2
+[16:27:12] MP1800 ED channel is3
+[16:27:13] DataInputInterface isDIF100ohm
+[16:27:13] AttSlot is2:Channel1Wavelength is1310nm
+[16:27:15] PatternType isPRBS
+[16:27:15] AttSlot is2ATT VALUE IS0.00
+[16:27:15] AttSlot is2ATT VALUE IS0.00
+[16:27:15] FLEX86100 channel is1AfilterSwith isON
+[16:27:16] prbsLength is31
+[16:27:16] AttSlot is2state ISON
+[16:27:17] ErrorResultZoomSwitch isON
+[16:27:17] FLEX86100 channel is1Aattenuation is0
+[16:27:18] MP1800 ED channel is4
+[16:27:18] AttSlot is2state ISOFF
+[16:27:18] ACFactor STATe IS off
+[16:27:19] DataInputInterface isDIF100ohm
+[16:27:19] AQ2211ATTEN  ConfigOK
+[16:27:20]  ChannelDisplaySwitch is on
+[16:27:20] PatternType isPRBS
+[16:27:20] OpticalSwitch change channel to1
+[16:27:20] AQ2211OPTICALSWITCH  ConfigOK
+[16:27:21] prbsLength is31
+[16:27:22] ErrorResultZoomSwitch isON
+[16:27:23] MP1800ED  ConfigOK
+[16:27:23] FLEX86100 channel is1Ascale is0offset is0
+[16:27:24] FLEX86100 Channel is1AMaskName isC:\SCOPE\MASKS\025.78125 - 100GBASE-ER4_TX_OPTICAL_D31.MSKX
+[16:27:24] FLEX86100 bitRate is25781250000rapidEyeSwitch isON
+[16:27:25]  THReshold reference isOZER
+[16:27:25]  THReshold METHod isP205080
+[16:27:26] MaskONOFF is off
+[16:27:26] marginOnOff is ON
+[16:27:26] E3631  Configing.....
+[16:27:26] MP1800PPG  Configing.....
+[16:27:27] E3631 channel isAPPL P6Vvoltage is3.5current is2.3
+[16:27:27] E3631 channel isAPPL P25Vvoltage is3.5current is2.3
+[16:27:28] MP1800ppg slot is1
+[16:27:28] E3631 Switch isON
+[16:27:30] MP1800ppg ClockSource isINTernal1
+[16:27:30] E3631 Switch isOFF
+[16:27:30] MARGin  METHod is AUTO
+[16:27:30] MARGin  AUTo METHod is HRATioHRATio is 5.000000E-005
+[16:27:31] E3631  ConfigOK
+[16:27:31] limitCondition isWAVlimitNumber is1000
+[16:27:32] AuxOutputClkDiv is4
+[16:27:32] AcquisitionLimitTestSwitch is off
+[16:27:32] AcquisitionControl isRUN
+[16:27:33] MP1800ppg dataRate is25.78125
+[16:27:34] MP1800ppg channel is1
+[16:27:35] PatternType isPRBS
+[16:27:37] PrbsLength is31
+[16:27:38] DataSwitch isON
+[16:27:39] DataTracking isON
+[16:27:42] DataLevelGuardAmpMax is0.001
+[16:27:44] DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[16:27:45] DataLevelGuardSwitch isON
+[16:27:47] DataAcModeSwitch isON
+[16:27:48] DataLevelMode isVAR
+[16:27:48]  EyeTuningDisplay IS ON
+[16:27:49] FLEX86100  ConfigOK
+[16:27:51] DataAmplitude is0
+[16:27:52] DataCrossPoint is50
+[16:27:52] MP1800ppg channel is2
+[16:27:53] PatternType isPRBS
+[16:27:55] PrbsLength is31
+[16:27:56] DataSwitch isON
+[16:27:57] DataTracking isON
+[16:28:00] DataLevelGuardAmpMax is0.001
+[16:28:02] DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[16:28:03] DataLevelGuardSwitch isON
+[16:28:05] DataAcModeSwitch isON
+[16:28:06] DataLevelMode isVAR
+[16:28:08] DataAmplitude is0
+[16:28:09] DataCrossPoint is50
+[16:28:10] MP1800ppg channel is3
+[16:28:11] PatternType isPRBS
+[16:28:13] PrbsLength is31
+[16:28:14] DataSwitch isON
+[16:28:15] DataTracking isON
+[16:28:17] DataLevelGuardAmpMax is0.001
+[16:28:20] DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[16:28:20] DataLevelGuardSwitch isON
+[16:28:22] DataAcModeSwitch isON
+[16:28:23] DataLevelMode isVAR
+[16:28:26] DataAmplitude is0
+[16:28:27] DataCrossPoint is50
+[16:28:27] MP1800ppg channel is4
+[16:28:28] PatternType isPRBS
+[16:28:30] PrbsLength is31
+[16:28:31] DataSwitch isON
+[16:28:32] DataTracking isON
+[16:28:35] DataLevelGuardAmpMax is0.001
+[16:28:37] DataLevelGuardoffsetMax is0DataLevelGuardoffsetMin is0
+[16:28:38] DataLevelGuardSwitch isON
+[16:28:40] DataAcModeSwitch isON
+[16:28:41] DataLevelMode isVAR
+[16:28:43] DataAmplitude is0
+[16:28:44] DataCrossPoint is50
+[16:28:45] MP1800ppg channel is1
+[16:28:46] ClockSwitch isON
+[16:28:47] OutputSwitch isON
+[16:28:47] MP1800PPG  ConfigOK

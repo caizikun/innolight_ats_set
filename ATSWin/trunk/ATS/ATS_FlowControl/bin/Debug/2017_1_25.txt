@@ -1,0 +1,578 @@
+[2017/1/25 11:12:25][Debug][FlowControll..ctor]:The EXE Start......
+[2017/1/25 11:12:35][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2017/1/25 11:12:38][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2017/1/25 11:12:38][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1.0
+[2017/1/25 11:12:38][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:12:40][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:12:40][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2017/1/25 11:12:41][Infor][FLEX86100.SetMode]:Mode isEYE
+[2017/1/25 11:12:41][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is1250000000rapidEyeSwitch isON
+[2017/1/25 11:12:41][Infor][FLEX86100.SetTimeBase]:PTIMebase RMEThod ISFASTRFRequency IS6.445000E+009STATe is on
+[2017/1/25 11:12:41][Infor][FLEX86100.TriggerSetup]:TriggerBwlimit isCLOCK
+[2017/1/25 11:12:41][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is3
+[2017/1/25 11:12:41][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2017/1/25 11:12:41][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2017/1/25 11:12:41][Infor][FLEX86100.SetERCorrectFactor]:FLEX86100 channel is1AerFactorPercent is0
+[2017/1/25 11:12:41][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2017/1/25 11:12:41][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2017/1/25 11:12:41][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\SCOPE\MASKS\001.2500 - 01XGBETHERNET.MSKX
+[2017/1/25 11:12:41][Infor][FLEX86100.DIFFWaveformSwitch]:differential waveform Switch is off
+[2017/1/25 11:12:41][Infor][FLEX86100.BandwidthSet]:bandwidth is1
+[2017/1/25 11:12:41][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is2AMaskName is""
+[2017/1/25 11:12:41][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is1250000000rapidEyeSwitch isON
+[2017/1/25 11:12:41][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2017/1/25 11:12:41][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2017/1/25 11:12:41][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2017/1/25 11:12:41][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2017/1/25 11:12:41][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2017/1/25 11:12:41][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HITSHITs is 0
+[2017/1/25 11:12:41][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2017/1/25 11:12:41][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2017/1/25 11:12:41][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:12:47][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2017/1/25 11:12:47][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2017/1/25 11:12:53][Debug][FormATS.ReadyForTest]:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[2017/1/25 11:12:53][Infor][FormATS.ReadyForTest]:chK_Fw Funtion=Unchecked
+[2017/1/25 11:12:53][Infor][FormATS.ReadyForTest]:chk_AbNormal_Lab Funtion=Unchecked
+[2017/1/25 11:12:53][Infor][FormATS.ReadyForTest]:chK_Aotu_Evb_Voltage Funtion=Unchecked
+[2017/1/25 11:12:53][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:12:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeSerialNO Run Time 3.3979335
+[2017/1/25 11:12:58][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudegEvb Run Time 1.1188853
+[2017/1/25 11:12:58][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeFwVer Run Time 0.1060919
+[2017/1/25 11:12:58][Infor][FormATS.button_Test_Click]:***********************  SN=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ************************
+[2017/1/25 11:12:58][Infor][FormATS.button_Test_Click]:***********************  SN=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ************************
+[2017/1/25 11:12:58][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:13:01][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 3.2697511
+[2017/1/25 11:13:01][Infor][TimeSpanUse.DateDiff]:TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.1771399
+[2017/1/25 11:13:02][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:13:03][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:13:06][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl  Driver  Initialize Run Time 4.5186673
+[2017/1/25 11:13:06][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.2401888
+[2017/1/25 11:13:23][Infor][FLEX86100.ChangeChannel]:FLEX86100 Offset is10
+[2017/1/25 11:13:23][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is10
+[2017/1/25 11:13:23][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is2Aattenuation is10
+[2017/1/25 11:13:23][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=-3.3
+[2017/1/25 11:13:23][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=70CurrentVoltage=3.3
+[2017/1/25 11:13:23][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/1/25 11:13:24][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.35current is1.5
+[2017/1/25 11:13:27][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 21.3793637
+[2017/1/25 11:13:27][Debug][FlowControll.StartTest]:Temp=70**VCC=3.3**Channel=1
+[2017/1/25 11:13:27][Debug][FlowControll.StartTest]:AdjustTxPowerDmiTestModelID=35477
+[2017/1/25 11:13:28][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 AdjustTxPowerDmiRun Time 0.2061688
+[2017/1/25 11:13:29][Warn][FlowControll.WriteInputLog]:Temp=70**VCC=3.3**Channel=1**AdjustTxPowerDmi
+InputLog--------------------
+BiasSetPoints=400,600,1000
+FixedIModDACArray=1360,1360,1360
+IsTracingErr=true
+IsNewAlgorithm=false
+HighestCalTemp=70
+LowestCalTemp=0
+SleepTime=50
+
+[2017/1/25 11:13:29][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.9367672
+[2017/1/25 11:13:29][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:13:31][Infor][AdjustTxPowerDmi.AddCurrentTemprature]:Step4...TempChanged Read tempratureADC
+[2017/1/25 11:13:31][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:realtemprature=70
+[2017/1/25 11:13:31][Debug][SFP28DUT.ReadTempADC]:there is TEMPERATUREADC1015
+[2017/1/25 11:13:31][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:tempratureADC=1015
+[2017/1/25 11:13:31][Infor][AdjustTxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/1/25 11:13:31][Debug][AdjustTxPowerDmi.AnalysisInputParameters]:OK!
+[2017/1/25 11:13:31][Infor][FLEX86100.SetMode]:Mode isEYE
+[2017/1/25 11:13:31][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2017/1/25 11:13:31][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2017/1/25 11:13:31][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:13:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:13:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2017/1/25 11:13:36][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:13:41][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2017/1/25 11:13:41][Infor][TestModelBase.CloseandOpenAPC]: Close apc
+[2017/1/25 11:13:41][Infor][TestModelBase.CloseandOpenAPC]:Close apcTrue
+[2017/1/25 11:13:43][Infor][SFPDUT.Write_Store_DriverRegist]:Writer ModDAC= 1360
+[2017/1/25 11:13:43][Infor][AdjustTxPowerDmi.ReadTxPowerFromDCA]:Step3...Start Adjust TxPower Dmi
+[2017/1/25 11:13:43][Infor][FLEX86100.DisplayThreeEyes]:display eye num is3
+[2017/1/25 11:13:45][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 400
+[2017/1/25 11:13:46][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2208
+[2017/1/25 11:13:46][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is165.23
+[2017/1/25 11:13:46][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is165.23
+[2017/1/25 11:13:46][Infor][FLEX86100.SetScaleOffset]:scale is55.0766666666667offset is82.615
+[2017/1/25 11:13:46][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is5.50766666666667E-05offset is8.2615E-05
+[2017/1/25 11:13:47][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is166.64
+[2017/1/25 11:13:47][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is166.64
+[2017/1/25 11:13:47][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:13:47][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2208 txPoweruw:166.64
+[2017/1/25 11:13:49][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 600
+[2017/1/25 11:13:49][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2087
+[2017/1/25 11:13:49][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is358.33
+[2017/1/25 11:13:49][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is358.33
+[2017/1/25 11:13:49][Infor][FLEX86100.SetScaleOffset]:scale is119.443333333333offset is179.165
+[2017/1/25 11:13:49][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0.000119443333333333offset is0.000179165
+[2017/1/25 11:13:50][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is361.35
+[2017/1/25 11:13:50][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is361.35
+[2017/1/25 11:13:50][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:13:50][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2087 txPoweruw:361.35
+[2017/1/25 11:13:52][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 1000
+[2017/1/25 11:13:52][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC1834
+[2017/1/25 11:13:52][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is784.83
+[2017/1/25 11:13:52][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is784.83
+[2017/1/25 11:13:52][Infor][FLEX86100.SetScaleOffset]:scale is261.61offset is392.415
+[2017/1/25 11:13:52][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0.00026161offset is0.000392415
+[2017/1/25 11:13:54][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is792.36
+[2017/1/25 11:13:54][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is792.36
+[2017/1/25 11:13:54][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:13:54][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:1834 txPoweruw:792.36
+[2017/1/25 11:13:54][Infor][AdjustTxPowerDmi.CollectCurvingParameters]:Step6...add current channel records
+[2017/1/25 11:13:54][Debug][AdjustTxPowerDmi.CollectCurvingParameters]:GlobalParameters.CurrentChannel=1
+[2017/1/25 11:13:54][Debug][AdjustTxPowerDmi.IsMonotonically]:IsMonotonic OK!
+[2017/1/25 11:13:54][Debug][FlowControll.RunTestModel]:CurrentTestModel OutputPrameter is null 
+[2017/1/25 11:13:55][Debug][FlowControll.RunTestModel]:Temp=70**VCC=3.3**Channel=1**AdjustTxPowerDmiTesting End.....
+[2017/1/25 11:13:55][Infor][TimeSpanUse.DateDiff]:TimeSpan:AdjustTxPowerDmi RunTime Run Time 26.4223535
+[2017/1/25 11:13:55][Infor][TimeSpanUse.DateDiff]:TimeSpan:当前数据填充到TotalTestData Run Time 0.0690237
+[2017/1/25 11:13:55][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.2441871
+[2017/1/25 11:13:55][Infor][FLEX86100.ChangeChannel]:FLEX86100 Offset is10
+[2017/1/25 11:13:55][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is10
+[2017/1/25 11:13:55][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is2Aattenuation is10
+[2017/1/25 11:13:55][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=3.3
+[2017/1/25 11:13:55][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=0CurrentVoltage=3.3
+[2017/1/25 11:13:55][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/1/25 11:13:56][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.35current is1.5
+[2017/1/25 11:13:56][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 0.6806518
+[2017/1/25 11:13:56][Debug][FlowControll.StartTest]:Temp=0**VCC=3.3**Channel=1
+[2017/1/25 11:13:56][Debug][FlowControll.StartTest]:AdjustAPDTestModelID=35468
+[2017/1/25 11:13:56][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 AdjustAPDRun Time 0.2072355
+[2017/1/25 11:13:57][Error][AdjustAPD.SelectEquipment]:ERRORDETE =NULL
+[2017/1/25 11:13:57][Error][AdjustAPD.SelectEquipment]:ATTEN =NULL
+[2017/1/25 11:14:03][Error][FlowControll.RunTestModel]:ADJUSTAPD缺少必须设备,请检查设备.......
+[2017/1/25 11:14:03][Infor][TimeSpanUse.DateDiff]:TimeSpan:AdjustAPD RunTime Run Time 6.890461
+[2017/1/25 11:14:03][Debug][FlowControll.StartTest]:Temp=0**VCC=3.3**Channel=1
+[2017/1/25 11:14:03][Debug][FlowControll.StartTest]:AdjustTempDmiByDieTestModelID=35469
+[2017/1/25 11:14:03][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 AdjustTempDmiByDieRun Time 0.2042025
+[2017/1/25 11:14:04][Warn][FlowControll.WriteInputLog]:Temp=0**VCC=3.3**Channel=1**AdjustTempDmiByDie
+InputLog--------------------
+DmiCoefB=256
+DmiCoefC=0
+
+[2017/1/25 11:14:04][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.383304
+[2017/1/25 11:14:04][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:14:40][Debug][FlowControll..ctor]:The EXE Start......
+[2017/1/25 11:14:46][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2017/1/25 11:14:47][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2017/1/25 11:14:47][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1.0
+[2017/1/25 11:14:47][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:14:49][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:14:50][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2017/1/25 11:14:50][Infor][FLEX86100.SetMode]:Mode isEYE
+[2017/1/25 11:14:50][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is1250000000rapidEyeSwitch isON
+[2017/1/25 11:14:50][Infor][FLEX86100.SetTimeBase]:PTIMebase RMEThod ISFASTRFRequency IS6.445000E+009STATe is on
+[2017/1/25 11:14:50][Infor][FLEX86100.TriggerSetup]:TriggerBwlimit isCLOCK
+[2017/1/25 11:14:50][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is3
+[2017/1/25 11:14:50][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2017/1/25 11:14:50][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2017/1/25 11:14:50][Infor][FLEX86100.SetERCorrectFactor]:FLEX86100 channel is1AerFactorPercent is0
+[2017/1/25 11:14:50][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2017/1/25 11:14:50][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2017/1/25 11:14:50][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\SCOPE\MASKS\001.2500 - 01XGBETHERNET.MSKX
+[2017/1/25 11:14:50][Infor][FLEX86100.DIFFWaveformSwitch]:differential waveform Switch is off
+[2017/1/25 11:14:50][Infor][FLEX86100.BandwidthSet]:bandwidth is1
+[2017/1/25 11:14:50][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is2AMaskName is""
+[2017/1/25 11:14:50][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is1250000000rapidEyeSwitch isON
+[2017/1/25 11:14:50][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2017/1/25 11:14:50][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2017/1/25 11:14:50][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2017/1/25 11:14:50][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2017/1/25 11:14:50][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2017/1/25 11:14:50][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HITSHITs is 0
+[2017/1/25 11:14:50][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2017/1/25 11:14:50][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2017/1/25 11:14:50][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:14:56][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2017/1/25 11:14:56][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2017/1/25 11:14:59][Debug][FormATS.ReadyForTest]:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[2017/1/25 11:14:59][Infor][FormATS.ReadyForTest]:chK_Fw Funtion=Unchecked
+[2017/1/25 11:14:59][Infor][FormATS.ReadyForTest]:chk_AbNormal_Lab Funtion=Unchecked
+[2017/1/25 11:14:59][Infor][FormATS.ReadyForTest]:chK_Aotu_Evb_Voltage Funtion=Unchecked
+[2017/1/25 11:14:59][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:15:04][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeSerialNO Run Time 4.4375218
+[2017/1/25 11:15:05][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudegEvb Run Time 1.1211134
+[2017/1/25 11:15:05][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeFwVer Run Time 0.1070808
+[2017/1/25 11:15:05][Infor][FormATS.button_Test_Click]:***********************  SN=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ************************
+[2017/1/25 11:15:05][Infor][FormATS.button_Test_Click]:***********************  SN=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ************************
+[2017/1/25 11:15:05][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:15:08][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 3.5237876
+[2017/1/25 11:15:09][Infor][TimeSpanUse.DateDiff]:TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.2672307
+[2017/1/25 11:15:09][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:15:10][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:15:13][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl  Driver  Initialize Run Time 4.6124557
+[2017/1/25 11:15:14][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.4023061
+[2017/1/25 11:15:16][Infor][FLEX86100.ChangeChannel]:FLEX86100 Offset is10
+[2017/1/25 11:15:16][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is10
+[2017/1/25 11:15:16][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is2Aattenuation is10
+[2017/1/25 11:15:16][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=-3.3
+[2017/1/25 11:15:16][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=70CurrentVoltage=3.3
+[2017/1/25 11:15:16][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/1/25 11:15:16][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.35current is1.5
+[2017/1/25 11:15:17][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 3.5748266
+[2017/1/25 11:15:17][Debug][FlowControll.StartTest]:Temp=70**VCC=3.3**Channel=1
+[2017/1/25 11:15:17][Debug][FlowControll.StartTest]:AdjustTxPowerDmiTestModelID=35477
+[2017/1/25 11:15:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 AdjustTxPowerDmiRun Time 0.2041499
+[2017/1/25 11:15:18][Warn][FlowControll.WriteInputLog]:Temp=70**VCC=3.3**Channel=1**AdjustTxPowerDmi
+InputLog--------------------
+BiasSetPoints=400,600,1000
+FixedIModDACArray=1360,1360,1360
+IsTracingErr=true
+IsNewAlgorithm=false
+HighestCalTemp=70
+LowestCalTemp=0
+SleepTime=50
+
+[2017/1/25 11:15:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.3562635
+[2017/1/25 11:15:18][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:15:20][Infor][AdjustTxPowerDmi.AddCurrentTemprature]:Step4...TempChanged Read tempratureADC
+[2017/1/25 11:15:20][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:realtemprature=70
+[2017/1/25 11:15:20][Debug][SFP28DUT.ReadTempADC]:there is TEMPERATUREADC993
+[2017/1/25 11:15:20][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:tempratureADC=993
+[2017/1/25 11:15:20][Infor][AdjustTxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/1/25 11:15:20][Debug][AdjustTxPowerDmi.AnalysisInputParameters]:OK!
+[2017/1/25 11:15:20][Infor][FLEX86100.SetMode]:Mode isEYE
+[2017/1/25 11:15:20][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2017/1/25 11:15:20][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2017/1/25 11:15:20][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:15:25][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:15:25][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2017/1/25 11:15:25][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:15:30][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2017/1/25 11:15:30][Infor][TestModelBase.CloseandOpenAPC]: Close apc
+[2017/1/25 11:15:30][Infor][TestModelBase.CloseandOpenAPC]:Close apcTrue
+[2017/1/25 11:15:32][Infor][SFPDUT.Write_Store_DriverRegist]:Writer ModDAC= 1360
+[2017/1/25 11:15:32][Infor][AdjustTxPowerDmi.ReadTxPowerFromDCA]:Step3...Start Adjust TxPower Dmi
+[2017/1/25 11:15:32][Infor][FLEX86100.DisplayThreeEyes]:display eye num is3
+[2017/1/25 11:15:34][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 400
+[2017/1/25 11:15:35][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2207
+[2017/1/25 11:15:35][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is165.8
+[2017/1/25 11:15:35][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is165.8
+[2017/1/25 11:15:35][Infor][FLEX86100.SetScaleOffset]:scale is55.2666666666667offset is82.9
+[2017/1/25 11:15:36][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is5.52666666666667E-05offset is8.29E-05
+[2017/1/25 11:15:37][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is165.42
+[2017/1/25 11:15:37][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is165.42
+[2017/1/25 11:15:37][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:15:37][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2207 txPoweruw:165.42
+[2017/1/25 11:15:38][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 600
+[2017/1/25 11:15:39][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2088
+[2017/1/25 11:15:39][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is358.33
+[2017/1/25 11:15:39][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is358.33
+[2017/1/25 11:15:39][Infor][FLEX86100.SetScaleOffset]:scale is119.443333333333offset is179.165
+[2017/1/25 11:15:39][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0.000119443333333333offset is0.000179165
+[2017/1/25 11:15:40][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is362.19
+[2017/1/25 11:15:40][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is362.19
+[2017/1/25 11:15:40][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:15:40][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2088 txPoweruw:362.19
+[2017/1/25 11:15:42][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 1000
+[2017/1/25 11:17:19][Debug][FlowControll..ctor]:The EXE Start......
+[2017/1/25 11:17:26][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2017/1/25 11:17:27][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2017/1/25 11:17:27][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1.0
+[2017/1/25 11:17:27][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:17:29][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:17:29][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2017/1/25 11:17:30][Infor][FLEX86100.SetMode]:Mode isEYE
+[2017/1/25 11:17:30][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is1250000000rapidEyeSwitch isON
+[2017/1/25 11:17:30][Infor][FLEX86100.SetTimeBase]:PTIMebase RMEThod ISFASTRFRequency IS6.445000E+009STATe is on
+[2017/1/25 11:17:30][Infor][FLEX86100.TriggerSetup]:TriggerBwlimit isCLOCK
+[2017/1/25 11:17:30][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is3
+[2017/1/25 11:17:30][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2017/1/25 11:17:30][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2017/1/25 11:17:30][Infor][FLEX86100.SetERCorrectFactor]:FLEX86100 channel is1AerFactorPercent is0
+[2017/1/25 11:17:30][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2017/1/25 11:17:30][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2017/1/25 11:17:30][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\SCOPE\MASKS\001.2500 - 01XGBETHERNET.MSKX
+[2017/1/25 11:17:30][Infor][FLEX86100.DIFFWaveformSwitch]:differential waveform Switch is off
+[2017/1/25 11:17:30][Infor][FLEX86100.BandwidthSet]:bandwidth is1
+[2017/1/25 11:17:30][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is2AMaskName is""
+[2017/1/25 11:17:30][Infor][FLEX86100.RapidEyeSetup]:FLEX86100 bitRate is1250000000rapidEyeSwitch isON
+[2017/1/25 11:17:30][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2017/1/25 11:17:30][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2017/1/25 11:17:30][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2017/1/25 11:17:30][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2017/1/25 11:17:30][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2017/1/25 11:17:30][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HITSHITs is 0
+[2017/1/25 11:17:30][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2017/1/25 11:17:30][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2017/1/25 11:17:30][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:17:36][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2017/1/25 11:17:36][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2017/1/25 11:17:40][Debug][FormATS.ReadyForTest]:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[2017/1/25 11:17:40][Infor][FormATS.ReadyForTest]:chK_Fw Funtion=Unchecked
+[2017/1/25 11:17:40][Infor][FormATS.ReadyForTest]:chk_AbNormal_Lab Funtion=Unchecked
+[2017/1/25 11:17:40][Infor][FormATS.ReadyForTest]:chK_Aotu_Evb_Voltage Funtion=Unchecked
+[2017/1/25 11:17:40][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:17:45][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeSerialNO Run Time 4.4273348
+[2017/1/25 11:17:46][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudegEvb Run Time 1.1200523
+[2017/1/25 11:17:46][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeFwVer Run Time 0.10708
+[2017/1/25 11:17:46][Infor][FormATS.button_Test_Click]:***********************  SN=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ************************
+[2017/1/25 11:17:46][Infor][FormATS.button_Test_Click]:***********************  SN=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ************************
+[2017/1/25 11:17:46][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:17:49][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 3.3357056
+[2017/1/25 11:17:49][Infor][TimeSpanUse.DateDiff]:TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.1681195
+[2017/1/25 11:17:50][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:17:51][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:17:54][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl  Driver  Initialize Run Time 4.5245095
+[2017/1/25 11:17:54][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.3652728
+[2017/1/25 11:17:57][Infor][FLEX86100.ChangeChannel]:FLEX86100 Offset is10
+[2017/1/25 11:17:57][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is10
+[2017/1/25 11:17:57][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is2Aattenuation is10
+[2017/1/25 11:17:57][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=-3.3
+[2017/1/25 11:17:57][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=70CurrentVoltage=3.3
+[2017/1/25 11:17:57][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/1/25 11:17:57][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.35current is1.5
+[2017/1/25 11:17:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 3.0405359
+[2017/1/25 11:17:57][Debug][FlowControll.StartTest]:Temp=70**VCC=3.3**Channel=1
+[2017/1/25 11:17:57][Debug][FlowControll.StartTest]:AdjustTxPowerDmiTestModelID=35477
+[2017/1/25 11:17:58][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 AdjustTxPowerDmiRun Time 0.2052011
+[2017/1/25 11:17:58][Warn][FlowControll.WriteInputLog]:Temp=70**VCC=3.3**Channel=1**AdjustTxPowerDmi
+InputLog--------------------
+BiasSetPoints=400,600,1000
+FixedIModDACArray=1360,1360,1360
+IsTracingErr=true
+IsNewAlgorithm=false
+HighestCalTemp=70
+LowestCalTemp=0
+SleepTime=50
+
+[2017/1/25 11:17:58][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.6626398
+[2017/1/25 11:17:58][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:18:00][Infor][AdjustTxPowerDmi.AddCurrentTemprature]:Step4...TempChanged Read tempratureADC
+[2017/1/25 11:18:00][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:realtemprature=70
+[2017/1/25 11:18:00][Debug][SFP28DUT.ReadTempADC]:there is TEMPERATUREADC988
+[2017/1/25 11:18:00][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:tempratureADC=988
+[2017/1/25 11:18:00][Infor][AdjustTxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/1/25 11:18:00][Debug][AdjustTxPowerDmi.AnalysisInputParameters]:OK!
+[2017/1/25 11:18:00][Infor][FLEX86100.SetMode]:Mode isEYE
+[2017/1/25 11:18:00][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2017/1/25 11:18:00][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2017/1/25 11:18:00][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:18:05][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:05][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2017/1/25 11:18:05][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:18:10][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2017/1/25 11:18:10][Infor][TestModelBase.CloseandOpenAPC]: Close apc
+[2017/1/25 11:18:11][Infor][TestModelBase.CloseandOpenAPC]:Close apcTrue
+[2017/1/25 11:18:12][Infor][SFPDUT.Write_Store_DriverRegist]:Writer ModDAC= 1360
+[2017/1/25 11:18:12][Infor][AdjustTxPowerDmi.ReadTxPowerFromDCA]:Step3...Start Adjust TxPower Dmi
+[2017/1/25 11:18:12][Infor][FLEX86100.DisplayThreeEyes]:display eye num is3
+[2017/1/25 11:18:14][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 400
+[2017/1/25 11:18:15][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2208
+[2017/1/25 11:18:15][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is164.29
+[2017/1/25 11:18:15][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is164.29
+[2017/1/25 11:18:15][Infor][FLEX86100.SetScaleOffset]:scale is54.7633333333333offset is82.145
+[2017/1/25 11:18:16][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is5.47633333333333E-05offset is8.2145E-05
+[2017/1/25 11:18:17][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is164.2
+[2017/1/25 11:18:17][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is164.2
+[2017/1/25 11:18:17][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:18:17][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2208 txPoweruw:164.2
+[2017/1/25 11:18:18][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 600
+[2017/1/25 11:18:19][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2088
+[2017/1/25 11:18:19][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is357.67
+[2017/1/25 11:18:19][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is357.67
+[2017/1/25 11:18:19][Infor][FLEX86100.SetScaleOffset]:scale is119.223333333333offset is178.835
+[2017/1/25 11:18:19][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0.000119223333333333offset is0.000178835
+[2017/1/25 11:18:20][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is358.52
+[2017/1/25 11:18:20][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is358.52
+[2017/1/25 11:18:20][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:18:20][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2088 txPoweruw:358.52
+[2017/1/25 11:18:22][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 1000
+[2017/1/25 11:18:22][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC1835
+[2017/1/25 11:18:22][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is781.82
+[2017/1/25 11:18:22][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is781.82
+[2017/1/25 11:18:22][Infor][FLEX86100.SetScaleOffset]:scale is260.606666666667offset is390.91
+[2017/1/25 11:18:22][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0.000260606666666667offset is0.00039091
+[2017/1/25 11:18:23][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is787.84
+[2017/1/25 11:18:23][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is787.84
+[2017/1/25 11:18:23][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:18:23][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:1835 txPoweruw:787.84
+[2017/1/25 11:18:23][Infor][AdjustTxPowerDmi.CollectCurvingParameters]:Step6...add current channel records
+[2017/1/25 11:18:23][Debug][AdjustTxPowerDmi.CollectCurvingParameters]:GlobalParameters.CurrentChannel=1
+[2017/1/25 11:18:23][Debug][AdjustTxPowerDmi.IsMonotonically]:IsMonotonic OK!
+[2017/1/25 11:18:27][Debug][FlowControll.RunTestModel]:CurrentTestModel OutputPrameter is null 
+[2017/1/25 11:18:27][Debug][FlowControll.RunTestModel]:Temp=70**VCC=3.3**Channel=1**AdjustTxPowerDmiTesting End.....
+[2017/1/25 11:18:27][Infor][TimeSpanUse.DateDiff]:TimeSpan:AdjustTxPowerDmi RunTime Run Time 29.1577143
+[2017/1/25 11:18:27][Infor][TimeSpanUse.DateDiff]:TimeSpan:当前数据填充到TotalTestData Run Time 0.0530396
+[2017/1/25 11:18:28][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.2281689
+[2017/1/25 11:18:28][Infor][FLEX86100.ChangeChannel]:FLEX86100 Offset is10
+[2017/1/25 11:18:28][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is10
+[2017/1/25 11:18:28][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is2Aattenuation is10
+[2017/1/25 11:18:28][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=3.3
+[2017/1/25 11:18:28][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=0CurrentVoltage=3.3
+[2017/1/25 11:18:28][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/1/25 11:18:28][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.35current is1.5
+[2017/1/25 11:18:28][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 0.6116017
+[2017/1/25 11:18:28][Debug][FlowControll.StartTest]:Temp=0**VCC=3.3**Channel=1
+[2017/1/25 11:18:28][Debug][FlowControll.StartTest]:AdjustTxPowerDmiTestModelID=35467
+[2017/1/25 11:18:29][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 AdjustTxPowerDmiRun Time 0.2061569
+[2017/1/25 11:18:29][Warn][FlowControll.WriteInputLog]:Temp=0**VCC=3.3**Channel=1**AdjustTxPowerDmi
+InputLog--------------------
+BiasSetPoints=400,600,1000
+FixedIModDACArray=1360,1360,1360
+IsTracingErr=true
+IsNewAlgorithm=false
+HighestCalTemp=70
+LowestCalTemp=0
+SleepTime=50
+
+[2017/1/25 11:18:29][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2151307
+[2017/1/25 11:18:29][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:18:31][Infor][AdjustTxPowerDmi.AddCurrentTemprature]:Step4...TempChanged Read tempratureADC
+[2017/1/25 11:18:31][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:realtemprature=0
+[2017/1/25 11:18:31][Debug][SFP28DUT.ReadTempADC]:there is TEMPERATUREADC1000
+[2017/1/25 11:18:31][Debug][AdjustTxPowerDmi.AddCurrentTemprature]:tempratureADC=1000
+[2017/1/25 11:18:31][Infor][AdjustTxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/1/25 11:18:31][Debug][AdjustTxPowerDmi.AnalysisInputParameters]:OK!
+[2017/1/25 11:18:31][Infor][FLEX86100.SetMode]:Mode isEYE
+[2017/1/25 11:18:31][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2017/1/25 11:18:31][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2017/1/25 11:18:31][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:18:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.EyeChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is off
+[2017/1/25 11:18:36][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2017/1/25 11:18:36][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2017/1/25 11:18:41][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2017/1/25 11:18:41][Infor][TestModelBase.CloseandOpenAPC]: Close apc
+[2017/1/25 11:18:41][Infor][TestModelBase.CloseandOpenAPC]:Close apcTrue
+[2017/1/25 11:18:42][Infor][SFPDUT.Write_Store_DriverRegist]:Writer ModDAC= 1360
+[2017/1/25 11:18:42][Infor][AdjustTxPowerDmi.ReadTxPowerFromDCA]:Step3...Start Adjust TxPower Dmi
+[2017/1/25 11:18:42][Infor][FLEX86100.DisplayThreeEyes]:display eye num is3
+[2017/1/25 11:18:44][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 400
+[2017/1/25 11:18:45][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2207
+[2017/1/25 11:18:45][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is166.55
+[2017/1/25 11:18:45][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is166.55
+[2017/1/25 11:18:45][Infor][FLEX86100.SetScaleOffset]:scale is55.5166666666667offset is83.275
+[2017/1/25 11:18:45][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is5.55166666666667E-05offset is8.3275E-05
+[2017/1/25 11:18:46][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is165.7
+[2017/1/25 11:18:46][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is165.7
+[2017/1/25 11:18:46][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:18:46][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2207 txPoweruw:165.7
+[2017/1/25 11:18:48][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 600
+[2017/1/25 11:18:48][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC2088
+[2017/1/25 11:18:48][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is354.85
+[2017/1/25 11:18:48][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is354.85
+[2017/1/25 11:18:48][Infor][FLEX86100.SetScaleOffset]:scale is118.283333333333offset is177.425
+[2017/1/25 11:18:49][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0.000118283333333333offset is0.000177425
+[2017/1/25 11:18:50][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is359.09
+[2017/1/25 11:18:50][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is359.09
+[2017/1/25 11:18:50][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:18:50][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:2088 txPoweruw:359.09
+[2017/1/25 11:18:51][Infor][SFPDUT.Write_Store_DriverRegist]:Writer BiasDAC= 1000
+[2017/1/25 11:18:52][Debug][SFP28DUT.ReadTxpADC]:there is TXPOWERADC1834
+[2017/1/25 11:18:52][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is780.31
+[2017/1/25 11:18:52][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is780.31
+[2017/1/25 11:18:52][Infor][FLEX86100.SetScaleOffset]:scale is260.103333333333offset is390.155
+[2017/1/25 11:18:52][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0.000260103333333333offset is0.000390155
+[2017/1/25 11:18:53][Infor][FLEX86100.ReadPower]:powerUnit isWATTpower is790.1
+[2017/1/25 11:18:53][Infor][FLEX86100.GetAveragePowerWatt]:AveragePowerWatt is790.1
+[2017/1/25 11:18:53][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:CurrentChannel:1
+[2017/1/25 11:18:53][Debug][AdjustTxPowerDmi.ReadTxPowerFromDCA]:txPowerADC:1834 txPoweruw:790.1
+[2017/1/25 11:18:53][Debug][AdjustTxPowerDmi.IsMonotonically]:IsMonotonic OK!
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:Step7...Start Fitting Curve
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isTempRelative:true
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isTempRelative:true
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txPowerAdc:2208 tePowerUw:164.2
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isTempRelative:true
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txPowerAdc:2088 tePowerUw:358.52
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isTempRelative:true
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txPowerAdc:1835 tePowerUw:787.84
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isTempRelative:true
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txPowerAdc:2207 tePowerUw:165.7
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isTempRelative:true
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txPowerAdc:2088 tePowerUw:359.09
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isTempRelative:true
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txPowerAdc:1834 tePowerUw:790.1
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txDmiSlopeCoefArray[0]=0 0X 0,0X 0,0X 0,0X 0
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txDmiSlopeCoefArray[1]=-0.00148431324141167 0X 4A,0X 8D,0X C2,0X BA
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txDmiSlopeCoefArray[2]=-15.2916777781198 0X B6,0X AA,0X 74,0X C1
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txDmiOffsetCoefArray[0]=0 0X 0,0X 0,0X 0,0X 0
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txDmiOffsetCoefArray[1]=3.30421977080158 0X 56,0X 78,0X 53,0X 40
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:txDmiOffsetCoefArray[2]=35352.0965487663 0X 19,0X 18,0X A,0X 47
+[2017/1/25 11:19:01][Infor][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:Step7...WriteCoef
+[2017/1/25 11:19:01][Debug][SFP28DUT.SetTxSlopcoefc]:SET DMITXPOWERSLOPCOEFC To-15.29168
+[2017/1/25 11:19:01][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:WritetxDmiSlopeCoefC:True
+[2017/1/25 11:19:02][Debug][SFP28DUT.SetTxSlopcoefb]:SET DMITXPOWERSLOPCOEFB To-0.001484313
+[2017/1/25 11:19:02][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:WritetxDmiSlopeCoefB:True
+[2017/1/25 11:19:02][Debug][SFP28DUT.SetTxSlopcoefa]:SET DMITXPOWERSLOPCOEFA To0
+[2017/1/25 11:19:02][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:WritetxDmiSlopeCoefA:True
+[2017/1/25 11:19:03][Debug][SFP28DUT.SetTxOffsetcoefa]:SET DMITXPOWEROFFSETCOEFA To0
+[2017/1/25 11:19:03][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:WritetxDmiOffsetCoefA:True
+[2017/1/25 11:19:03][Debug][SFP28DUT.SetTxOffsetcoefb]:SET DMITXPOWEROFFSETCOEFB To3.30422
+[2017/1/25 11:19:03][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:WritetxDmiOffsetCoefB:True
+[2017/1/25 11:19:04][Debug][SFP28DUT.SetTxOffsetcoefc]:SET DMITXPOWEROFFSETCOEFC To35352.1
+[2017/1/25 11:19:04][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:WritetxDmiOffsetCoefC:True
+[2017/1/25 11:19:16][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:19:18][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:19:30][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:19:31][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:19:34][Debug][AdjustTxPowerDmi.CurveTxPowerDMIandWriteCoefs]:isCalTxDmiOk:False
+[2017/1/25 11:19:34][Debug][FlowControll.RunTestModel]:CurrentTestModel OutputPrameter is null 
+[2017/1/25 11:19:35][Debug][FlowControll.RunTestModel]:Temp=0**VCC=3.3**Channel=1**AdjustTxPowerDmiTesting End.....
+[2017/1/25 11:19:35][Infor][TimeSpanUse.DateDiff]:TimeSpan:AdjustTxPowerDmi RunTime Run Time 66.3998119
+[2017/1/25 11:19:35][Infor][TimeSpanUse.DateDiff]:TimeSpan:当前数据填充到TotalTestData Run Time 0.0710498
+[2017/1/25 11:19:36][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.3202342
+[2017/1/25 11:19:36][Infor][FLEX86100.ChangeChannel]:FLEX86100 Offset is10
+[2017/1/25 11:19:36][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is10
+[2017/1/25 11:19:36][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is2Aattenuation is10
+[2017/1/25 11:19:36][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=3.3
+[2017/1/25 11:19:36][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=0CurrentVoltage=3.3
+[2017/1/25 11:19:36][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/1/25 11:19:36][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.35current is1.5
+[2017/1/25 11:19:36][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/1/25 11:19:36][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:19:40][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 4.2301645
+[2017/1/25 11:19:40][Debug][FlowControll.StartTest]:Temp=0**VCC=3.3**Channel=1
+[2017/1/25 11:19:40][Debug][FlowControll.StartTest]:TestVccDmiTestModelID=35449
+[2017/1/25 11:19:40][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.2491776
+[2017/1/25 11:19:40][Warn][FlowControll.WriteInputLog]:Temp=0**VCC=3.3**Channel=1**TestVccDmi
+InputLog--------------------
+
+[2017/1/25 11:19:40][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2751957
+[2017/1/25 11:19:40][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/1/25 11:19:42][Infor][TestVccDmi.StartTest]:Step3...Start ReadDmiVcc
+[2017/1/25 11:19:42][Debug][TestVccDmi.StartTest]:DmiVcc:3.3365
+[2017/1/25 11:19:42][Debug][TestVccDmi.StartTest]:vccDmiErr:0.0365000000000002
+[2017/1/25 11:19:43][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/1/25 11:19:43][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIVCC(V)=3.3365
+DMIVCCERR(V)=0.0365
+
+[2017/1/25 11:19:43][Debug][FlowControll.RunTestModel]:Temp=0**VCC=3.3**Channel=1**TestVccDmiTesting End.....
+[2017/1/25 11:19:43][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestVccDmi RunTime Run Time 2.9911715
+[2017/1/25 11:19:43][Debug][FlowControll.StartTest]:Temp=0**VCC=3.3**Channel=1
+[2017/1/25 11:19:43][Debug][FlowControll.StartTest]:TestTempDmiTestModelID=35448
+[2017/1/25 11:19:43][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestTempDmiRun Time 0.2101952
+[2017/1/25 11:19:44][Warn][FlowControll.WriteInputLog]:Temp=0**VCC=3.3**Channel=1**TestTempDmi
+InputLog--------------------
+
+[2017/1/25 11:19:44][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2171822
+[2017/1/25 11:19:44][Infor][E3631.OutPutSwitch]:E3631 Switch isON

@@ -1,0 +1,12 @@
+[16:56:44] position is1
+[16:56:44] point is 1
+[16:56:45] Temp is 25
+[16:56:45] position is1
+[16:56:45] $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[16:56:45] chK_Fw Funtion=Unchecked
+[16:56:45] chk_AbNormal_Lab Funtion=Unchecked
+[16:56:45] chK_Aotu_Evb_Voltage Funtion=Unchecked
+[16:56:45] E3631 Switch isON
+[16:56:48] TimeSpan:Prepare Time for Test -JudgeSerialNO Run Time 3.6576234
+[16:56:48] TimeSpan:Prepare Time for Test -JudegEvb Run Time 0.5093551
+[16:56:49] TimeSpan:Prepare Time for Test -JudgeFwVer Run Time 0.1040733

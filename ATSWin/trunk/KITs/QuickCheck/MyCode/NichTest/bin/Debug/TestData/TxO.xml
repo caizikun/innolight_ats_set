@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DocumentElement>
+  <TestData>
+    <ID>1</ID>
+    <Family>QSFP28</Family>
+    <PartNumber>TR_CGR4_G3</PartNumber>
+    <SerialNumber>INGBM4420089</SerialNumber>
+    <Channel>1</Channel>
+    <Current>942.512</Current>
+    <Temp>25</Temp>
+    <Station>TxO</Station>
+    <Time>2016/12/6 15:29:39</Time>
+    <DmiVccErr>9999</DmiVccErr>
+    <DmiTempErr>9999</DmiTempErr>
+    <DmiIBias>9999</DmiIBias>
+    <DmiTxPowerErr>9999</DmiTxPowerErr>
+    <TxDisablePower>0.765</TxDisablePower>
+    <IBias>9999</IBias>
+    <IMod>9999</IMod>
+    <AP>0</AP>
+    <ER>-2.150</ER>
+    <OMA>1</OMA>
+    <MaskMargin>9999</MaskMargin>
+    <XMASKMARGIN2>9999</XMASKMARGIN2>
+    <JitterPP>9999</JitterPP>
+    <JitterRMS>9999</JitterRMS>
+    <Crossing>0.765</Crossing>    
+    <RiseTime>9999</RiseTime>
+    <FallTime>9999</FallTime>
+    <EyeHeight>9999</EyeHeight>
+    <AMP>9999</AMP>
+    <Wavelength>9999</Wavelength>
+    <Result>0</Result>
+  </TestData>
+</DocumentElement>

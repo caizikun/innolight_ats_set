@@ -1,0 +1,200 @@
+	TopologRecord-->Temp:25
+	TopologRecord-->Voltage:3.3
+	TopologRecord-->Channel:1
+	TopologRecord-->CtrlType:2
+	TopologRecord-->StartTime:2017/3/28 16:24:52
+	TopologRecord-->EndTime:2017/3/28 16:25:39
+	TopologRecord-->Result:1
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCC(V)
+		TopoTestData-->ItemValue:3.4348
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCCERR(V)
+		TopoTestData-->ItemValue:0.1348
+		TopoTestData-->SpecMax:0.165
+		TopoTestData-->SpecMin:-0.165
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:IBIASDMI(MA)
+		TopoTestData-->ItemValue:39.024
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:ICC(MA)
+		TopoTestData-->ItemValue:879.9226
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRMAXERRPOINT(DBM)
+		TopoTestData-->ItemValue:-5
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRERR(DBM)
+		TopoTestData-->ItemValue:8.9794
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXNOPTICAL(DBM)
+		TopoTestData-->ItemValue:-40
+		TopoTestData-->SpecMax:-39
+		TopoTestData-->SpecMin:-41
+
+	TopologRecord-->Temp:25
+	TopologRecord-->Voltage:3.3
+	TopologRecord-->Channel:2
+	TopologRecord-->CtrlType:2
+	TopologRecord-->StartTime:2017/3/28 16:25:39
+	TopologRecord-->EndTime:2017/3/28 16:26:07
+	TopologRecord-->Result:1
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCC(V)
+		TopoTestData-->ItemValue:3.4348
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCCERR(V)
+		TopoTestData-->ItemValue:0.1348
+		TopoTestData-->SpecMax:0.165
+		TopoTestData-->SpecMin:-0.165
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:IBIASDMI(MA)
+		TopoTestData-->ItemValue:39.184
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:ICC(MA)
+		TopoTestData-->ItemValue:882.1234
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRMAXERRPOINT(DBM)
+		TopoTestData-->ItemValue:-10
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRERR(DBM)
+		TopoTestData-->ItemValue:7.6195
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXNOPTICAL(DBM)
+		TopoTestData-->ItemValue:-40
+		TopoTestData-->SpecMax:-39
+		TopoTestData-->SpecMin:-41
+
+	TopologRecord-->Temp:25
+	TopologRecord-->Voltage:3.3
+	TopologRecord-->Channel:3
+	TopologRecord-->CtrlType:2
+	TopologRecord-->StartTime:2017/3/28 16:26:08
+	TopologRecord-->EndTime:2017/3/28 16:26:36
+	TopologRecord-->Result:1
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCC(V)
+		TopoTestData-->ItemValue:3.4337
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCCERR(V)
+		TopoTestData-->ItemValue:0.1337
+		TopoTestData-->SpecMax:0.165
+		TopoTestData-->SpecMin:-0.165
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:IBIASDMI(MA)
+		TopoTestData-->ItemValue:39.856
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:ICC(MA)
+		TopoTestData-->ItemValue:883.3298
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRMAXERRPOINT(DBM)
+		TopoTestData-->ItemValue:-5
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRERR(DBM)
+		TopoTestData-->ItemValue:7.1325
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXNOPTICAL(DBM)
+		TopoTestData-->ItemValue:-40
+		TopoTestData-->SpecMax:-39
+		TopoTestData-->SpecMin:-41
+
+	TopologRecord-->Temp:25
+	TopologRecord-->Voltage:3.3
+	TopologRecord-->Channel:4
+	TopologRecord-->CtrlType:2
+	TopologRecord-->StartTime:2017/3/28 16:26:36
+	TopologRecord-->EndTime:2017/3/28 16:27:04
+	TopologRecord-->Result:1
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCC(V)
+		TopoTestData-->ItemValue:3.4337
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIVCCERR(V)
+		TopoTestData-->ItemValue:0.1337
+		TopoTestData-->SpecMax:0.165
+		TopoTestData-->SpecMin:-0.165
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:IBIASDMI(MA)
+		TopoTestData-->ItemValue:40.056
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:ICC(MA)
+		TopoTestData-->ItemValue:884.4867
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRMAXERRPOINT(DBM)
+		TopoTestData-->ItemValue:-15
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXPWRERR(DBM)
+		TopoTestData-->ItemValue:25
+		TopoTestData-->SpecMax:32768
+		TopoTestData-->SpecMin:-32767
+
+		TopoTestData-->Result:1
+		TopoTestData-->ItemName:DMIRXNOPTICAL(DBM)
+		TopoTestData-->ItemValue:-40
+		TopoTestData-->SpecMax:-39
+		TopoTestData-->SpecMin:-41
+

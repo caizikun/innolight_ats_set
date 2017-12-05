@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DocumentElement>
+  <TestData>
+    <ID>1</ID>
+    <Family>QSFP28</Family>
+    <PartNumber>TR_CGR4_G3</PartNumber>
+    <SerialNumber>INGBM4420089</SerialNumber>
+    <Channel>1</Channel>
+    <Current>942.512</Current>
+    <Temp>25</Temp>
+    <Station>RxO</Station>
+    <Time>2016/12/6 15:29:39</Time>
+    <DmiVccErr>9999</DmiVccErr>
+    <DmiTempErr>9999</DmiTempErr>
+    <DmiRxPWRErr>9999</DmiRxPWRErr>
+    <DmiRxNOptical>9999</DmiRxNOptical>
+    <LosA>0.765</LosA>
+    <LosD>9999</LosD>
+    <LosH>9999</LosH>
+    <LOSA_OMA>0</LOSA_OMA>
+    <LOSD_OMA>-2.150</LOSD_OMA>
+    <Sensitivity>1</Sensitivity>
+    <Sensitivity_OMA>1</Sensitivity_OMA>    
+    <Result>0</Result>
+  </TestData>
+</DocumentElement>

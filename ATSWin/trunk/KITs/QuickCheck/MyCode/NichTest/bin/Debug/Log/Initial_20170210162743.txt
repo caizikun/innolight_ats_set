@@ -1,0 +1,24 @@
+[16:27:43] Begin to initial...
+[16:27:43] Saved calibration data to config file.
+[16:27:43] Try to get equipment infomation from server.
+[16:27:44] E3631 channel is APPL P6V voltage is 3.780 current is1.5
+[16:27:44] E3631 channel is APPL P25V voltage is 3.780 current is1
+[16:27:45] Optical switch change channel to 1
+[16:27:45] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:27:45] Light source is too small
+[16:27:45] Attennuator slot is 2 attennuator value is 0
+[16:27:45] Attennuator slot is 2 attennuator value is 0
+[16:27:46] Attennuator slot is 2 state is ON
+[16:27:47] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:27:48] Attennuator slot is 2 attennuator value is 0.00
+[16:27:48] Attennuator slot is 2 attennuator value is 0.00
+[16:27:48] Attennuator slot is 2 state is ON
+[16:27:49] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:27:50] Attennuator slot is 2 attennuator value is 0.00
+[16:27:50] Attennuator slot is 2 attennuator value is 0.00
+[16:27:50] Attennuator slot is 2 state is ON
+[16:27:51] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:27:51] Attennuator slot is 2 attennuator value is 0.00
+[16:27:51] Attennuator slot is 2 attennuator value is 0.00
+[16:27:52] Attennuator slot is 2 state is ON
+[16:27:53] Attennuator slot is 2 state is OFF

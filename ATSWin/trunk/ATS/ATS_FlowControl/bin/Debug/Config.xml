@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Node Item="DataSource">
+    <Level>0</Level>
+    <Type>SqlDatabase</Type>
+    <LocationPath>D:\正在进行的项目\ATS\ATS\ATS\ATS(Win)\trunk\ATS\ATS_FlowControl\bin\Debug\Config.xml</LocationPath>
+    <SqlPath>INPCSZ0518\ATS_HOME</SqlPath>
+    <DbName>ATS_V2</DbName>
+    <User>03cc04e804d804f506b605e306a5</User>
+    <PWD>05ac06c806b802070620066a0669067702e302c402d202fe</PWD>
+  </Node>
+  <Node Item="EquipmentOffset">
+    <Scope>9.8,2.05,1.7,2.15</Scope>
+    <Attennuator>0.04,0.4,2.1,0.03</Attennuator>
+    <LightSourceEr>7.6,7.6,8.0,7.5</LightSourceEr>
+    <LightSourceVecp>0,0,0,0</LightSourceVecp>
+    <Vcc>0.25</Vcc>
+    <Icc>0</Icc>
+  </Node>
+  <Node Item="PrtScPath">
+    <Path>D:\PrtSc</Path>
+  </Node>
+</Config>

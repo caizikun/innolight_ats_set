@@ -1,0 +1,6 @@
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.dll
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\bin\Debug\Framework.pdb
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.csproj.ResolveComReference.cache
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.dll
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.pdb
+F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache

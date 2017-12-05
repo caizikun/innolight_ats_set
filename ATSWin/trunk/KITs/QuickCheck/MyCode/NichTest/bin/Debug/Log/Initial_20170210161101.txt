@@ -1,0 +1,33 @@
+[16:11:01] Begin to initial...
+[16:11:01] Saved calibration data to config file.
+[16:11:01] Try to get equipment infomation from server.
+[16:11:01] Config offset for equipment aq2211atten
+[16:11:01] Get parameter for equipment aq2211atten
+[16:11:01] Initial equipment aq2211atten
+[16:11:01] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:11:01] Light source is too small
+[16:11:02] Attennuator slot is 2 attennuator value is 0
+[16:11:02] Attennuator slot is 2 attennuator value is 0
+[16:11:03] Attennuator slot is 2 state is ON
+[16:11:04] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:11:04] Attennuator slot is 2 attennuator value is 0.00
+[16:11:04] Attennuator slot is 2 attennuator value is 0.00
+[16:11:04] Attennuator slot is 2 state is ON
+[16:11:05] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:11:06] Attennuator slot is 2 attennuator value is 0.00
+[16:11:06] Attennuator slot is 2 attennuator value is 0.00
+[16:11:06] Attennuator slot is 2 state is ON
+[16:11:07] Attennuator slot is 2 Channel 1 Wavelength is 1310nm
+[16:11:08] Attennuator slot is 2 attennuator value is 0.00
+[16:11:08] Attennuator slot is 2 attennuator value is 0.00
+[16:11:08] Attennuator slot is 2 state is ON
+[16:11:09] Attennuator slot is 2 state is OFF
+[16:11:10] Config offset for equipment e3631
+[16:11:10] Get parameter for equipment e3631
+[16:11:10] Initial equipment e3631
+[16:11:10] E3631 channel is APPL P6V voltage is 3.500 current is1.5
+[16:11:10] E3631 channel is APPL P25V voltage is 3.500 current is1
+[16:11:13] Get parameter for equipment aq2211opticalswitch
+[16:11:13] Initial equipment aq2211opticalswitch
+[16:11:13] Optical switch change channel to 1
+[16:11:13] Initial equipment successfully.

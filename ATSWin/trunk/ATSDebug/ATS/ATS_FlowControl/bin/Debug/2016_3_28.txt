@@ -1,0 +1,40 @@
+[2016/3/28 10:25:40][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/28 10:25:40][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2016/3/28 10:25:47][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2016/3/28 10:26:01][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-3tempRxPowerDmiArray[0]:0tempRxPowerErrArray[0]3
+[2016/3/28 10:26:05][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-8tempRxPowerDmiArray[1]:0tempRxPowerErrArray[1]8
+[2016/3/28 10:26:05][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-13tempRxPowerDmiArray[2]:0tempRxPowerErrArray[2]13
+[2016/3/28 10:26:05][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[3]:-18tempRxPowerDmiArray[3]:0tempRxPowerErrArray[3]18
+[2016/3/28 10:26:30][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-18  MaxErr-18
+[2016/3/28 10:31:07][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/28 10:31:07][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2016/3/28 10:31:07][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2016/3/28 10:31:10][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-3tempRxPowerDmiArray[0]:0tempRxPowerErrArray[0]3
+[2016/3/28 10:31:10][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-8tempRxPowerDmiArray[1]:0tempRxPowerErrArray[1]8
+[2016/3/28 10:31:10][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-13tempRxPowerDmiArray[2]:0tempRxPowerErrArray[2]13
+[2016/3/28 10:31:10][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[3]:-18tempRxPowerDmiArray[3]:0tempRxPowerErrArray[3]18
+[2016/3/28 10:31:14][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-18  MaxErr-18
+[2016/3/28 10:32:14][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/28 10:32:14][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2016/3/28 10:32:14][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2016/3/28 10:32:17][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-3tempRxPowerDmiArray[0]:0tempRxPowerErrArray[0]3
+[2016/3/28 10:32:17][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-8tempRxPowerDmiArray[1]:0tempRxPowerErrArray[1]8
+[2016/3/28 10:32:17][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-13tempRxPowerDmiArray[2]:0tempRxPowerErrArray[2]13
+[2016/3/28 10:32:17][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[3]:-18tempRxPowerDmiArray[3]:0tempRxPowerErrArray[3]18
+[2016/3/28 10:32:17][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-18  MaxErr-18
+[2016/3/28 14:41:34][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/28 14:41:34][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2016/3/28 14:41:34][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2016/3/28 14:41:37][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-3tempRxPowerDmiArray[0]:0tempRxPowerErrArray[0]3
+[2016/3/28 14:41:37][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-8tempRxPowerDmiArray[1]:0tempRxPowerErrArray[1]8
+[2016/3/28 14:41:37][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-13tempRxPowerDmiArray[2]:0tempRxPowerErrArray[2]13
+[2016/3/28 14:41:37][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[3]:-18tempRxPowerDmiArray[3]:0tempRxPowerErrArray[3]18
+[2016/3/28 14:41:37][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-18  MaxErr-18
+[2016/3/28 14:50:51][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/28 14:50:51][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2016/3/28 14:50:51][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2016/3/28 14:50:54][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-3tempRxPowerDmiArray[0]:0tempRxPowerErrArray[0]3
+[2016/3/28 14:50:54][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-8tempRxPowerDmiArray[1]:0tempRxPowerErrArray[1]8
+[2016/3/28 14:50:54][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-13tempRxPowerDmiArray[2]:0tempRxPowerErrArray[2]13
+[2016/3/28 14:50:54][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[3]:-18tempRxPowerDmiArray[3]:0tempRxPowerErrArray[3]18
+[2016/3/28 14:50:54][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-18  MaxErr-18

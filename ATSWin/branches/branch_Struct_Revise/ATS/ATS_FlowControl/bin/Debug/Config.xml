@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Node Item="DataSource">
+    <Level>0</Level>
+    <Type>SqlDatabase</Type>
+    <LocationPath>F:\innolight_ats_set\ATS(Win)\branches\branch_Struct_Revise\ATS\ATS_FlowControl\bin\Debug\Config.xml</LocationPath>
+    <SqlPath>INPCSZ0518\ATS_HOME</SqlPath>
+    <DbName>ATS_V2</DbName>
+    <User>03cc04e804d804f506b605e306a5</User>
+    <PWD>05ac06c806b802070620066a0669067702e302c402d202fe</PWD>
+  </Node>
+  <Node Item="EquipmentOffset">
+    <Scope>1.65,1.75,2.07,2.0</Scope>
+    <Attennuator>5.63,5.88,6.14,6.0</Attennuator>
+    <LightSourceEr>3.8,3.8,3.8,3.8</LightSourceEr>
+    <Vcc>0.25</Vcc>
+    <Icc>0</Icc>
+  </Node>
+  <Node Item="PrtScPath">
+    <Path>D:\PrtSc</Path>
+  </Node>
+</Config>

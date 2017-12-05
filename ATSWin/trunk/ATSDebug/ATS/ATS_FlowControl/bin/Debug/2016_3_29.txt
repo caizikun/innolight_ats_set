@@ -1,0 +1,16 @@
+[2016/3/29 11:17:13][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 11:18:00][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 11:18:20][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 11:21:04][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 13:33:27][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 13:33:27][Debug][TestTxEyeRinOMA.AnalysisInputParameters]:OK!
+[2016/3/29 13:33:27][Infor][TestModelBase.CloseandOpenAPC]:no apc
+[2016/3/29 13:40:00][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 13:40:00][Debug][TestTxEyeRinOMA.AnalysisInputParameters]:OK!
+[2016/3/29 13:40:00][Infor][TestModelBase.CloseandOpenAPC]:no apc
+[2016/3/29 13:42:09][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 13:42:09][Debug][TestTxEyeRinOMA.AnalysisInputParameters]:OK!
+[2016/3/29 13:42:09][Infor][TestModelBase.CloseandOpenAPC]:no apc
+[2016/3/29 13:45:38][Infor][TestTxEyeRinOMA.AnalysisInputParameters]:Step1...Check InputParameters
+[2016/3/29 13:45:38][Debug][TestTxEyeRinOMA.AnalysisInputParameters]:OK!
+[2016/3/29 13:45:38][Infor][TestModelBase.CloseandOpenAPC]:no apc

@@ -1,0 +1,251 @@
+[2016/3/24 16:29:23][Debug][FlowControll..ctor]:The EXE Start......
+[2016/3/24 16:29:44][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2016/3/24 16:29:46][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2016/3/24 16:29:46][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1.5
+[2016/3/24 16:29:46][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/3/24 16:29:48][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2016/3/24 16:29:49][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2016/3/24 16:29:50][Infor][TPO4300.AirFlowSetting]:AirFlowSet is14
+[2016/3/24 16:29:50][Infor][TPO4300.AirTempsUpperlimit]:TempsUpperlimit is90
+[2016/3/24 16:29:50][Infor][TPO4300.AirTempslowerlimit]:Tempslowerlimit is-20
+[2016/3/24 16:29:51][Infor][TPO4300.SensorType]:Sensor is1
+[2016/3/24 16:29:51][Infor][TPO4300.DUTControlModeOnOFF]:DUTControlModeOnOFF is1
+[2016/3/24 16:29:51][Debug][FormATS.ConfigEquipment]:TPO4300  ConfigOK
+[2016/3/24 16:29:52][Infor][FLEX86100.SetMode]:Mode isEYE
+[2016/3/24 16:29:52][Infor][FLEX86100.RapidEyeSetup]: RapidEyeSetup STATe IS off
+[2016/3/24 16:29:52][Infor][FLEX86100.TriggerSetup]:TRIGger SOURce is FRUN
+[2016/3/24 16:29:52][Infor][FLEX86100.PTBSetup]:PTB RMEThod ISFASTRFRequency IS3230000000STATe is on
+[2016/3/24 16:29:52][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is1
+[2016/3/24 16:29:52][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2016/3/24 16:29:52][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2016/3/24 16:29:52][Infor][FLEX86100.SetERCorrectFactor]:ACFactor STATe IS off
+[2016/3/24 16:29:52][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2016/3/24 16:29:52][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2016/3/24 16:29:52][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\SCOPE\MASKS\025.78125-100GBE-CSR4_TX.MSKX
+[2016/3/24 16:29:52][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2016/3/24 16:29:52][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2016/3/24 16:29:52][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2016/3/24 16:29:52][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2016/3/24 16:29:52][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2016/3/24 16:29:52][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HITSHITs is 0
+[2016/3/24 16:29:52][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2016/3/24 16:29:52][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2016/3/24 16:29:52][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2016/3/24 16:29:53][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2016/3/24 16:29:53][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2016/3/24 16:29:54][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2016/3/24 16:29:54][Debug][FormATS.ConfigEquipment]:AQ2211OPTICALSWITCH  ConfigOK
+[2016/3/24 16:29:54][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is6:Channel1Wavelength is850nm
+[2016/3/24 16:29:54][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2016/3/24 16:29:54][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS0
+[2016/3/24 16:29:54][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS0
+[2016/3/24 16:29:55][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is6state ISON
+[2016/3/24 16:29:56][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is7:Channel1Wavelength is850nm
+[2016/3/24 16:29:56][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS0.00
+[2016/3/24 16:29:56][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS0.00
+[2016/3/24 16:29:58][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is7state ISON
+[2016/3/24 16:29:59][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is8:Channel1Wavelength is850nm
+[2016/3/24 16:29:59][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS0.00
+[2016/3/24 16:29:59][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS0.00
+[2016/3/24 16:30:00][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is8state ISON
+[2016/3/24 16:30:01][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is9:Channel1Wavelength is850nm
+[2016/3/24 16:30:02][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS0.00
+[2016/3/24 16:30:02][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS0.00
+[2016/3/24 16:30:03][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is9state ISON
+[2016/3/24 16:30:04][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is9state ISOFF
+[2016/3/24 16:30:05][Debug][FormATS.ConfigEquipment]:AQ2211ATTEN  ConfigOK
+[2016/3/24 16:30:21][Debug][FormATS.ConfigEquipment]:INNO25GBERT_V2_PPG  ConfigOK
+[2016/3/24 16:30:21][Debug][FormATS.ConfigEquipment]:INNO25GBERT_V2_ED  ConfigOK
+[2016/3/24 16:31:19][Infor][TPO4300.SetPositionUPDown]:position is1
+[2016/3/24 16:31:19][Infor][TPO4300.SetPoint]:point is 1
+[2016/3/24 16:31:19][Infor][TPO4300.SetPointTemp]:Temp is 25
+[2016/3/24 16:31:19][Debug][FormATS.ReadyForTest]:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[2016/3/24 16:31:19][Infor][FormATS.ReadyForTest]:chK_Fw Funtion=Unchecked
+[2016/3/24 16:31:19][Infor][FormATS.ReadyForTest]:chk_AbNormal_Lab Funtion=Unchecked
+[2016/3/24 16:31:19][Infor][FormATS.ReadyForTest]:chK_Aotu_Evb_Voltage Funtion=Unchecked
+[2016/3/24 16:31:19][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/3/24 16:31:22][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeSerialNO Run Time 3.175587
+[2016/3/24 16:31:23][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudegEvb Run Time 0.526263
+[2016/3/24 16:31:23][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeFwVer Run Time 0.118059
+[2016/3/24 16:31:23][Infor][FormATS.button_Test_Click]:***********************  SN=INGAM4090376 ************************
+[2016/3/24 16:31:23][Infor][FormATS.button_Test_Click]:***********************  SN=INGAM4090376 ************************
+[2016/3/24 16:31:23][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is9state ISON
+[2016/3/24 16:31:24][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/3/24 16:31:27][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 4.100049
+[2016/3/24 16:31:27][Infor][TimeSpanUse.DateDiff]:TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.124062
+[2016/3/24 16:31:45][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl  Driver  Initialize Run Time 18.207099
+[2016/3/24 16:31:46][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.4212105
+[2016/3/24 16:31:46][Infor][TPO4300.SetPositionUPDown]:position is1
+[2016/3/24 16:31:46][Infor][TPO4300.SetPoint]:point is 1
+[2016/3/24 16:31:46][Infor][TPO4300.SetPointTemp]:Temp is 20
+[2016/3/24 16:31:54][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is6:Channel1Wavelength is850nm
+[2016/3/24 16:31:54][Infor][AQ2211Atten.SetOffset]:AttSlot is6offset is0
+[2016/3/24 16:31:54][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS12.45
+[2016/3/24 16:31:54][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS12.45
+[2016/3/24 16:31:54][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is1ATT Wavelength isATT offset is2.45
+[2016/3/24 16:31:55][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS22.45
+[2016/3/24 16:31:55][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS22.45
+[2016/3/24 16:31:55][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is7:Channel1Wavelength is850nm
+[2016/3/24 16:31:55][Infor][AQ2211Atten.SetOffset]:AttSlot is7offset is0
+[2016/3/24 16:31:55][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS12.60
+[2016/3/24 16:31:55][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS12.60
+[2016/3/24 16:31:55][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is2ATT Wavelength isATT offset is2.6
+[2016/3/24 16:31:57][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS22.60
+[2016/3/24 16:31:57][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS22.60
+[2016/3/24 16:31:57][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is8:Channel1Wavelength is850nm
+[2016/3/24 16:31:57][Infor][AQ2211Atten.SetOffset]:AttSlot is8offset is0
+[2016/3/24 16:31:57][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS12.60
+[2016/3/24 16:31:57][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS12.60
+[2016/3/24 16:31:57][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is3ATT Wavelength isATT offset is2.6
+[2016/3/24 16:31:58][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS22.60
+[2016/3/24 16:31:58][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS22.60
+[2016/3/24 16:31:58][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is9:Channel1Wavelength is850nm
+[2016/3/24 16:31:58][Infor][AQ2211Atten.SetOffset]:AttSlot is9offset is0
+[2016/3/24 16:31:58][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS12.60
+[2016/3/24 16:31:58][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS12.60
+[2016/3/24 16:31:58][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is2.6
+[2016/3/24 16:31:59][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS22.60
+[2016/3/24 16:31:59][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS22.60
+[2016/3/24 16:31:59][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is9:Channel1Wavelength is850nm
+[2016/3/24 16:31:59][Infor][AQ2211Atten.SetOffset]:AttSlot is9offset is0
+[2016/3/24 16:32:00][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS12.60
+[2016/3/24 16:32:00][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS12.60
+[2016/3/24 16:32:00][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is2.6
+[2016/3/24 16:32:01][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS22.60
+[2016/3/24 16:32:01][Infor][AQ2211Atten.AttnValue]:AttSlot is9ATT VALUE IS22.60
+[2016/3/24 16:32:01][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is6:Channel1Wavelength is850nm
+[2016/3/24 16:32:01][Infor][AQ2211Atten.SetOffset]:AttSlot is6offset is0
+[2016/3/24 16:32:01][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS12.45
+[2016/3/24 16:32:01][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS12.45
+[2016/3/24 16:32:01][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is1ATT Wavelength isATT offset is2.45
+[2016/3/24 16:32:01][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2016/3/24 16:32:01][Infor][FLEX86100.ChangeChannel]:FLEX86100 Offset is0.6
+[2016/3/24 16:32:01][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0.6
+[2016/3/24 16:32:01][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is0attenuation is0.6
+[2016/3/24 16:32:02][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=-3.3
+[2016/3/24 16:32:02][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=20CurrentVoltage=3.3
+[2016/3/24 16:32:02][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2016/3/24 16:32:02][Error][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.43current is1.5
+[2016/3/24 16:32:32][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 46.5660314
+[2016/3/24 16:32:32][Debug][FlowControll.StartTest]:Temp=20**VCC=3.3**Channel=1
+[2016/3/24 16:32:32][Debug][FlowControll.StartTest]:AdjustEyeTestModelID=13963
+[2016/3/24 16:32:32][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 AdjustEyeRun Time 0.2080624
+[2016/3/24 16:32:33][Warn][FlowControll.WriteInputLog]:Temp=20**VCC=3.3**Channel=1**AdjustEye
+InputLog--------------------
+IbiasTuneStep=1
+ImodTuneStep=1
+ImodInitializationArray=158,158,158,158
+IBiasInitializationArray=144,144,144,144
+PIDCoefArray=0,0,0,0
+SleepTime=50
+AdjustERUL=4.6
+AdjustERLL=4
+AdjustTxPowerUL=3.5
+AdjustTxPowerLL=0
+DCCoupleAdjustMethod=1
+BiasDacMin=130
+BiasDacMax=180
+ModDacMin=144
+ModDacMax=216
+CROSSINITIALIZATIONARRAY=20,20,20,20
+
+[2016/3/24 16:32:33][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.3941182
+[2016/3/24 16:32:33][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/3/24 16:38:24][Debug][FlowControll..ctor]:The EXE Start......
+[2016/3/24 16:38:39][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2016/3/24 16:38:40][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2016/3/24 16:38:40][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1.5
+[2016/3/24 16:38:40][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/3/24 16:38:42][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2016/3/24 16:38:43][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2016/3/24 16:38:44][Infor][TPO4300.AirFlowSetting]:AirFlowSet is14
+[2016/3/24 16:38:44][Infor][TPO4300.AirTempsUpperlimit]:TempsUpperlimit is90
+[2016/3/24 16:38:44][Infor][TPO4300.AirTempslowerlimit]:Tempslowerlimit is-20
+[2016/3/24 16:38:44][Infor][TPO4300.SensorType]:Sensor is1
+[2016/3/24 16:38:44][Infor][TPO4300.DUTControlModeOnOFF]:DUTControlModeOnOFF is1
+[2016/3/24 16:38:44][Debug][FormATS.ConfigEquipment]:TPO4300  ConfigOK
+[2016/3/24 16:38:45][Infor][FLEX86100.SetMode]:Mode isEYE
+[2016/3/24 16:38:45][Infor][FLEX86100.RapidEyeSetup]: RapidEyeSetup STATe IS off
+[2016/3/24 16:38:45][Infor][FLEX86100.TriggerSetup]:TRIGger SOURce is FRUN
+[2016/3/24 16:38:45][Infor][FLEX86100.PTBSetup]:PTB RMEThod ISFASTRFRequency IS3230000000STATe is on
+[2016/3/24 16:38:45][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is1
+[2016/3/24 16:38:45][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2016/3/24 16:38:45][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2016/3/24 16:38:45][Infor][FLEX86100.SetERCorrectFactor]:ACFactor STATe IS off
+[2016/3/24 16:38:45][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2016/3/24 16:38:45][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2016/3/24 16:38:45][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\SCOPE\MASKS\025.78125-100GBE-CSR4_TX.MSKX
+[2016/3/24 16:38:45][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2016/3/24 16:38:45][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2016/3/24 16:38:45][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2016/3/24 16:38:45][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2016/3/24 16:38:45][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2016/3/24 16:38:45][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HITSHITs is 0
+[2016/3/24 16:38:45][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2016/3/24 16:38:45][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2016/3/24 16:38:45][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2016/3/24 16:38:46][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2016/3/24 16:38:46][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2016/3/24 16:38:46][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2016/3/24 16:38:46][Debug][FormATS.ConfigEquipment]:AQ2211OPTICALSWITCH  ConfigOK
+[2016/3/24 16:38:47][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is6:Channel1Wavelength is850nm
+[2016/3/24 16:38:47][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2016/3/24 16:38:47][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS0
+[2016/3/24 16:38:47][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS0
+[2016/3/24 16:38:48][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is6state ISON
+[2016/3/24 16:38:49][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is7:Channel1Wavelength is850nm
+[2016/3/24 16:38:49][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS0.00
+[2016/3/24 16:38:49][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS0.00
+[2016/3/24 16:38:50][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is7state ISON
+[2016/3/24 16:38:51][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is8:Channel1Wavelength is850nm
+[2016/3/24 16:38:52][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS0.00
+[2016/3/24 16:38:52][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS0.00
+[2016/3/24 16:41:49][Debug][FlowControll..ctor]:The EXE Start......
+[2016/3/24 16:42:00][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2016/3/24 16:42:01][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2016/3/24 16:42:01][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1.5
+[2016/3/24 16:42:01][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2016/3/24 16:42:03][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2016/3/24 16:42:04][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2016/3/24 16:42:04][Infor][TPO4300.AirFlowSetting]:AirFlowSet is14
+[2016/3/24 16:42:04][Infor][TPO4300.AirTempsUpperlimit]:TempsUpperlimit is90
+[2016/3/24 16:42:05][Infor][TPO4300.AirTempslowerlimit]:Tempslowerlimit is-20
+[2016/3/24 16:42:05][Infor][TPO4300.SensorType]:Sensor is1
+[2016/3/24 16:42:05][Infor][TPO4300.DUTControlModeOnOFF]:DUTControlModeOnOFF is1
+[2016/3/24 16:42:05][Debug][FormATS.ConfigEquipment]:TPO4300  ConfigOK
+[2016/3/24 16:42:05][Infor][FLEX86100.SetMode]:Mode isEYE
+[2016/3/24 16:42:05][Infor][FLEX86100.RapidEyeSetup]: RapidEyeSetup STATe IS off
+[2016/3/24 16:42:05][Infor][FLEX86100.TriggerSetup]:TRIGger SOURce is FRUN
+[2016/3/24 16:42:05][Infor][FLEX86100.PTBSetup]:PTB RMEThod ISFASTRFRequency IS3230000000STATe is on
+[2016/3/24 16:42:05][Infor][FLEX86100.WavelengthSelect]:Wavelength_index is1
+[2016/3/24 16:42:05][Infor][FLEX86100.FileterSwitch]:FLEX86100 channel is1AfilterSwith isON
+[2016/3/24 16:42:05][Infor][FLEX86100.SetAttenuation]:FLEX86100 channel is1Aattenuation is0
+[2016/3/24 16:42:05][Infor][FLEX86100.SetERCorrectFactor]:ACFactor STATe IS off
+[2016/3/24 16:42:05][Infor][FLEX86100.ChannelDisplaySwitch]: ChannelDisplaySwitch is on
+[2016/3/24 16:42:05][Infor][FLEX86100.EyeScaleOffset]:FLEX86100 channel is1Ascale is0offset is0
+[2016/3/24 16:42:05][Infor][FLEX86100.LoadMask]:FLEX86100 Channel is1AMaskName isC:\SCOPE\MASKS\025.78125-100GBE-CSR4_TX.MSKX
+[2016/3/24 16:42:05][Infor][FLEX86100.MessureThresholdSetup]: THReshold reference isOZER
+[2016/3/24 16:42:05][Infor][FLEX86100.MessureThresholdSetup]: THReshold METHod isP205080
+[2016/3/24 16:42:05][Infor][FLEX86100.MaskONOFF]:MaskONOFF is off
+[2016/3/24 16:42:05][Infor][FLEX86100.MaskTestMarginSetup]:marginOnOff is ON
+[2016/3/24 16:42:05][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  METHod is AUTO
+[2016/3/24 16:42:05][Infor][FLEX86100.MaskTestMarginSetup]:MARGin  AUTo METHod is HITSHITs is 0
+[2016/3/24 16:42:05][Infor][FLEX86100.AcquisitionLimitTestSetup]:limitCondition isWAVlimitNumber is1000
+[2016/3/24 16:42:05][Infor][FLEX86100.AcquisitionLimitTestSwitch]:AcquisitionLimitTestSwitch is off
+[2016/3/24 16:42:05][Infor][FLEX86100.AcquisitionControl]:AcquisitionControl isRUN
+[2016/3/24 16:42:07][Infor][FLEX86100.EyeTuningDisplay]: EyeTuningDisplay IS ON
+[2016/3/24 16:42:07][Debug][FormATS.ConfigEquipment]:FLEX86100  ConfigOK
+[2016/3/24 16:42:07][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2016/3/24 16:42:07][Debug][FormATS.ConfigEquipment]:AQ2211OPTICALSWITCH  ConfigOK
+[2016/3/24 16:42:07][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is6:Channel1Wavelength is850nm
+[2016/3/24 16:42:07][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2016/3/24 16:42:07][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS0
+[2016/3/24 16:42:07][Infor][AQ2211Atten.AttnValue]:AttSlot is6ATT VALUE IS0
+[2016/3/24 16:42:07][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is6state ISON
+[2016/3/24 16:42:08][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is7:Channel1Wavelength is850nm
+[2016/3/24 16:42:09][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS0.00
+[2016/3/24 16:42:09][Infor][AQ2211Atten.AttnValue]:AttSlot is7ATT VALUE IS0.00
+[2016/3/24 16:42:09][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is7state ISON
+[2016/3/24 16:42:10][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is8:Channel1Wavelength is850nm
+[2016/3/24 16:42:10][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS0.00
+[2016/3/24 16:42:10][Infor][AQ2211Atten.AttnValue]:AttSlot is8ATT VALUE IS0.00

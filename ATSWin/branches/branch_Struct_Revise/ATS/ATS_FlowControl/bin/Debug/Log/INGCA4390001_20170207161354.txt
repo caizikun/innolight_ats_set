@@ -1,0 +1,130 @@
+[16:13:54] A New Dut Test Start--------------------
+[16:13:54] ***********************  SN=INGCA4390001 ************************
+[16:13:54] ***********************  SN=INGCA4390001 ************************
+[16:13:54] AttSlot is2state ISON
+[16:13:55] E3631 Switch isON
+[16:13:57] TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 3.2775372
+[16:13:57] TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.0470283
+[16:13:58] TimeSpan:FlowControl  Driver  Initialize Run Time 0.7935737
+[16:13:58] TimeSpan:环境准备前的For 循环Run Time 0.4012873
+[16:13:58] position is1
+[16:13:58] point is 1
+[16:13:58] Temp is 25
+[16:13:59] AttSlot is2:Channel1Wavelength is1310nm
+[16:13:59] AttSlot is2offset is0
+[16:13:59] AttSlot is2ATT VALUE IS15.63
+[16:13:59] AttSlot is2ATT VALUE IS15.63
+[16:13:59] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[16:14:00] AttSlot is2ATT VALUE IS4.63
+[16:14:00] AttSlot is2ATT VALUE IS4.63
+[16:14:00] AttSlot is2:Channel1Wavelength is1310nm
+[16:14:00] AttSlot is2offset is0
+[16:14:01] AttSlot is2ATT VALUE IS15.88
+[16:14:01] AttSlot is2ATT VALUE IS15.88
+[16:14:01] ATT CurrentChannel is2ATT Wavelength isATT offset is5.88
+[16:14:02] AttSlot is2ATT VALUE IS4.88
+[16:14:02] AttSlot is2ATT VALUE IS4.88
+[16:14:02] AttSlot is2:Channel1Wavelength is1310nm
+[16:14:02] AttSlot is2offset is0
+[16:14:03] AttSlot is2ATT VALUE IS16.14
+[16:14:03] AttSlot is2ATT VALUE IS16.14
+[16:14:03] ATT CurrentChannel is3ATT Wavelength isATT offset is6.14
+[16:14:04] AttSlot is2ATT VALUE IS5.14
+[16:14:04] AttSlot is2ATT VALUE IS5.14
+[16:14:04] AttSlot is2:Channel1Wavelength is1310nm
+[16:14:04] AttSlot is2offset is0
+[16:14:05] AttSlot is2ATT VALUE IS16.00
+[16:14:05] AttSlot is2ATT VALUE IS16.00
+[16:14:05] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[16:14:06] AttSlot is2ATT VALUE IS5.00
+[16:14:06] AttSlot is2ATT VALUE IS5.00
+[16:14:06] AttSlot is2:Channel1Wavelength is1310nm
+[16:14:06] AttSlot is2offset is0
+[16:14:07] AttSlot is2ATT VALUE IS16.00
+[16:14:07] AttSlot is2ATT VALUE IS16.00
+[16:14:07] ATT CurrentChannel is4ATT Wavelength isATT offset is6.0
+[16:14:08] AttSlot is2ATT VALUE IS5.00
+[16:14:08] AttSlot is2ATT VALUE IS5.00
+[16:14:08] AttSlot is2:Channel1Wavelength is1310nm
+[16:14:08] AttSlot is2offset is0
+[16:14:09] AttSlot is2ATT VALUE IS15.63
+[16:14:09] AttSlot is2ATT VALUE IS15.63
+[16:14:09] ATT CurrentChannel is1ATT Wavelength isATT offset is5.63
+[16:14:09] OpticalSwitch change channel to1
+[16:14:09] FLEX86100 Offset is1.65
+[16:14:09] FLEX86100 channel is1Aattenuation is1.65
+[16:14:10] FLEX86100 channel is0attenuation is1.65
+[16:14:10] MP1800 ED slot is3
+[16:14:10] channel is1
+[16:14:10] MP1800 ED channel is1
+[16:14:10] EdGatingMode isUNT
+[16:14:10] EdGatingUnit isTIME
+[16:14:11] MP1800ppg channel is1
+[16:14:11] LastTemp=-1000LastVoltage=-3.3
+[16:14:11] CurrentTemp=25CurrentVoltage=3.3
+[16:14:11] 准备调试电压....
+[16:14:11] E3631 channel isAPPL P6Vvoltage is3.55current is2.3
+[16:14:22] TimeSpan:环境准备到TestModel循环Run Time 23.5893804
+[16:14:22] E3631 Switch isOFF
+[16:14:22] E3631 Switch isON
+[16:14:25] Temp=25**VCC=3.3**Channel=1
+[16:14:25] Temp=25**VCC=3.3**Channel=1
+[16:14:25] TestTxEyeTestModelID=35520
+[16:14:25] TestRXLosADTestModelID=35523
+[16:14:25] Temp=25**VCC=3.3**Channel=1
+[16:14:25] TestBerTestModelID=35525
+[16:14:25] Temp=25**VCC=3.3**Channel=1
+[16:14:25] TestTempDmiTestModelID=35526
+[16:14:25] Temp=25**VCC=3.3**Channel=1
+[16:14:25] TestIccTestModelID=35528
+[16:14:25] TimeSpan:TestModel循环 到 RunTestModel 之前 TestTxEyeRun Time 3.330687
+[16:14:25] TimeSpan:TestModel循环 到 RunTestModel 之前 TestRXLosADRun Time 0.0991268
+[16:14:25] TimeSpan:TestModel循环 到 RunTestModel 之前 TestBerRun Time 0.1000459
+[16:14:25] Temp=25**VCC=3.3**Channel=1**TestTxEye
+InputLog--------------------
+
+[16:14:25] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.0500638
+[16:14:29] TimeSpan:TestModel循环 到 RunTestModel 之前 TestTempDmiRun Time 3.6767342
+[16:14:32] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 3.170583
+[16:14:36] Temp=25**VCC=3.3**Channel=1**TestTxEye
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestTempDmi
+InputLog--------------------
+
+[16:14:36] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 3.5766515
+[16:14:36] Temp=25**VCC=3.3**Channel=1**TestTxEye
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestTempDmi
+InputLog--------------------
+Temp=25**VCC=3.3**Channel=1**TestRXLosAD
+InputLog--------------------
+IsLosDetail=true
+LosADTuneStep=0.3
+
+[16:14:36] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.009006
+[16:14:55] Temp=25**VCC=3.3**Channel=1
+[16:14:55] TestIBiasDmiTestModelID=35522
+[16:14:56] E3631 Switch isON
+[16:14:57] TestRxPowerDmiTestModelID=35524
+[16:15:01] TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 21.4212662
+[16:15:01] TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 25.546402
+[16:15:01] Step3...ReadDmiTemp
+[16:15:14] Temp=25**VCC=3.3**Channel=1**TestIBiasDmi
+InputLog--------------------
+
+[16:15:14] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 12.8838814
+[16:16:02] tempDmi=26.832
+[16:16:02] tempDmiErr=1.832
+[16:16:24] CurrentTestModel OutputPrameter is null 
+[16:16:26] Temp=25**VCC=3.3**Channel=1**TestIBiasDmiTesting End.....
+[16:16:26] TimeSpan:TestIBiasDmi RunTime Run Time 71.6315225
+[16:16:26] Temp=25**VCC=3.3**Channel=1
+[16:16:26] TestVccDmiTestModelID=35527
+[16:16:26] Temp=25**VCC=3.3**Channel=1
+[16:16:26] TestTxPowerDmiTestModelID=35521
+[16:16:26] TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.1941978
+[16:16:26] TimeSpan:TestModel循环 到 RunTestModel 之前 TestTxPowerDmiRun Time 0.0991354
+[16:16:26] Temp=25**VCC=3.3**Channel=1**TestTxPowerDmi
+InputLog--------------------
+
+[16:16:26] TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.3912836

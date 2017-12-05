@@ -1,0 +1,594 @@
+[2017/2/22 16:37:26][Debug][FlowControll..ctor]:The EXE Start......
+[2017/2/22 16:37:34][Debug][FormATS.button_Config_Click]:Config Equipment-------------------
+[2017/2/22 16:37:35][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:37:35][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:37:36][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:37:36][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:37:36][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:37:37][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:37:38][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2017/2/22 16:37:38][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2017/2/22 16:37:38][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:37:39][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:37:39][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2017/2/22 16:37:39][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2017/2/22 16:37:39][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:37:40][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:37:40][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2017/2/22 16:37:40][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0.00
+[2017/2/22 16:37:40][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:37:41][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2017/2/22 16:37:42][Debug][FormATS.ConfigEquipment]:AQ2211ATTEN  ConfigOK
+[2017/2/22 16:37:43][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[2017/2/22 16:37:43][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P25Vvoltage is3.3current is1
+[2017/2/22 16:37:43][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:37:45][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/2/22 16:37:45][Debug][FormATS.ConfigEquipment]:E3631  ConfigOK
+[2017/2/22 16:37:45][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2017/2/22 16:37:45][Debug][FormATS.ConfigEquipment]:AQ2211OPTICALSWITCH  ConfigOK
+[2017/2/22 16:37:50][Debug][FormATS.ReadyForTest]:$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$A New Test Start$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[2017/2/22 16:37:50][Infor][FormATS.ReadyForTest]:chK_Fw Funtion=Unchecked
+[2017/2/22 16:37:50][Infor][FormATS.ReadyForTest]:chk_AbNormal_Lab Funtion=Unchecked
+[2017/2/22 16:37:50][Infor][FormATS.ReadyForTest]:chK_Aotu_Evb_Voltage Funtion=Unchecked
+[2017/2/22 16:37:50][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:37:53][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeSerialNO Run Time 2.8406655
+[2017/2/22 16:37:53][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudegEvb Run Time 0.6154411
+[2017/2/22 16:37:54][Infor][TimeSpanUse.DateDiff]:TimeSpan:Prepare Time for Test -JudgeFwVer Run Time 0.1030737
+[2017/2/22 16:37:54][Infor][FormATS.button_Test_Click]:***********************  SN=INGBT4310009 ************************
+[2017/2/22 16:37:54][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:37:55][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:37:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl Start 至 Change Channel 完成 Run Time 3.7902649
+[2017/2/22 16:37:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:Change Channel 完成 到 Driver Initialize 之前Run Time 0.00198
+[2017/2/22 16:37:58][Infor][TimeSpanUse.DateDiff]:TimeSpan:FlowControl  Driver  Initialize Run Time 0.202787
+[2017/2/22 16:37:58][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.4664076
+[2017/2/22 16:38:00][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:00][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:38:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:38:00][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is1ATT Wavelength isATT offset is0.04
+[2017/2/22 16:38:00][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:01][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:01][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:01][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:01][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:02][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:38:02][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:38:02][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is2ATT Wavelength isATT offset is0.4
+[2017/2/22 16:38:02][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:03][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:03][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:03][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:03][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:04][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:38:04][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:38:04][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is3ATT Wavelength isATT offset is2.1
+[2017/2/22 16:38:04][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:38:04][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:38:04][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:04][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:05][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:05][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:05][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:38:05][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:06][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:06][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:06][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:06][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:07][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:07][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:07][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:38:07][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:08][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:08][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:08][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:08][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:09][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:38:09][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:38:09][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is1ATT Wavelength isATT offset is0.04
+[2017/2/22 16:38:09][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to1
+[2017/2/22 16:38:09][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=-3.3
+[2017/2/22 16:38:09][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=25CurrentVoltage=3.3
+[2017/2/22 16:38:09][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/2/22 16:38:09][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[2017/2/22 16:38:09][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/2/22 16:38:09][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:12][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 14.1461661
+[2017/2/22 16:38:12][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=1
+[2017/2/22 16:38:12][Debug][FlowControll.StartTest]:TestIBiasDmiTestModelID=35884
+[2017/2/22 16:38:12][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 0.2094435
+[2017/2/22 16:38:13][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=1**TestIBiasDmi
+InputLog--------------------
+
+[2017/2/22 16:38:13][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2769768
+[2017/2/22 16:38:13][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:15][Infor][TestModelBase.CloseandOpenAPC]:Open apc
+[2017/2/22 16:38:15][Infor][TestModelBase.CloseandOpenAPC]:Open apcTrue
+[2017/2/22 16:38:17][Infor][TestIBiasDmi.StartTest]:Step3...ReadDmiBias
+[2017/2/22 16:38:17][Debug][TestIBiasDmi.StartTest]:ibiasDmi=33.154
+[2017/2/22 16:38:17][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:38:17][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+IBIASDMI(MA)=33.154
+
+[2017/2/22 16:38:17][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=1**TestIBiasDmiTesting End.....
+[2017/2/22 16:38:17][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIBiasDmi RunTime Run Time 4.8071663
+[2017/2/22 16:38:17][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=1
+[2017/2/22 16:38:17][Debug][FlowControll.StartTest]:TestVccDmiTestModelID=35888
+[2017/2/22 16:38:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.2063228
+[2017/2/22 16:38:18][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=1**TestVccDmi
+InputLog--------------------
+
+[2017/2/22 16:38:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2231588
+[2017/2/22 16:38:18][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:20][Infor][TestVccDmi.StartTest]:Step3...Start ReadDmiVcc
+[2017/2/22 16:38:20][Debug][TestVccDmi.StartTest]:DmiVcc:3.4188
+[2017/2/22 16:38:20][Debug][TestVccDmi.StartTest]:vccDmiErr:0.1188
+[2017/2/22 16:38:20][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:38:21][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIVCC(V)=3.4188
+DMIVCCERR(V)=0.1188
+
+[2017/2/22 16:38:21][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=1**TestVccDmiTesting End.....
+[2017/2/22 16:38:21][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestVccDmi RunTime Run Time 3.0865444
+[2017/2/22 16:38:21][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=1
+[2017/2/22 16:38:21][Debug][FlowControll.StartTest]:TestIccTestModelID=35889
+[2017/2/22 16:38:21][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.206032
+[2017/2/22 16:38:21][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=1**TestIcc
+InputLog--------------------
+
+[2017/2/22 16:38:21][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2314142
+[2017/2/22 16:38:21][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:23][Infor][TestIcc.StartTest]:Step3..Read ICC
+[2017/2/22 16:38:23][Debug][TestIcc.StartTest]:ICC=853.1166
+[2017/2/22 16:38:24][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:38:24][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+ICC(MA)=853.1166
+
+[2017/2/22 16:38:24][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=1**TestIccTesting End.....
+[2017/2/22 16:38:24][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIcc RunTime Run Time 2.7821925
+[2017/2/22 16:38:24][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=1
+[2017/2/22 16:38:24][Debug][FlowControll.StartTest]:TestRxPowerDmiTestModelID=35886
+[2017/2/22 16:38:24][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.2054842
+[2017/2/22 16:38:25][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=1**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[2017/2/22 16:38:25][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2294333
+[2017/2/22 16:38:25][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:38:26][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:28][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/2/22 16:38:28][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2017/2/22 16:38:28][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2017/2/22 16:38:29][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS15.04
+[2017/2/22 16:38:32][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS15.04
+[2017/2/22 16:38:32][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-17.9317tempRxPowerErrArray[0]2.9317
+[2017/2/22 16:38:33][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:38:33][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-13.0277tempRxPowerErrArray[1]3.0277
+[2017/2/22 16:38:34][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS5.04
+[2017/2/22 16:38:34][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-8.1192tempRxPowerErrArray[2]3.1192
+[2017/2/22 16:38:34][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-5  MaxErr3.1192
+[2017/2/22 16:38:34][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2017/2/22 16:38:37][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:38:38][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:38:39][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIRXPWRMAXERRPOINT(DBM)=-5
+DMIRXPWRERR(DBM)=3.1192
+DMIRXNOPTICAL(DBM)=-40
+
+[2017/2/22 16:38:39][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=1**TestRxPowerDmiTesting End.....
+[2017/2/22 16:38:39][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestRxPowerDmi RunTime Run Time 14.4574541
+[2017/2/22 16:38:39][Infor][TimeSpanUse.DateDiff]:TimeSpan:当前数据填充到TotalTestData Run Time 0.0380276
+[2017/2/22 16:38:39][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.2167765
+[2017/2/22 16:38:39][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:39][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:40][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:38:40][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:38:40][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is1ATT Wavelength isATT offset is0.04
+[2017/2/22 16:38:40][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:40][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:40][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:40][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:40][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:41][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:38:41][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:38:41][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is2ATT Wavelength isATT offset is0.4
+[2017/2/22 16:38:41][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:42][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:42][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:42][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:42][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:43][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:38:43][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:38:43][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is3ATT Wavelength isATT offset is2.1
+[2017/2/22 16:38:44][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:38:44][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:38:44][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:44][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:45][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:45][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:45][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:38:45][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:45][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:45][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:45][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:45][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:46][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:46][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:38:46][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:38:46][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:38:47][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:47][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:38:47][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:38:47][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:38:48][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:38:48][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:38:48][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is2ATT Wavelength isATT offset is0.4
+[2017/2/22 16:38:48][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to2
+[2017/2/22 16:38:48][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=3.3
+[2017/2/22 16:38:48][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=25CurrentVoltage=3.3
+[2017/2/22 16:38:48][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/2/22 16:38:48][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[2017/2/22 16:38:48][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/2/22 16:38:49][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:51][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 12.0125637
+[2017/2/22 16:38:51][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=2
+[2017/2/22 16:38:51][Debug][FlowControll.StartTest]:TestIBiasDmiTestModelID=35884
+[2017/2/22 16:38:52][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 0.2091548
+[2017/2/22 16:38:52][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=2**TestIBiasDmi
+InputLog--------------------
+
+[2017/2/22 16:38:52][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2416631
+[2017/2/22 16:38:52][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:54][Infor][TestModelBase.CloseandOpenAPC]:Open apc
+[2017/2/22 16:38:54][Infor][TestModelBase.CloseandOpenAPC]:Open apcTrue
+[2017/2/22 16:38:56][Infor][TestIBiasDmi.StartTest]:Step3...ReadDmiBias
+[2017/2/22 16:38:56][Debug][TestIBiasDmi.StartTest]:ibiasDmi=34.164
+[2017/2/22 16:38:56][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:38:56][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+IBIASDMI(MA)=34.164
+
+[2017/2/22 16:38:57][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=2**TestIBiasDmiTesting End.....
+[2017/2/22 16:38:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIBiasDmi RunTime Run Time 4.8060407
+[2017/2/22 16:38:57][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=2
+[2017/2/22 16:38:57][Debug][FlowControll.StartTest]:TestVccDmiTestModelID=35888
+[2017/2/22 16:38:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.2068082
+[2017/2/22 16:38:57][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=2**TestVccDmi
+InputLog--------------------
+
+[2017/2/22 16:38:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2148636
+[2017/2/22 16:38:57][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:38:59][Infor][TestVccDmi.StartTest]:Step3...Start ReadDmiVcc
+[2017/2/22 16:38:59][Debug][TestVccDmi.StartTest]:DmiVcc:3.4165
+[2017/2/22 16:38:59][Debug][TestVccDmi.StartTest]:vccDmiErr:0.1165
+[2017/2/22 16:38:59][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:39:00][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIVCC(V)=3.4165
+DMIVCCERR(V)=0.1165
+
+[2017/2/22 16:39:00][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=2**TestVccDmiTesting End.....
+[2017/2/22 16:39:00][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestVccDmi RunTime Run Time 2.8883167
+[2017/2/22 16:39:00][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=2
+[2017/2/22 16:39:00][Debug][FlowControll.StartTest]:TestIccTestModelID=35889
+[2017/2/22 16:39:00][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.2059333
+[2017/2/22 16:39:00][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=2**TestIcc
+InputLog--------------------
+
+[2017/2/22 16:39:00][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.211666
+[2017/2/22 16:39:00][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:39:02][Infor][TestIcc.StartTest]:Step3..Read ICC
+[2017/2/22 16:39:02][Debug][TestIcc.StartTest]:ICC=858.8181
+[2017/2/22 16:39:03][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:39:03][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+ICC(MA)=858.8181
+
+[2017/2/22 16:39:03][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=2**TestIccTesting End.....
+[2017/2/22 16:39:03][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIcc RunTime Run Time 2.7661563
+[2017/2/22 16:39:03][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=2
+[2017/2/22 16:39:03][Debug][FlowControll.StartTest]:TestRxPowerDmiTestModelID=35886
+[2017/2/22 16:39:03][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.2068655
+[2017/2/22 16:39:04][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=2**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[2017/2/22 16:39:04][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2417636
+[2017/2/22 16:39:04][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:39:05][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:39:07][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/2/22 16:39:07][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2017/2/22 16:39:07][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2017/2/22 16:39:08][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS15.40
+[2017/2/22 16:39:11][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS15.40
+[2017/2/22 16:39:11][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-16.925tempRxPowerErrArray[0]1.925
+[2017/2/22 16:39:12][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:39:12][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-12.0066tempRxPowerErrArray[1]2.0066
+[2017/2/22 16:39:13][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS5.40
+[2017/2/22 16:39:13][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-7.0246tempRxPowerErrArray[2]2.0246
+[2017/2/22 16:39:13][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-5  MaxErr2.0246
+[2017/2/22 16:39:13][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2017/2/22 16:39:16][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:39:17][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:39:18][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIRXPWRMAXERRPOINT(DBM)=-5
+DMIRXPWRERR(DBM)=2.0246
+DMIRXNOPTICAL(DBM)=-40
+
+[2017/2/22 16:39:18][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=2**TestRxPowerDmiTesting End.....
+[2017/2/22 16:39:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestRxPowerDmi RunTime Run Time 14.4430396
+[2017/2/22 16:39:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:当前数据填充到TotalTestData Run Time 0.0080049
+[2017/2/22 16:39:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.2241587
+[2017/2/22 16:39:18][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:18][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:19][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:39:19][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:39:19][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is1ATT Wavelength isATT offset is0.04
+[2017/2/22 16:39:19][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:39:19][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:19][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:19][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:19][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:20][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:39:20][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:39:20][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is2ATT Wavelength isATT offset is0.4
+[2017/2/22 16:39:20][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:39:21][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:21][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:21][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:21][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:22][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:39:22][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:39:22][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is3ATT Wavelength isATT offset is2.1
+[2017/2/22 16:39:23][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:39:23][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:39:23][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:23][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:24][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:39:24][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:39:24][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:39:24][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:39:24][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:24][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:24][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:24][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:25][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:39:25][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:39:25][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:39:25][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:39:26][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:26][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:26][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:26][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:27][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:39:27][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:39:27][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is3ATT Wavelength isATT offset is2.1
+[2017/2/22 16:39:27][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to3
+[2017/2/22 16:39:27][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=3.3
+[2017/2/22 16:39:27][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=25CurrentVoltage=3.3
+[2017/2/22 16:39:27][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/2/22 16:39:27][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[2017/2/22 16:39:27][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/2/22 16:39:28][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:39:30][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 12.0345832
+[2017/2/22 16:39:30][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=3
+[2017/2/22 16:39:30][Debug][FlowControll.StartTest]:TestIBiasDmiTestModelID=35884
+[2017/2/22 16:39:31][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 0.2066693
+[2017/2/22 16:39:31][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=3**TestIBiasDmi
+InputLog--------------------
+
+[2017/2/22 16:39:31][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2193137
+[2017/2/22 16:39:31][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:39:33][Infor][TestModelBase.CloseandOpenAPC]:Open apc
+[2017/2/22 16:39:33][Infor][TestModelBase.CloseandOpenAPC]:Open apcTrue
+[2017/2/22 16:39:35][Infor][TestIBiasDmi.StartTest]:Step3...ReadDmiBias
+[2017/2/22 16:39:35][Debug][TestIBiasDmi.StartTest]:ibiasDmi=35.336
+[2017/2/22 16:39:35][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:39:35][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+IBIASDMI(MA)=35.336
+
+[2017/2/22 16:39:36][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=3**TestIBiasDmiTesting End.....
+[2017/2/22 16:39:36][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIBiasDmi RunTime Run Time 4.8345451
+[2017/2/22 16:39:36][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=3
+[2017/2/22 16:39:36][Debug][FlowControll.StartTest]:TestVccDmiTestModelID=35888
+[2017/2/22 16:39:36][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.2061527
+[2017/2/22 16:39:36][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=3**TestVccDmi
+InputLog--------------------
+
+[2017/2/22 16:39:36][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2205312
+[2017/2/22 16:39:36][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:39:38][Infor][TestVccDmi.StartTest]:Step3...Start ReadDmiVcc
+[2017/2/22 16:39:38][Debug][TestVccDmi.StartTest]:DmiVcc:3.4154
+[2017/2/22 16:39:38][Debug][TestVccDmi.StartTest]:vccDmiErr:0.1154
+[2017/2/22 16:39:38][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:39:39][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIVCC(V)=3.4154
+DMIVCCERR(V)=0.1154
+
+[2017/2/22 16:39:39][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=3**TestVccDmiTesting End.....
+[2017/2/22 16:39:39][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestVccDmi RunTime Run Time 2.9049678
+[2017/2/22 16:39:39][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=3
+[2017/2/22 16:39:39][Debug][FlowControll.StartTest]:TestIccTestModelID=35889
+[2017/2/22 16:39:39][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.207082
+[2017/2/22 16:39:39][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=3**TestIcc
+InputLog--------------------
+
+[2017/2/22 16:39:39][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2214516
+[2017/2/22 16:39:39][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:39:41][Infor][TestIcc.StartTest]:Step3..Read ICC
+[2017/2/22 16:39:41][Debug][TestIcc.StartTest]:ICC=866.0728
+[2017/2/22 16:39:42][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:39:42][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+ICC(MA)=866.0728
+
+[2017/2/22 16:39:42][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=3**TestIccTesting End.....
+[2017/2/22 16:39:42][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIcc RunTime Run Time 2.688244
+[2017/2/22 16:39:42][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=3
+[2017/2/22 16:39:42][Debug][FlowControll.StartTest]:TestRxPowerDmiTestModelID=35886
+[2017/2/22 16:39:42][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.2063315
+[2017/2/22 16:39:43][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=3**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[2017/2/22 16:39:43][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2287724
+[2017/2/22 16:39:43][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:39:44][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:39:46][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/2/22 16:39:46][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2017/2/22 16:39:46][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2017/2/22 16:39:46][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS17.10
+[2017/2/22 16:39:50][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS17.10
+[2017/2/22 16:39:50][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-17.67tempRxPowerErrArray[0]2.67
+[2017/2/22 16:39:51][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:39:51][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-12.9671tempRxPowerErrArray[1]2.9671
+[2017/2/22 16:39:52][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS7.10
+[2017/2/22 16:39:52][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-8.0052tempRxPowerErrArray[2]3.0052
+[2017/2/22 16:39:52][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-5  MaxErr3.0052
+[2017/2/22 16:39:52][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2017/2/22 16:39:55][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:39:56][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:39:57][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIRXPWRMAXERRPOINT(DBM)=-5
+DMIRXPWRERR(DBM)=3.0052
+DMIRXNOPTICAL(DBM)=-40
+
+[2017/2/22 16:39:57][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=3**TestRxPowerDmiTesting End.....
+[2017/2/22 16:39:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestRxPowerDmi RunTime Run Time 14.3590428
+[2017/2/22 16:39:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:当前数据填充到TotalTestData Run Time 0.0160104
+[2017/2/22 16:39:57][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备前的For 循环Run Time 0.2179289
+[2017/2/22 16:39:57][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:57][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:57][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:39:57][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.04
+[2017/2/22 16:39:57][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is1ATT Wavelength isATT offset is0.04
+[2017/2/22 16:39:57][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:39:58][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:58][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:39:58][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:39:58][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:39:59][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:39:59][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.40
+[2017/2/22 16:39:59][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is2ATT Wavelength isATT offset is0.4
+[2017/2/22 16:39:59][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:40:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:40:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:40:00][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:40:00][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:40:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:40:00][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS12.10
+[2017/2/22 16:40:00][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is3ATT Wavelength isATT offset is2.1
+[2017/2/22 16:40:01][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:40:01][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS1.10
+[2017/2/22 16:40:01][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:40:01][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:40:02][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:40:02][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:40:02][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:40:02][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:40:03][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:40:03][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:40:03][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:40:03][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:40:04][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:40:04][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:40:04][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:40:04][Error][AQ2211Atten.AttnValue]:Light Source Power Too Smal
+[2017/2/22 16:40:05][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:40:05][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS0
+[2017/2/22 16:40:05][Infor][AQ2211Atten.ConfigWavelength]:AttSlot is2:Channel1Wavelength is1310nm
+[2017/2/22 16:40:05][Infor][AQ2211Atten.SetOffset]:AttSlot is2offset is0
+[2017/2/22 16:40:06][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:40:06][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:40:06][Infor][AQ2211Atten.ChangeChannel]:ATT CurrentChannel is4ATT Wavelength isATT offset is0.03
+[2017/2/22 16:40:06][Infor][AQ2211OpticalSwitch.Switchchannel]:OpticalSwitch change channel to4
+[2017/2/22 16:40:06][Infor][EnvironmentalControll.ConfigEnvironmental]:LastTemp=-1000LastVoltage=3.3
+[2017/2/22 16:40:06][Infor][EnvironmentalControll.ConfigEnvironmental]:CurrentTemp=25CurrentVoltage=3.3
+[2017/2/22 16:40:06][Infor][EnvironmentalControll.ConfigInputVcc]:准备调试电压....
+[2017/2/22 16:40:06][Infor][E3631.ConfigVoltageCurrent]:E3631 channel isAPPL P6Vvoltage is3.55current is1.5
+[2017/2/22 16:40:06][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/2/22 16:40:06][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:40:09][Infor][TimeSpanUse.DateDiff]:TimeSpan:环境准备到TestModel循环Run Time 11.9025822
+[2017/2/22 16:40:09][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=4
+[2017/2/22 16:40:09][Debug][FlowControll.StartTest]:TestIBiasDmiTestModelID=35884
+[2017/2/22 16:40:09][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIBiasDmiRun Time 0.2043258
+[2017/2/22 16:40:09][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=4**TestIBiasDmi
+InputLog--------------------
+
+[2017/2/22 16:40:09][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2304167
+[2017/2/22 16:40:09][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:40:11][Infor][TestModelBase.CloseandOpenAPC]:Open apc
+[2017/2/22 16:40:12][Infor][TestModelBase.CloseandOpenAPC]:Open apcTrue
+[2017/2/22 16:40:14][Infor][TestIBiasDmi.StartTest]:Step3...ReadDmiBias
+[2017/2/22 16:40:14][Debug][TestIBiasDmi.StartTest]:ibiasDmi=35.766
+[2017/2/22 16:40:14][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:40:14][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+IBIASDMI(MA)=35.766
+
+[2017/2/22 16:40:14][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=4**TestIBiasDmiTesting End.....
+[2017/2/22 16:40:14][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIBiasDmi RunTime Run Time 4.8171127
+[2017/2/22 16:40:14][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=4
+[2017/2/22 16:40:14][Debug][FlowControll.StartTest]:TestVccDmiTestModelID=35888
+[2017/2/22 16:40:14][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestVccDmiRun Time 0.2041517
+[2017/2/22 16:40:15][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=4**TestVccDmi
+InputLog--------------------
+
+[2017/2/22 16:40:15][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.236561
+[2017/2/22 16:40:15][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:40:17][Infor][TestVccDmi.StartTest]:Step3...Start ReadDmiVcc
+[2017/2/22 16:40:17][Debug][TestVccDmi.StartTest]:DmiVcc:3.4154
+[2017/2/22 16:40:17][Debug][TestVccDmi.StartTest]:vccDmiErr:0.1154
+[2017/2/22 16:40:17][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:40:17][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIVCC(V)=3.4154
+DMIVCCERR(V)=0.1154
+
+[2017/2/22 16:40:18][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=4**TestVccDmiTesting End.....
+[2017/2/22 16:40:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestVccDmi RunTime Run Time 2.9378445
+[2017/2/22 16:40:18][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=4
+[2017/2/22 16:40:18][Debug][FlowControll.StartTest]:TestIccTestModelID=35889
+[2017/2/22 16:40:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestIccRun Time 0.2077718
+[2017/2/22 16:40:18][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=4**TestIcc
+InputLog--------------------
+
+[2017/2/22 16:40:18][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2247698
+[2017/2/22 16:40:18][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:40:20][Infor][TestIcc.StartTest]:Step3..Read ICC
+[2017/2/22 16:40:20][Debug][TestIcc.StartTest]:ICC=870.2183
+[2017/2/22 16:40:20][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:40:21][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+ICC(MA)=870.2183
+
+[2017/2/22 16:40:21][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=4**TestIccTesting End.....
+[2017/2/22 16:40:21][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestIcc RunTime Run Time 2.704905
+[2017/2/22 16:40:21][Debug][FlowControll.StartTest]:Temp=25**VCC=3.3**Channel=4
+[2017/2/22 16:40:21][Debug][FlowControll.StartTest]:TestRxPowerDmiTestModelID=35886
+[2017/2/22 16:40:21][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestModel循环 到 RunTestModel 之前 TestRxPowerDmiRun Time 0.2061091
+[2017/2/22 16:40:21][Warn][FlowControll.WriteInputLog]:Temp=25**VCC=3.3**Channel=4**TestRxPowerDmi
+InputLog--------------------
+RxPowerArrlist(DBM)=-15,-10,-5
+
+[2017/2/22 16:40:21][Infor][TimeSpanUse.DateDiff]:TimeSpan:进入RunTestModel 到 TestModel RunTest之前  Run Time 0.2203687
+[2017/2/22 16:40:21][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:40:22][Infor][E3631.OutPutSwitch]:E3631 Switch isON
+[2017/2/22 16:40:24][Infor][TestRxPowerDmi.AnalysisInputParameters]:Step1...Check InputParameters
+[2017/2/22 16:40:24][Debug][TestRxPowerDmi.AnalysisInputParameters]:OK!
+[2017/2/22 16:40:24][Infor][TestRxPowerDmi.StartTest]:Step3...Start Test RxDmi
+[2017/2/22 16:40:25][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS15.03
+[2017/2/22 16:40:29][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS15.03
+[2017/2/22 16:40:29][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[0]:-15tempRxPowerDmiArray[0]:-18.1531tempRxPowerErrArray[0]3.1531
+[2017/2/22 16:40:29][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS10.03
+[2017/2/22 16:40:30][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[1]:-10tempRxPowerDmiArray[1]:-13.3348tempRxPowerErrArray[1]3.3348
+[2017/2/22 16:40:30][Infor][AQ2211Atten.AttnValue]:AttSlot is2ATT VALUE IS5.03
+[2017/2/22 16:40:31][Debug][TestRxPowerDmi.StartTest]:testRxPowerDmiStruct.ArrayListRxInputPower[2]:-5tempRxPowerDmiArray[2]:-8.4406tempRxPowerErrArray[2]3.4406
+[2017/2/22 16:40:31][Debug][TestRxPowerDmi.StartTest]:ErrMaxPoint=-5  MaxErr3.4406
+[2017/2/22 16:40:31][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISOFF
+[2017/2/22 16:40:34][Infor][AQ2211Atten.OutPutSwitch]:AttSlot is2state ISON
+[2017/2/22 16:40:35][Debug][FlowControll.SaveTestProData]:OutPrameter is Null
+[2017/2/22 16:40:36][Warn][FlowControll.WriteOutputLog]:OutputLog----------------------------------
+DMIRXPWRMAXERRPOINT(DBM)=-5
+DMIRXPWRERR(DBM)=3.4406
+DMIRXNOPTICAL(DBM)=-40
+
+[2017/2/22 16:40:36][Debug][FlowControll.RunTestModel]:Temp=25**VCC=3.3**Channel=4**TestRxPowerDmiTesting End.....
+[2017/2/22 16:40:36][Infor][TimeSpanUse.DateDiff]:TimeSpan:TestRxPowerDmi RunTime Run Time 14.4650391
+[2017/2/22 16:40:36][Infor][TimeSpanUse.DateDiff]:TimeSpan:当前数据填充到TotalTestData Run Time 0.0119844
+[2017/2/22 16:40:36][Infor][TimeSpanUse.DateDiff]:TimeSpan:存档Coef+EEPROM Run Time 0
+[2017/2/22 16:40:38][Infor][E3631.OutPutSwitch]:E3631 Switch isOFF
+[2017/2/22 16:40:39][Debug][FlowControll.StartTest]:Test End------------------------
+[2017/2/22 16:40:39][Infor][TimeSpanUse.DateDiff]:TimeSpan:测试收尾 Run Time 3.0460368

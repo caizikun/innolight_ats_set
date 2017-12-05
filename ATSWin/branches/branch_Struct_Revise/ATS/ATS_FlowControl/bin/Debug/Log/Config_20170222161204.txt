@@ -1,0 +1,27 @@
+[16:12:04] Config Equipment-------------------
+[16:12:04] AttSlot is2:Channel1Wavelength is1310nm
+[16:12:04] Light Source Power Too Smal
+[16:12:05] AttSlot is2ATT VALUE IS0
+[16:12:05] AttSlot is2ATT VALUE IS0
+[16:12:05] AttSlot is2state ISON
+[16:12:06] AttSlot is2:Channel1Wavelength is1310nm
+[16:12:06] AttSlot is2ATT VALUE IS0.00
+[16:12:06] AttSlot is2ATT VALUE IS0.00
+[16:12:07] AttSlot is2state ISON
+[16:12:08] AttSlot is2:Channel1Wavelength is1310nm
+[16:12:08] AttSlot is2ATT VALUE IS0.00
+[16:12:08] AttSlot is2ATT VALUE IS0.00
+[16:12:08] AttSlot is2state ISON
+[16:12:09] AttSlot is2:Channel1Wavelength is1310nm
+[16:12:10] AttSlot is2ATT VALUE IS0.00
+[16:12:10] AttSlot is2ATT VALUE IS0.00
+[16:12:10] AttSlot is2state ISON
+[16:12:11] AttSlot is2state ISOFF
+[16:12:12] AQ2211ATTEN  ConfigOK
+[16:12:12] E3631 channel isAPPL P6Vvoltage is3.3current is1.5
+[16:12:12] E3631 channel isAPPL P25Vvoltage is3.3current is1
+[16:12:13] E3631 Switch isON
+[16:12:15] E3631 Switch isOFF
+[16:12:15] E3631  ConfigOK
+[16:12:15] OpticalSwitch change channel to1
+[16:12:15] AQ2211OPTICALSWITCH  ConfigOK
